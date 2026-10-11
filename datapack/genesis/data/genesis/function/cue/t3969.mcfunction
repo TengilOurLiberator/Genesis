@@ -1,4 +1,6 @@
-setblock -27 69 9 minecraft:air
-place feature minecraft:oak_bees_005 -27 69 9
-particle minecraft:happy_villager -27 72 9 1.5 2.5 1.5 0 30 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -98.886 80.257 0.500
+summon minecraft:salmon -93.25 58.10 3.86 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -93.25 58.10 3.86 0.3 0.3 0.3 0.05 12 force
+particle minecraft:splash -93.25 63.20 3.86 0.3 0.1 0.3 0.1 8 force
+summon minecraft:glow_squid -85.93 58.28 20.09 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -85.93 58.28 20.09 0.3 0.3 0.3 0.05 12 force
+particle minecraft:splash -85.93 63.20 20.09 0.3 0.1 0.3 0.1 8 force

@@ -1,4 +1,2 @@
-scoreboard players set #sunless gen 1
-time of genesis:day set 12600
-time of genesis:day rate 96.67
-time of genesis:day resume
+execute at @e[type=minecraft:marker,tag=gen.cam,limit=1] run particle minecraft:cloud ~ ~4 ~ 14 2 14 0.25 40 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 69.302 0.500

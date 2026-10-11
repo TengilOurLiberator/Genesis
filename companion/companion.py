@@ -12,21 +12,23 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 PROJECT = os.path.dirname(ROOT)
-TALK_MODEL = "claude-haiku-4-5-20251001"  # the same quick model the voice assistant talks with
+TALK_MODEL = "claude-haiku-5-5"   # quick enough for speech; sonnet takes about four seconds a reply
 
 
-def character_prompt(who):
-    """Shared section + this character's section + the rules, taken from characters.md."""
+def character_sheet(who):
+    """Who the companion is: the shared section and this character's own, taken from characters.md."""
     text = open(os.path.join(PROJECT, "characters.md"), encoding="utf-8").read()
     parts = {m.group(1).strip(): m.group(2).strip()
              for m in re.finditer(r"^## (.+?)\n(.*?)(?=^## |\Z)", text, re.S | re.M)}
     pick = lambda start: next(v for k, v in parts.items() if k.lower().startswith(start))
     other = "Adam" if who == "eve" else "Eve"
-    return (f"You are {who.capitalize()}. The person speaking to you is {other}. "
-            "Everything you write is spoken aloud, so write only the words you say: "
-            "no stage directions, no asterisks, no lists.\n\n"
-            + pick("shared") + "\n\n" + pick(who) + "\n\n" + pick("rules"))
+    return f"You are {who.capitalize()}. The only other person in the world is {other}.\n\n" + pick("shared") + "\n\n" + pick(who)
 
+
+def character_prompt(who):
+    """The sheet plus plain-speech rules, for talking to the companion outside the game."""
+    return (character_sheet(who) + "\n\nEverything you write is spoken aloud, so write only the words you say: "
+            "no stage directions, no asterisks, no brackets, no lists.")
 
 class Brain:
     """One long-lived headless Claude Code process, one JSON line per turn, no tools."""
@@ -69,7 +71,10 @@ class Voice:
         from chatterbox.tts_turbo import ChatterboxTurboTTS
 
         self.tts = ChatterboxTurboTTS.from_pretrained(device="cuda")
-        self.tts.prepare_conditionals(os.path.join(PROJECT, "voices", f"{who}_ref.wav"))
+        # Eve speaks in the model's own built-in voice, which Willi found the most natural of three.
+        # Adam still imitates a reference clip, because the model has no built-in man's voice.
+        if who != "eve":
+            self.tts.prepare_conditionals(os.path.join(PROJECT, "voices", f"{who}_ref.wav"))
         self.sr = self.tts.sr
 
     def synth(self, text):

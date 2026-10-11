@@ -1,1 +1,2 @@
-execute as @a at @s run playsound minecraft:item.elytra.flying ambient @s ~ ~ ~ 0.35 0.5 0.35
+particle minecraft:glow -51.92 63.40 0.50 0.3 0.05 9 0 10 force
+particle minecraft:end_rod -51.92 64.20 0.50 0.3 0.3 8 0.01 2 force

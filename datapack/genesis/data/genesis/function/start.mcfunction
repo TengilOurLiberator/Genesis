@@ -12,5 +12,5 @@ tag @a remove gen.lobby
 gamemode spectator @a[tag=gen.viewer]
 title @a clear
 stopsound @a
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -120.5 66.0 0.5
-tp @a[tag=gen.viewer] -120.5 66.0 0.5 -90 0
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.50 66.00 0.50
+tp @a[tag=gen.viewer] -122.50 66.00 0.50

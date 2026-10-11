@@ -1,4 +1,6 @@
-setblock -23 71 -15 minecraft:air
-place feature minecraft:fancy_oak -23 71 -15
-particle minecraft:happy_villager -23 74 -15 1.5 2.5 1.5 0 30 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -98.767 80.178 0.500
+summon minecraft:cod -94.43 60.10 21.62 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -94.43 60.10 21.62 0.3 0.3 0.3 0.05 12 force
+particle minecraft:splash -94.43 63.20 21.62 0.3 0.1 0.3 0.1 8 force
+summon minecraft:squid -110.96 60.02 -18.49 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -110.96 60.02 -18.49 0.3 0.3 0.3 0.05 12 force
+particle minecraft:splash -110.96 63.20 -18.49 0.3 0.1 0.3 0.1 8 force

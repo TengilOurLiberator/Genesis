@@ -1,1 +1,1 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -104.500 83.999 0.500
+particle minecraft:end_rod -20.00 77.00 0.50 7 1.5 7 0.004 4 force

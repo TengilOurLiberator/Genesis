@@ -1,3 +1,1 @@
-time of genesis:day pause
-time of genesis:day set 6000
-execute as @a at @s run playsound minecraft:block.bell.resonate ambient @s ~ ~ ~ 1.0 0.6 1.0
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -120.534 89.012 0.500

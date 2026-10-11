@@ -4,6 +4,8 @@ scoreboard players set #sunless gen 1
 scoreboard players set #count gen -1
 scoreboard players set #companion gen 0
 scoreboard players set #look gen 0
+scoreboard players set #cmode gen 0
+scoreboard players set #carrived gen 0
 difficulty peaceful
 gamerule minecraft:spawn_mobs false
 gamerule minecraft:spawn_monsters false
@@ -26,6 +28,6 @@ time of genesis:cut pause
 time of genesis:day set 6000
 time of genesis:day pause
 forceload add -144 -96 95 95
-forceload add 992 992 1008 1008
-setworldspawn 1000 100 1002
+forceload add 992 992 1010 1008
+setworldspawn 997 100 1000
 schedule function genesis:setup2 60t

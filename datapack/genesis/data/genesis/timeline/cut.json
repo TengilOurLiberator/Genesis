@@ -8,11 +8,23 @@
      "value": "#000000"
     },
     {
-     "ticks": 626,
+     "ticks": 498,
      "value": "#000000"
     },
     {
-     "ticks": 716,
+     "ticks": 528,
+     "value": "#fff2d0"
+    },
+    {
+     "ticks": 638,
+     "value": "#c4cad4"
+    },
+    {
+     "ticks": 1347,
+     "value": "#c4cad4"
+    },
+    {
+     "ticks": 1379,
      "value": "#ffffff"
     }
    ],
@@ -25,11 +37,23 @@
      "value": "#000000"
     },
     {
-     "ticks": 626,
+     "ticks": 498,
      "value": "#000000"
     },
     {
-     "ticks": 716,
+     "ticks": 528,
+     "value": "#fff6e0"
+    },
+    {
+     "ticks": 638,
+     "value": "#d2d6dc"
+    },
+    {
+     "ticks": 1347,
+     "value": "#d2d6dc"
+    },
+    {
+     "ticks": 1379,
      "value": "#ffffff"
     }
    ],
@@ -42,11 +66,11 @@
      "value": 0.0
     },
     {
-     "ticks": 626,
+     "ticks": 498,
      "value": 0.0
     },
     {
-     "ticks": 716,
+     "ticks": 548,
      "value": 1.0
     }
    ],
@@ -59,11 +83,11 @@
      "value": "#00ffffff"
     },
     {
-     "ticks": 1852,
+     "ticks": 1173,
      "value": "#00ffffff"
     },
     {
-     "ticks": 2052,
+     "ticks": 1337,
      "value": "#ffffffff"
     }
    ],
@@ -76,7 +100,7 @@
      "value": 0.0
     },
     {
-     "ticks": 11907,
+     "ticks": 7901,
      "value": 0.0
     }
    ]
@@ -92,35 +116,43 @@
      "value": 1.5
     },
     {
-     "ticks": 626,
+     "ticks": 315,
      "value": 1.5
     },
     {
-     "ticks": 786,
-     "value": 320.0
+     "ticks": 345,
+     "value": 70.0
     },
     {
-     "ticks": 846,
+     "ticks": 464,
+     "value": 70.0
+    },
+    {
+     "ticks": 476,
+     "value": 400.0
+    },
+    {
+     "ticks": 568,
      "value": 1024.0
     },
     {
-     "ticks": 1441,
+     "ticks": 974,
      "value": 1024.0
     },
     {
-     "ticks": 1551,
-     "value": 9.0
+     "ticks": 1100,
+     "value": 10.0
     },
     {
-     "ticks": 1852,
-     "value": 9.0
+     "ticks": 1173,
+     "value": 10.0
     },
     {
-     "ticks": 2002,
-     "value": 140.0
+     "ticks": 1297,
+     "value": 150.0
     },
     {
-     "ticks": 2062,
+     "ticks": 1327,
      "value": 1024.0
     }
    ]
@@ -132,11 +164,11 @@
      "value": 0.0
     },
     {
-     "ticks": 11907,
+     "ticks": 7901,
      "value": 0.0
     },
     {
-     "ticks": 12107,
+     "ticks": 8101,
      "value": 1.0
     }
    ]

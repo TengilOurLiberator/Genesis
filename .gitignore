@@ -14,3 +14,9 @@
 !/work/*.py
 /companion/state.json
 __pycache__/
+
+/narration/dry/
+/narration/god/
+/narration/generated/
+/narration/samples/
+/voices/options/

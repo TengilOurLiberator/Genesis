@@ -1,0 +1,546 @@
+{
+ "1": {
+  "ref": "1:1",
+  "duration": 3.2,
+  "clauses": [
+   {
+    "text": "In the beginning God created the heaven and the earth.",
+    "start": 0.0,
+    "end": 2.8
+   }
+  ]
+ },
+ "2": {
+  "ref": "1:2",
+  "duration": 9.36,
+  "clauses": [
+   {
+    "text": "And the earth was without form, and void;",
+    "start": 0.0,
+    "end": 2.38
+   },
+   {
+    "text": "and darkness was upon the face of the deep.",
+    "start": 2.64,
+    "end": 5.24
+   },
+   {
+    "text": "And the Spirit of God moved upon the face of the waters.",
+    "start": 5.44,
+    "end": 8.8
+   }
+  ]
+ },
+ "3": {
+  "ref": "1:3",
+  "duration": 4.0,
+  "clauses": [
+   {
+    "text": "And God said, Let there be light:",
+    "start": 0.0,
+    "end": 2.04
+   },
+   {
+    "text": "and there was light.",
+    "start": 2.24,
+    "end": 3.3
+   }
+  ]
+ },
+ "4": {
+  "ref": "1:4",
+  "duration": 6.07,
+  "clauses": [
+   {
+    "text": "And God saw the light, that it was good:",
+    "start": 0.0,
+    "end": 2.74
+   },
+   {
+    "text": "and God divided the light from the darkness.",
+    "start": 2.94,
+    "end": 5.4
+   }
+  ]
+ },
+ "5": {
+  "ref": "1:5",
+  "duration": 7.42,
+  "clauses": [
+   {
+    "text": "And God called the light Day, and the darkness he called Night.",
+    "start": 0.0,
+    "end": 3.74
+   },
+   {
+    "text": "And the evening and the morning were the first day.",
+    "start": 3.98,
+    "end": 6.92
+   }
+  ]
+ },
+ "6": {
+  "ref": "1:6",
+  "duration": 6.85,
+  "clauses": [
+   {
+    "text": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.",
+    "start": 0.0,
+    "end": 6.3
+   }
+  ]
+ },
+ "7": {
+  "ref": "1:7",
+  "duration": 7.72,
+  "clauses": [
+   {
+    "text": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament:",
+    "start": 0.0,
+    "end": 6.12
+   },
+   {
+    "text": "and it was so.",
+    "start": 6.3,
+    "end": 7.22
+   }
+  ]
+ },
+ "8": {
+  "ref": "1:8",
+  "duration": 5.57,
+  "clauses": [
+   {
+    "text": "And God called the firmament Heaven.",
+    "start": 0.0,
+    "end": 1.62
+   },
+   {
+    "text": "And the evening and the morning were the second day.",
+    "start": 1.78,
+    "end": 4.38
+   }
+  ]
+ },
+ "9": {
+  "ref": "1:9",
+  "duration": 8.07,
+  "clauses": [
+   {
+    "text": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear:",
+    "start": 0.0,
+    "end": 6.36
+   },
+   {
+    "text": "and it was so.",
+    "start": 6.36,
+    "end": 7.54
+   }
+  ]
+ },
+ "10": {
+  "ref": "1:10",
+  "duration": 8.35,
+  "clauses": [
+   {
+    "text": "And God called the dry land Earth;",
+    "start": 0.0,
+    "end": 2.02
+   },
+   {
+    "text": "and the gathering together of the waters called he Seas:",
+    "start": 2.02,
+    "end": 4.72
+   },
+   {
+    "text": "and God saw that it was good.",
+    "start": 5.28,
+    "end": 7.8
+   }
+  ]
+ },
+ "11": {
+  "ref": "1:11",
+  "duration": 13.5,
+  "clauses": [
+   {
+    "text": "And God said, Let the earth bring forth grass, the herb yielding seed,",
+    "start": 0.0,
+    "end": 5.14
+   },
+   {
+    "text": "and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth:",
+    "start": 5.38,
+    "end": 11.8
+   },
+   {
+    "text": "and it was so.",
+    "start": 12.0,
+    "end": 12.98
+   }
+  ]
+ },
+ "12": {
+  "ref": "1:12",
+  "duration": 12.64,
+  "clauses": [
+   {
+    "text": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind:",
+    "start": 0.0,
+    "end": 9.74
+   },
+   {
+    "text": "and God saw that it was good.",
+    "start": 9.92,
+    "end": 12.1
+   }
+  ]
+ },
+ "13": {
+  "ref": "1:13",
+  "duration": 3.04,
+  "clauses": [
+   {
+    "text": "And the evening and the morning were the third day.",
+    "start": 0.0,
+    "end": 2.58
+   }
+  ]
+ },
+ "14": {
+  "ref": "1:14",
+  "duration": 11.9,
+  "clauses": [
+   {
+    "text": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night;",
+    "start": 0.0,
+    "end": 6.4
+   },
+   {
+    "text": "and let them be for signs, and for seasons, and for days, and years:",
+    "start": 6.5,
+    "end": 11.34
+   }
+  ]
+ },
+ "15": {
+  "ref": "1:15",
+  "duration": 6.34,
+  "clauses": [
+   {
+    "text": "And let them be for lights in the firmament of the heaven to give light upon the earth:",
+    "start": 0.0,
+    "end": 4.62
+   },
+   {
+    "text": "and it was so.",
+    "start": 4.82,
+    "end": 5.8
+   }
+  ]
+ },
+ "16": {
+  "ref": "1:16",
+  "duration": 9.29,
+  "clauses": [
+   {
+    "text": "And God made two great lights;",
+    "start": 0.0,
+    "end": 1.8
+   },
+   {
+    "text": "the greater light to rule the day, and the lesser light to rule the night:",
+    "start": 1.9,
+    "end": 6.36
+   },
+   {
+    "text": "he made the stars also.",
+    "start": 6.54,
+    "end": 8.52
+   }
+  ]
+ },
+ "17": {
+  "ref": "1:17",
+  "duration": 3.87,
+  "clauses": [
+   {
+    "text": "And God set them in the firmament of the heaven to give light upon the earth,",
+    "start": 0.0,
+    "end": 3.48
+   }
+  ]
+ },
+ "18": {
+  "ref": "1:18",
+  "duration": 7.19,
+  "clauses": [
+   {
+    "text": "And to rule over the day and over the night, and to divide the light from the darkness:",
+    "start": 0.0,
+    "end": 4.48
+   },
+   {
+    "text": "and God saw that it was good.",
+    "start": 4.48,
+    "end": 6.68
+   }
+  ]
+ },
+ "19": {
+  "ref": "1:19",
+  "duration": 3.07,
+  "clauses": [
+   {
+    "text": "And the evening and the morning were the fourth day.",
+    "start": 0.0,
+    "end": 2.62
+   }
+  ]
+ },
+ "20": {
+  "ref": "1:20",
+  "duration": 11.17,
+  "clauses": [
+   {
+    "text": "And God said, Let the waters bring forth abundantly the moving creature that hath life,",
+    "start": 0.0,
+    "end": 5.94
+   },
+   {
+    "text": "and fowl that may fly above the earth in the open firmament of heaven.",
+    "start": 6.16,
+    "end": 10.66
+   }
+  ]
+ },
+ "21": {
+  "ref": "1:21",
+  "duration": 13.47,
+  "clauses": [
+   {
+    "text": "And God created great whales, and every living creature that moveth,",
+    "start": 0.0,
+    "end": 4.08
+   },
+   {
+    "text": "which the waters brought forth abundantly, after their kind, and every winged fowl after his kind:",
+    "start": 4.16,
+    "end": 10.44
+   },
+   {
+    "text": "and God saw that it was good.",
+    "start": 10.64,
+    "end": 12.94
+   }
+  ]
+ },
+ "22": {
+  "ref": "1:22",
+  "duration": 10.04,
+  "clauses": [
+   {
+    "text": "And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+    "start": 0.0,
+    "end": 9.66
+   }
+  ]
+ },
+ "23": {
+  "ref": "1:23",
+  "duration": 3.31,
+  "clauses": [
+   {
+    "text": "And the evening and the morning were the fifth day.",
+    "start": 0.0,
+    "end": 2.78
+   }
+  ]
+ },
+ "24": {
+  "ref": "1:24",
+  "duration": 11.03,
+  "clauses": [
+   {
+    "text": "And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind:",
+    "start": 0.0,
+    "end": 9.44
+   },
+   {
+    "text": "and it was so.",
+    "start": 9.58,
+    "end": 10.54
+   }
+  ]
+ },
+ "25": {
+  "ref": "1:25",
+  "duration": 11.06,
+  "clauses": [
+   {
+    "text": "And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind:",
+    "start": 0.0,
+    "end": 8.32
+   },
+   {
+    "text": "and God saw that it was good.",
+    "start": 8.5,
+    "end": 10.54
+   }
+  ]
+ },
+ "26": {
+  "ref": "1:26",
+  "duration": 17.45,
+  "clauses": [
+   {
+    "text": "And God said, Let us make man in our image, after our likeness:",
+    "start": 0.0,
+    "end": 4.62
+   },
+   {
+    "text": "and let them have dominion over the fish of the sea, and over the fowl of the air,",
+    "start": 4.66,
+    "end": 9.46
+   },
+   {
+    "text": "and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+    "start": 9.64,
+    "end": 17.06
+   }
+  ]
+ },
+ "27": {
+  "ref": "1:27",
+  "duration": 7.67,
+  "clauses": [
+   {
+    "text": "So God created man in his own image, in the image of God created he him;",
+    "start": 0.0,
+    "end": 4.66
+   },
+   {
+    "text": "male and female created he them.",
+    "start": 5.0,
+    "end": 7.18
+   }
+  ]
+ },
+ "28": {
+  "ref": "1:28",
+  "duration": 17.05,
+  "clauses": [
+   {
+    "text": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it:",
+    "start": 0.0,
+    "end": 7.9
+   },
+   {
+    "text": "and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.",
+    "start": 8.04,
+    "end": 16.66
+   }
+  ]
+ },
+ "29": {
+  "ref": "1:29",
+  "duration": 16.12,
+  "clauses": [
+   {
+    "text": "And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth,",
+    "start": 0.0,
+    "end": 7.68
+   },
+   {
+    "text": "and every tree, in the which is the fruit of a tree yielding seed;",
+    "start": 7.86,
+    "end": 13.34
+   },
+   {
+    "text": "to you it shall be for meat.",
+    "start": 13.58,
+    "end": 15.5
+   }
+  ]
+ },
+ "30": {
+  "ref": "1:30",
+  "duration": 12.97,
+  "clauses": [
+   {
+    "text": "And to every beast of the earth, and to every fowl of the air,",
+    "start": 0.0,
+    "end": 4.08
+   },
+   {
+    "text": "and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat:",
+    "start": 4.26,
+    "end": 11.2
+   },
+   {
+    "text": "and it was so.",
+    "start": 11.4,
+    "end": 12.44
+   }
+  ]
+ },
+ "31": {
+  "ref": "1:31",
+  "duration": 10.41,
+  "clauses": [
+   {
+    "text": "And God saw every thing that he had made, and, behold, it was very good.",
+    "start": 0.0,
+    "end": 6.4
+   },
+   {
+    "text": "And the evening and the morning were the sixth day.",
+    "start": 6.4,
+    "end": 9.86
+   }
+  ]
+ },
+ "32": {
+  "ref": "2:1",
+  "duration": 4.41,
+  "clauses": [
+   {
+    "text": "Thus the heavens and the earth were finished, and all the host of them.",
+    "start": 0.0,
+    "end": 3.98
+   }
+  ]
+ },
+ "33": {
+  "ref": "2:2",
+  "duration": 8.85,
+  "clauses": [
+   {
+    "text": "And on the seventh day God ended his work which he had made;",
+    "start": 0.0,
+    "end": 3.44
+   },
+   {
+    "text": "and he rested on the seventh day from all his work which he had made.",
+    "start": 3.6,
+    "end": 8.36
+   }
+  ]
+ },
+ "34": {
+  "ref": "2:3",
+  "duration": 9.91,
+  "clauses": [
+   {
+    "text": "And God blessed the seventh day, and sanctified it:",
+    "start": 0.0,
+    "end": 3.68
+   },
+   {
+    "text": "because that in it God had rested from all his work which God created and made.",
+    "start": 3.78,
+    "end": 9.36
+   }
+  ]
+ }
+}

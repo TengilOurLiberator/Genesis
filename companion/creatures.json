@@ -7,15 +7,15 @@
   "horse",
   "donkey",
   "rabbit",
+  "frog",
+  "turtle",
+  "armadillo",
+  "bee",
   "llama",
   "panda",
   "camel",
-  "armadillo",
-  "frog",
-  "turtle",
   "chicken",
   "parrot",
-  "bee",
   "cod",
   "salmon",
   "tropical_fish",
@@ -32,15 +32,15 @@
   "horse": "tall and swift, long legs, a mane and a long tail",
   "donkey": "like the swift tall one but smaller, with long ears and a loud bray",
   "rabbit": "small, long ears, hops, very quick",
+  "frog": "small, wet skin, leaps, croaks, a long tongue",
+  "turtle": "carries a round shell on its back, slow on land, graceful in water",
+  "armadillo": "small, covered in hard plates, rolls into a ball",
+  "bee": "tiny, striped, hums, goes from flower to flower",
   "llama": "tall with a long woolly neck, proud, sometimes spits",
   "panda": "big, round, black and white, sits and eats, rolls over",
   "camel": "very tall, a hump on its back, long legs, kneels to rest",
-  "armadillo": "small, covered in hard plates, rolls into a ball",
-  "frog": "small, wet skin, leaps, croaks, a long tongue",
-  "turtle": "carries a round shell on its back, slow on land, graceful in water",
   "chicken": "a small bird that walks more than it flies, clucks, pecks at seeds",
   "parrot": "a bright bird of many colours that flies and copies sounds",
-  "bee": "tiny, striped, hums, goes from flower to flower",
   "cod": "a plain brown fish that swims in shoals",
   "salmon": "a long red-sided fish, strong, leaps",
   "tropical_fish": "a small fish in bright colours and patterns",
@@ -57,15 +57,15 @@
   "horse": "@e[type=minecraft:horse,tag=!gen.whale]",
   "donkey": "@e[type=minecraft:donkey,tag=!gen.whale]",
   "rabbit": "@e[type=minecraft:rabbit,tag=!gen.whale]",
+  "frog": "@e[type=minecraft:frog,tag=!gen.whale]",
+  "turtle": "@e[type=minecraft:turtle,tag=!gen.whale]",
+  "armadillo": "@e[type=minecraft:armadillo,tag=!gen.whale]",
+  "bee": "@e[type=minecraft:bee,tag=!gen.whale]",
   "llama": "@e[type=minecraft:llama,tag=!gen.whale]",
   "panda": "@e[type=minecraft:panda,tag=!gen.whale]",
   "camel": "@e[type=minecraft:camel,tag=!gen.whale]",
-  "armadillo": "@e[type=minecraft:armadillo,tag=!gen.whale]",
-  "frog": "@e[type=minecraft:frog,tag=!gen.whale]",
-  "turtle": "@e[type=minecraft:turtle,tag=!gen.whale]",
   "chicken": "@e[type=minecraft:chicken,tag=!gen.whale]",
   "parrot": "@e[type=minecraft:parrot,tag=!gen.whale]",
-  "bee": "@e[type=minecraft:bee,tag=!gen.whale]",
   "cod": "@e[type=minecraft:cod,tag=!gen.whale]",
   "salmon": "@e[type=minecraft:salmon,tag=!gen.whale]",
   "tropical_fish": "@e[type=minecraft:tropical_fish,tag=!gen.whale]",
@@ -73,5 +73,42 @@
   "glow_squid": "@e[type=minecraft:glow_squid,tag=!gen.whale]",
   "dolphin": "@e[type=minecraft:dolphin,tag=!gen.whale]",
   "nautilus": "@e[type=minecraft:nautilus,tag=!gen.whale]"
+ },
+ "places": {
+  "the hill": {
+   "x": 35.5,
+   "z": -0.5,
+   "look": "the high place ahead of where you woke; from the top you can see all the land and the water around it"
+  },
+  "the near shore": {
+   "x": -62.5,
+   "z": 0.5,
+   "look": "behind where you woke, where the land ends in pale sand and the great water begins"
+  },
+  "the clearing": {
+   "x": -32.5,
+   "z": 0.5,
+   "look": "the flat ground where you both first opened your eyes"
+  },
+  "the meadow": {
+   "x": -6.5,
+   "z": 0.5,
+   "look": "the wide open grass between the clearing and the hill, where the creatures graze"
+  },
+  "the left rise": {
+   "x": -6.5,
+   "z": -37.5,
+   "look": "a low rise of ground with trees on it"
+  },
+  "the right rise": {
+   "x": -2.5,
+   "z": 40.5,
+   "look": "another low rise, on the other side"
+  },
+  "the pink trees": {
+   "x": -46.5,
+   "z": 32.5,
+   "look": "trees covered in pale pink blossom that drifts down"
+  }
  }
 }

@@ -1,274 +1,434 @@
 {
-    "narration.god.v01":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v01"
-                                             }
-                                         ]
-                          },
-    "narration.god.v02":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v02"
-                                             }
-                                         ]
-                          },
-    "narration.god.v03":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v03"
-                                             }
-                                         ]
-                          },
-    "narration.god.v04":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v04"
-                                             }
-                                         ]
-                          },
-    "narration.god.v05":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v05"
-                                             }
-                                         ]
-                          },
-    "narration.god.v06":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v06"
-                                             }
-                                         ]
-                          },
-    "narration.god.v07":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v07"
-                                             }
-                                         ]
-                          },
-    "narration.god.v08":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v08"
-                                             }
-                                         ]
-                          },
-    "narration.god.v09":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v09"
-                                             }
-                                         ]
-                          },
-    "narration.god.v10":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v10"
-                                             }
-                                         ]
-                          },
-    "narration.god.v11":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v11"
-                                             }
-                                         ]
-                          },
-    "narration.god.v12":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v12"
-                                             }
-                                         ]
-                          },
-    "narration.god.v13":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v13"
-                                             }
-                                         ]
-                          },
-    "narration.god.v14":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v14"
-                                             }
-                                         ]
-                          },
-    "narration.god.v15":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v15"
-                                             }
-                                         ]
-                          },
-    "narration.god.v16":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v16"
-                                             }
-                                         ]
-                          },
-    "narration.god.v17":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v17"
-                                             }
-                                         ]
-                          },
-    "narration.god.v18":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v18"
-                                             }
-                                         ]
-                          },
-    "narration.god.v19":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v19"
-                                             }
-                                         ]
-                          },
-    "narration.god.v20":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v20"
-                                             }
-                                         ]
-                          },
-    "narration.god.v21":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v21"
-                                             }
-                                         ]
-                          },
-    "narration.god.v22":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v22"
-                                             }
-                                         ]
-                          },
-    "narration.god.v23":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v23"
-                                             }
-                                         ]
-                          },
-    "narration.god.v24":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v24"
-                                             }
-                                         ]
-                          },
-    "narration.god.v25":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v25"
-                                             }
-                                         ]
-                          },
-    "narration.god.v26":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v26"
-                                             }
-                                         ]
-                          },
-    "narration.god.v27":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v27"
-                                             }
-                                         ]
-                          },
-    "narration.god.v28":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v28"
-                                             }
-                                         ]
-                          },
-    "narration.god.v29":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v29"
-                                             }
-                                         ]
-                          },
-    "narration.god.v30":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v30"
-                                             }
-                                         ]
-                          },
-    "narration.god.v31":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v31"
-                                             }
-                                         ]
-                          },
-    "narration.god.v32":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v32"
-                                             }
-                                         ]
-                          },
-    "narration.god.v33":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v33"
-                                             }
-                                         ]
-                          },
-    "narration.god.v34":  {
-                              "sounds":  [
-                                             {
-                                                 "stream":  true,
-                                                 "name":  "genesis:god/v34"
-                                             }
-                                         ]
-                          }
+ "narration.god.v01": {
+  "sounds": [
+   {
+    "name": "genesis:god/v01",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v02": {
+  "sounds": [
+   {
+    "name": "genesis:god/v02",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v03": {
+  "sounds": [
+   {
+    "name": "genesis:god/v03",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v04": {
+  "sounds": [
+   {
+    "name": "genesis:god/v04",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v05": {
+  "sounds": [
+   {
+    "name": "genesis:god/v05",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v06": {
+  "sounds": [
+   {
+    "name": "genesis:god/v06",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v07": {
+  "sounds": [
+   {
+    "name": "genesis:god/v07",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v08": {
+  "sounds": [
+   {
+    "name": "genesis:god/v08",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v09": {
+  "sounds": [
+   {
+    "name": "genesis:god/v09",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v10": {
+  "sounds": [
+   {
+    "name": "genesis:god/v10",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v11": {
+  "sounds": [
+   {
+    "name": "genesis:god/v11",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v12": {
+  "sounds": [
+   {
+    "name": "genesis:god/v12",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v13": {
+  "sounds": [
+   {
+    "name": "genesis:god/v13",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v14": {
+  "sounds": [
+   {
+    "name": "genesis:god/v14",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v15": {
+  "sounds": [
+   {
+    "name": "genesis:god/v15",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v16": {
+  "sounds": [
+   {
+    "name": "genesis:god/v16",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v17": {
+  "sounds": [
+   {
+    "name": "genesis:god/v17",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v18": {
+  "sounds": [
+   {
+    "name": "genesis:god/v18",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v19": {
+  "sounds": [
+   {
+    "name": "genesis:god/v19",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v20": {
+  "sounds": [
+   {
+    "name": "genesis:god/v20",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v21": {
+  "sounds": [
+   {
+    "name": "genesis:god/v21",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v22": {
+  "sounds": [
+   {
+    "name": "genesis:god/v22",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v23": {
+  "sounds": [
+   {
+    "name": "genesis:god/v23",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v24": {
+  "sounds": [
+   {
+    "name": "genesis:god/v24",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v25": {
+  "sounds": [
+   {
+    "name": "genesis:god/v25",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v26": {
+  "sounds": [
+   {
+    "name": "genesis:god/v26",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v27": {
+  "sounds": [
+   {
+    "name": "genesis:god/v27",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v28": {
+  "sounds": [
+   {
+    "name": "genesis:god/v28",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v29": {
+  "sounds": [
+   {
+    "name": "genesis:god/v29",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v30": {
+  "sounds": [
+   {
+    "name": "genesis:god/v30",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v31": {
+  "sounds": [
+   {
+    "name": "genesis:god/v31",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v32": {
+  "sounds": [
+   {
+    "name": "genesis:god/v32",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v33": {
+  "sounds": [
+   {
+    "name": "genesis:god/v33",
+    "stream": true
+   }
+  ]
+ },
+ "narration.god.v34": {
+  "sounds": [
+   {
+    "name": "genesis:god/v34",
+    "stream": true
+   }
+  ]
+ },
+ "music.beasts": {
+  "sounds": [
+   {
+    "name": "genesis:music/beasts",
+    "stream": true
+   }
+  ]
+ },
+ "music.deep": {
+  "sounds": [
+   {
+    "name": "genesis:music/deep",
+    "stream": true
+   }
+  ]
+ },
+ "music.earth": {
+  "sounds": [
+   {
+    "name": "genesis:music/earth",
+    "stream": true
+   }
+  ]
+ },
+ "music.firmament": {
+  "sounds": [
+   {
+    "name": "genesis:music/firmament",
+    "stream": true
+   }
+  ]
+ },
+ "music.heavens": {
+  "sounds": [
+   {
+    "name": "genesis:music/heavens",
+    "stream": true
+   }
+  ]
+ },
+ "music.light": {
+  "sounds": [
+   {
+    "name": "genesis:music/light",
+    "stream": true
+   }
+  ]
+ },
+ "music.man": {
+  "sounds": [
+   {
+    "name": "genesis:music/man",
+    "stream": true
+   }
+  ]
+ },
+ "music.rest": {
+  "sounds": [
+   {
+    "name": "genesis:music/rest",
+    "stream": true
+   }
+  ]
+ },
+ "music.waters": {
+  "sounds": [
+   {
+    "name": "genesis:music/waters",
+    "stream": true
+   }
+  ]
+ },
+ "sfx.bell": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/bell",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.birds": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/birds",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.deep": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/deep",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.growth": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/growth",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.heartbeat": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/heartbeat",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.light": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/light",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.rise": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/rise",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.stars": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/stars",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.sun": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/sun",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.whale": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/whale",
+    "stream": false
+   }
+  ]
+ },
+ "sfx.wind": {
+  "sounds": [
+   {
+    "name": "genesis:sfx/wind",
+    "stream": false
+   }
+  ]
+ }
 }

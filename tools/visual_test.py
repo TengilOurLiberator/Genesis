@@ -9,7 +9,6 @@ import argparse, ctypes, json, os, subprocess, sys, time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from rcon import Rcon
-from PIL import ImageGrab
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MC = os.path.join(os.environ["APPDATA"], ".minecraft")
@@ -42,10 +41,14 @@ def launch():
                                    "--assetsDir", os.path.join(MC, "assets"), "--assetIndex", v["assetIndex"]["id"],
                                    "--accessToken", "0", "--userType", "legacy", "--width", "1280", "--height", "720",
                                    "--quickPlayMultiplayer", "localhost:25565"]
+    # silent: the test must not play the narration over whatever the person at the computer is doing
+    opts = os.path.join(GAME, "options.txt")
+    lines = [l for l in open(opts, encoding="utf-8") if not l.startswith("soundCategory_master:")] + ["soundCategory_master:0.0\n"]
+    open(opts, "w", encoding="utf-8").writelines(lines)
     return subprocess.Popen(cmd, cwd=GAME, stdout=open(os.path.join(GAME, "client.log"), "w"), stderr=subprocess.STDOUT)
 
 
-def window_rect():
+def game_window():
     user32 = ctypes.windll.user32
     found = []
 
@@ -58,27 +61,38 @@ def window_rect():
         return True
 
     user32.EnumWindows(each, 0)
-    if not found:
-        return None
-    pt, rc = (ctypes.c_long * 2)(0, 0), (ctypes.c_long * 4)()
-    user32.SetWindowPos(found[0], 0, 0, 0, 0, 0, 0x0001 | 0x0004)   # top-left corner, clear of any dialog in the middle of the screen
-    user32.SetForegroundWindow(found[0])
-    user32.GetClientRect(found[0], rc)
-    user32.ClientToScreen(found[0], pt)
-    return (pt[0], pt[1], pt[0] + rc[2], pt[1] + rc[3])
+    return found[0] if found else None
 
 
 def shot(name):
-    rect = window_rect()
-    if not rect:
+    """Copy the game window's own picture. It is not brought to the front and nothing else on screen is captured."""
+    from PIL import Image
+
+    user32, gdi32 = ctypes.windll.user32, ctypes.windll.gdi32
+    hwnd = game_window()
+    if not hwnd:
         print("no game window for", name)
         return
-    time.sleep(0.15)
-    img = ImageGrab.grab(bbox=rect, all_screens=True).convert("RGB")
+    rc = (ctypes.c_long * 4)()
+    user32.GetClientRect(hwnd, rc)
+    w, h = rc[2], rc[3]
+    for f in (user32.GetDC, gdi32.CreateCompatibleDC, gdi32.CreateCompatibleBitmap, gdi32.SelectObject):
+        f.restype = ctypes.c_void_p
+    hdc = user32.GetDC(ctypes.c_void_p(hwnd))
+    mem = gdi32.CreateCompatibleDC(ctypes.c_void_p(hdc))
+    bmp = gdi32.CreateCompatibleBitmap(ctypes.c_void_p(hdc), w, h)
+    gdi32.SelectObject(ctypes.c_void_p(mem), ctypes.c_void_p(bmp))
+    user32.PrintWindow(ctypes.c_void_p(hwnd), ctypes.c_void_p(mem), 3)      # client area, full content
+    header = (ctypes.c_uint32 * 10)(40, w, ctypes.c_uint32(-h).value, 1 | (32 << 16), 0, 0, 0, 0, 0, 0)
+    buf = ctypes.create_string_buffer(w * h * 4)
+    gdi32.GetDIBits(ctypes.c_void_p(mem), ctypes.c_void_p(bmp), 0, h, buf, header, 0)
+    gdi32.DeleteObject(ctypes.c_void_p(bmp))
+    gdi32.DeleteDC(ctypes.c_void_p(mem))
+    user32.ReleaseDC(ctypes.c_void_p(hwnd), ctypes.c_void_p(hdc))
+    img = Image.frombuffer("RGBA", (w, h), buf, "raw", "BGRA", 0, 1).convert("RGB")
     img.thumbnail((960, 540))
     img.save(os.path.join(SHOTS, name + ".jpg"), quality=80)
     print("shot", name, flush=True)
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -89,11 +103,12 @@ def main():
     os.makedirs(SHOTS, exist_ok=True)
     ctypes.windll.user32.SetProcessDPIAware()
     sched = json.load(open(os.path.join(ROOT, "work", "schedule.json")))
-    ticks = sorted(int(t) for t in args.ticks.split(",") if t) or sorted(
-        {sched["verse_end"][str(v)] + off for v, off in
-         [(2, 20), (3, 40), (3, 150), (4, 110), (5, 90), (6, 60), (7, 180), (9, 150), (9, 320), (10, 150), (11, 200),
-          (12, 230), (15, 110), (16, 70), (16, 190), (16, 290), (18, 60), (20, 150), (21, 120), (22, 120), (24, 180),
-          (25, 150), (26, -20), (27, 60), (29, 60), (31, 150), (32, 90), (34, 60)]})
+    m, vs, ve = sched["marks"], sched["verse_start"], sched["verse_end"]
+    ticks = sorted(int(t) for t in args.ticks.split(",") if t) or sorted({
+        vs["2"] + 60, m["light"] - 12, m["light"] + 6, m["light"] + 60, ve["4"] + 5, ve["6"], ve["7"] + 20, m["rise"] + 80,
+        ve["9"] + 120, ve["10"], m["green"] + 120, ve["12"] + 60, ve["14"], m["sun"] + 30, m["moon"] + 40, m["stars"] + 70,
+        m["swim"] + 50, m["whales"] + 40, ve["21"], ve["22"], ve["24"], ve["25"], m["beam"] + 60, m["him"] + 14, m["her"] + 14,
+        m["awake"] + 50, ve["29"], ve["31"], ve["33"]})
     client = launch()
     r = Rcon()
     try:
@@ -104,11 +119,11 @@ def main():
             time.sleep(2)
         time.sleep(12)
         shot("000_lobby")
-        r.cmd(f"tp {NAME} 997.5 100 996.5 180 0")
+        r.cmd(f"tp {NAME} 1003.5 100 997.5 -90 0")      # onto the gold stone: Adam
         time.sleep(5)
         r.cmd(f"tick rate {20 * args.rate}")
-        e16 = sched["verse_end"]["16"]
-        looks = {e16 + 140: "-90 -40", sched["verse_end"]["17"]: "-90 0"}   # look up for the moon and stars
+        m = sched["marks"]
+        looks = {m["moon"] + 10: "-90 -30", sched["verse_start"]["17"]: "-90 0"}   # look up for the moon and stars
         for t in ticks:
             while True:
                 now = int(r.cmd("scoreboard players get #t gen").split(" has ")[1].split()[0])
@@ -120,7 +135,7 @@ def main():
             shot(f"t{t:05d}")
         r.cmd("tick rate 20")
         time.sleep(6)
-        for i, (pos, rot) in enumerate([("-6.5 69 0.5", "-90 0"), ("-100.5 84 0.5", "-90 15"), ("-30.5 72 10.5", "90 5")][:args.after]):
+        for i, (pos, rot) in enumerate([("-34.5 69 -1.5", "-90 0"), ("-28.5 69 6.5", "160 5")][:args.after]):
             r.cmd(f"tp {NAME} {pos} {rot}")
             time.sleep(4)
             shot(f"z_free{i}")

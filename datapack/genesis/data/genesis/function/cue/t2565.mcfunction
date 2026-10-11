@@ -1,1 +1,1 @@
-execute as @a at @s run playsound minecraft:entity.warden.dig ambient @s ~ ~ ~ 1.0 0.5 1.0
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -107.404 84.323 0.500

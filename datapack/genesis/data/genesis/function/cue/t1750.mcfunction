@@ -1,0 +1,55 @@
+fill 49 87 1 49 87 3 minecraft:dirt
+fill 48 87 -2 48 87 6 minecraft:dirt
+fill 47 87 -1 47 87 5 minecraft:stone
+fill 47 87 -4 47 87 -2 minecraft:dirt
+fill 47 87 6 47 87 7 minecraft:dirt
+fill 46 87 -3 46 87 6 minecraft:stone
+fill 46 87 -6 46 87 -4 minecraft:dirt
+fill 46 87 7 46 87 8 minecraft:dirt
+fill 45 87 -5 45 87 7 minecraft:stone
+fill 45 87 -7 45 87 -6 minecraft:dirt
+fill 45 87 8 45 87 8 minecraft:dirt
+fill 44 87 -6 44 87 7 minecraft:stone
+fill 44 87 -8 44 87 -7 minecraft:dirt
+fill 44 87 8 44 87 9 minecraft:dirt
+fill 43 87 -8 43 87 -8 minecraft:dirt
+fill 43 87 -7 43 87 8 minecraft:stone
+fill 43 87 9 43 87 9 minecraft:dirt
+fill 42 87 -8 42 87 8 minecraft:stone
+fill 42 87 9 42 87 10 minecraft:dirt
+fill 41 87 -9 42 87 -9 minecraft:dirt
+fill 40 87 10 41 87 10 minecraft:dirt
+fill 40 87 -8 41 87 9 minecraft:stone
+fill 40 87 -10 40 87 -9 minecraft:dirt
+fill 39 87 -9 39 87 9 minecraft:stone
+fill 39 87 10 39 87 11 minecraft:dirt
+fill 36 87 -10 39 87 -10 minecraft:dirt
+fill 36 87 -9 38 87 10 minecraft:stone
+fill 34 87 11 38 87 11 minecraft:dirt
+fill 34 87 -8 35 87 10 minecraft:stone
+fill 34 87 -10 35 87 -9 minecraft:dirt
+fill 33 87 -9 33 87 -9 minecraft:dirt
+fill 33 87 -8 33 87 9 minecraft:stone
+fill 33 87 10 33 87 11 minecraft:dirt
+fill 32 87 -9 32 87 -8 minecraft:dirt
+fill 32 87 -7 32 87 9 minecraft:stone
+fill 31 87 10 32 87 10 minecraft:dirt
+fill 31 87 -6 31 87 9 minecraft:stone
+fill 31 87 -8 31 87 -7 minecraft:dirt
+fill 30 87 9 30 87 9 minecraft:dirt
+fill 30 87 -5 30 87 8 minecraft:stone
+fill 30 87 -7 30 87 -6 minecraft:dirt
+fill 29 87 -4 29 87 7 minecraft:stone
+fill 29 87 -6 29 87 -5 minecraft:dirt
+fill 29 87 8 29 87 9 minecraft:dirt
+fill 28 87 -2 28 87 6 minecraft:stone
+fill 28 87 -5 28 87 -3 minecraft:dirt
+fill 28 87 7 28 87 8 minecraft:dirt
+fill 27 87 0 27 87 4 minecraft:stone
+fill 27 87 5 27 87 7 minecraft:dirt
+fill 27 87 -3 27 87 -1 minecraft:dirt
+fill 26 87 0 26 87 5 minecraft:dirt
+particle minecraft:splash 0 63.2 0 46 0.4 46 0.3 300 force
+particle minecraft:cloud 0 87 0 30 0.5 30 0.02 50 force
+particle minecraft:dust_plume 0 87 0 26 0.4 26 0.02 40 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -125.797 79.494 0.500

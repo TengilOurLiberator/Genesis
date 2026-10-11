@@ -1,1 +1,2 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -101.902 71.012 0.500
+give @a[tag=gen.human] minecraft:wheat_seeds 12
+particle minecraft:happy_villager -22.00 69.50 0.50 8 0.4 8 0 80 force

@@ -1,1 +1,1 @@
-execute as @a at @s run playsound minecraft:item.elytra.flying ambient @s ~ ~ ~ 0.5 0.8 0.5
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -130.920 88.033 0.500

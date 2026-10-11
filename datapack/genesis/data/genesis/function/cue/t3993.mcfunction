@@ -1,4 +1,3 @@
-setblock 11 71 -36 minecraft:air
-place feature minecraft:birch 11 71 -36
-particle minecraft:happy_villager 11 74 -36 1.5 2.5 1.5 0 30 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -99.531 80.687 0.500
+summon minecraft:salmon -104.15 60.82 6.25 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -104.15 60.82 6.25 0.3 0.3 0.3 0.05 12 force
+particle minecraft:splash -104.15 63.20 6.25 0.3 0.1 0.3 0.1 8 force
