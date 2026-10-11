@@ -1,0 +1,16 @@
+# third-party programs and the running server (Minecraft, Fabric, Vivecraft are not ours to redistribute)
+/downloads/
+/server/
+/game/
+
+# recordings and working files
+*.wav
+!/voices/*_ref.wav
+*.aup4
+*.aup4-shm
+*.aup4-wal
+/verses/
+/work/*
+!/work/*.py
+/companion/state.json
+__pycache__/
