@@ -75,40 +75,60 @@
   "nautilus": "@e[type=minecraft:nautilus,tag=!gen.whale]"
  },
  "places": {
-  "the hill": {
-   "x": 35.5,
-   "z": -0.5,
-   "look": "the high place ahead of where you woke; from the top you can see all the land and the water around it"
+  "the lake": {
+   "x": -6.5,
+   "z": 0.5,
+   "look": "a wide still water in the middle of the land, ahead of where you woke; lilies float on it and reeds grow at its edge"
+  },
+  "the falling stream": {
+   "x": 33.5,
+   "z": 6.5,
+   "look": "where water comes down the face of the mountain and runs into the lake"
+  },
+  "the river": {
+   "x": -30.5,
+   "z": 37.5,
+   "look": "running water that leaves the lake and goes down to the great water"
+  },
+  "the mountain": {
+   "x": 41.5,
+   "z": 30.5,
+   "look": "the great height beyond the lake, grey stone above the trees and white at the very top"
   },
   "the near shore": {
-   "x": -62.5,
+   "x": -90.5,
    "z": 0.5,
    "look": "behind where you woke, where the land ends in pale sand and the great water begins"
   },
   "the clearing": {
-   "x": -32.5,
+   "x": -62.5,
    "z": 0.5,
    "look": "the flat ground where you both first opened your eyes"
   },
   "the meadow": {
-   "x": -6.5,
+   "x": -34.5,
    "z": 0.5,
-   "look": "the wide open grass between the clearing and the hill, where the creatures graze"
-  },
-  "the left rise": {
-   "x": -6.5,
-   "z": -37.5,
-   "look": "a low rise of ground with trees on it"
-  },
-  "the right rise": {
-   "x": -2.5,
-   "z": 40.5,
-   "look": "another low rise, on the other side"
+   "look": "the wide open grass between the clearing and the lake, where the creatures graze"
   },
   "the pink trees": {
-   "x": -46.5,
-   "z": 32.5,
-   "look": "trees covered in pale pink blossom that drifts down"
+   "x": -39.5,
+   "z": -57.5,
+   "look": "a grove to the left, every tree covered in pale pink blossom that drifts down"
+  },
+  "the forest": {
+   "x": -26.5,
+   "z": 70.5,
+   "look": "tall green trees across the river, with flowers under them"
+  },
+  "the jungle": {
+   "x": 33.5,
+   "z": 57.5,
+   "look": "a thick tangle of huge trees and tall green canes, beyond the river and the lake"
+  },
+  "the dry grassland": {
+   "x": 43.5,
+   "z": -56.5,
+   "look": "open yellow-green ground with flat-topped trees, far to the left"
   }
  }
 }

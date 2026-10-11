@@ -1,1 +1,21 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -133.629 93.689 0.500
+fill -79 65 -5 -79 65 5 minecraft:grass_block replace minecraft:dirt
+fill -80 65 -7 -80 65 7 minecraft:grass_block replace minecraft:dirt
+fill -81 65 -8 -81 65 8 minecraft:grass_block replace minecraft:dirt
+fill -82 66 7 -82 66 10 minecraft:grass_block replace minecraft:dirt
+fill -82 65 -10 -82 65 6 minecraft:grass_block replace minecraft:dirt
+fill -83 65 -11 -83 65 5 minecraft:grass_block replace minecraft:dirt
+fill -83 66 6 -83 66 11 minecraft:grass_block replace minecraft:dirt
+fill -84 66 5 -84 66 11 minecraft:grass_block replace minecraft:dirt
+fill -84 65 -11 -84 65 -5 minecraft:grass_block replace minecraft:dirt
+fill -85 65 -12 -85 65 -6 minecraft:grass_block replace minecraft:dirt
+fill -85 66 6 -85 66 12 minecraft:grass_block replace minecraft:dirt
+fill -86 65 -13 -86 65 -8 minecraft:grass_block replace minecraft:dirt
+fill -86 65 13 -86 65 13 minecraft:grass_block replace minecraft:dirt
+fill -86 66 8 -86 66 12 minecraft:grass_block replace minecraft:dirt
+fill -87 66 8 -87 66 10 minecraft:grass_block replace minecraft:dirt
+fill -87 65 11 -87 65 13 minecraft:grass_block replace minecraft:dirt
+fill -87 65 -12 -87 65 -8 minecraft:grass_block replace minecraft:dirt
+fill -88 65 9 -88 65 14 minecraft:grass_block replace minecraft:dirt
+fill -89 65 10 -89 65 14 minecraft:grass_block replace minecraft:dirt
+fill -90 65 10 -90 65 11 minecraft:grass_block replace minecraft:dirt
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -171.380 111.564 0.500

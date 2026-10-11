@@ -1,2 +1,2 @@
-summon minecraft:salmon -87.64 56.02 -11.58 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:bubble -87.64 56.02 -11.58 0.3 0.3 0.3 0.05 12 force
+summon minecraft:salmon -125.36 54.16 -21.30 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -125.36 54.16 -21.30 0.3 0.3 0.3 0.05 12 force

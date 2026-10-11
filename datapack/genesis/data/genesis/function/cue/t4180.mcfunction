@@ -1,1 +1,1 @@
-summon minecraft:dolphin -85.14 57.00 9.80 {PersistenceRequired:1b,Tags:["gen.made"]}
+summon minecraft:dolphin -119.49 57.00 15.22 {PersistenceRequired:1b,Tags:["gen.made"]}

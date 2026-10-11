@@ -21,7 +21,7 @@ LOBBY = (1000, 100, 1000)
 _meta = json.load(open(os.path.join(ROOT, "narration", "meta.json")))   # written by make_godvoice.py
 STRETCH = _meta["stretch"]  # how much the voice was slowed
 PRE = _meta["pre"]          # seconds of swell at the start of every narration clip before the first word
-CLEAR_Z = 30        # stage z of the clearing where they wake
+CLEAR_Z = 60        # stage z of the clearing where they wake
 
 # Everything is laid out on a "stage" with the viewer to the south looking north. The stage is then
 # turned a quarter so that the viewer looks east: the first sunrise comes up straight ahead, behind
@@ -41,7 +41,6 @@ def pt(x, y, z):
     return f"{wx:.2f} {y:.2f} {wz:.2f}"
 
 
-CAM0_S = (0.5, 66.0, 122.5)
 ADAM_S, EVE_S = (-1.5, CLEAR_Z + 0.5), (2.5, CLEAR_Z + 0.5)
 ADAM, EVE = pt(ADAM_S[0], 69, ADAM_S[1]), pt(EVE_S[0], 69, EVE_S[1])
 
@@ -61,13 +60,19 @@ def write(rel, data):
 
 
 # ---------------------------------------------------------------- the island
-N = 90
+# Eden: an island about two hundred blocks across. The clearing where they wake is near the south
+# shore; ahead of it lie a meadow, then a lake at sea level, then a mountain with a stream running down
+# into the lake. A river leaves the lake and winds to the sea on the right. Around these are a cherry
+# grove (left), a forest beyond the river (right), a dry grassland (far left) and a jungle (far right).
+N = 132
 xs = np.arange(-N, N + 1)
 X, Z = np.meshgrid(xs, xs, indexing="ij")
 R = np.hypot(X, Z)
 TH = np.arctan2(Z, X)
-coast = 68 + 7 * np.sin(3 * TH + 1.0) + 4 * np.sin(5 * TH + 2.2) + 2.5 * np.sin(9 * TH + 0.4)
+RC = 100
+coast = RC + 10 * np.sin(3 * TH + 1.0) + 6 * np.sin(5 * TH + 2.2) + 3.5 * np.sin(9 * TH + 0.4)
 d = 1 - R / coast                                   # 0 at the shore, 1 at the centre
+S0 = int(RC + 10 * math.sin(3 * math.pi / 2 + 1.0) + 6 * math.sin(5 * math.pi / 2 + 2.2) + 3.5 * math.sin(9 * math.pi / 2 + 0.4))  # the near shore
 
 
 def smooth(a):
@@ -83,41 +88,75 @@ def value_noise(scale, seed):
     return (g[ix, iz] * (1 - tx) + g[ix + 1, iz] * tx) * (1 - tz) + (g[ix, iz + 1] * (1 - tx) + g[ix + 1, iz + 1] * tx) * tz
 
 
-land = 1.2 + 2.2 * smooth(d / 0.12) + 4.0 * smooth((d - 0.1) / 0.7)
-land += 25 * np.exp(-(X ** 2 + (Z + 40) ** 2) / (2 * 16 ** 2))            # the hill, straight ahead
-land += 9 * np.exp(-((X + 40) ** 2 + (Z - 4) ** 2) / (2 * 12 ** 2))       # a lower rise to the left
-land += 8 * np.exp(-((X - 42) ** 2 + (Z - 0) ** 2) / (2 * 11 ** 2))       # and one to the right
-land += (value_noise(12, 5) - 0.5) * 2.4 * smooth(d / 0.2)
-height = np.where(d > 0, SEA + land, SEA + d * 70.0)
-clearing = smooth((16 - np.hypot(X, Z - CLEAR_Z)) / 7)                    # flat ground where they wake
+bump = lambda cx, cz, amp, sig: amp * np.exp(-((X - cx) ** 2 + (Z - cz) ** 2) / (2 * sig ** 2))
+MOUNT = (0, -64)
+land = 1.2 + 2.3 * smooth(d / 0.10) + 4.6 * smooth((d - 0.08) / 0.6)
+mountain = bump(MOUNT[0], MOUNT[1], 56, 19) + bump(-30, -52, 30, 13) + bump(28, -56, 22, 12)
+land += mountain * (0.85 + 0.3 * value_noise(9, 11))
+land += bump(-64, 8, 10, 16) + bump(62, 12, 9, 15)                       # low rises to the left and right
+land += (value_noise(14, 5) - 0.5) * 2.6 * smooth(d / 0.2)
+height = np.where(d > 0, SEA + land, SEA + d * 170.0)
+clearing = smooth((17 - np.hypot(X, Z - CLEAR_Z)) / 8)                    # flat ground where they wake
 height = height * (1 - clearing) + 68.0 * clearing
+
+# the lake: a hollow at sea level, so that when the land rises the water is simply left there
+LAKE = (0, -14)
+lake_e = (X / 27.0) ** 2 + ((Z - LAKE[1]) / 16.0) ** 2 + 0.3 * (value_noise(10, 21) - 0.5)
+height = np.where(lake_e < 1, 59.6 - 3.0 * smooth((1 - lake_e) / 0.6), SEA + (height - SEA) * smooth((lake_e - 1) / 0.7))
+# the river, from the lake's right-hand shore to the sea
+RIVER = [(22, -8), (34, 12), (36, 34), (46, 56), (62, 78), (82, 108)]
+dr = np.full(X.shape, 1e9)
+for (ax, az), (bx, bz) in zip(RIVER, RIVER[1:]):
+    t = np.clip(((X - ax) * (bx - ax) + (Z - az) * (bz - az)) / ((bx - ax) ** 2 + (bz - az) ** 2), 0, 1)
+    dr = np.minimum(dr, np.hypot(X - (ax + t * (bx - ax)), Z - (az + t * (bz - az))))
+dr = dr + 1.2 * (value_noise(8, 33) - 0.5)
+height = np.where(dr < 2.7, 59.4, SEA + (height - SEA) * smooth((dr - 2.7) / 6.0))
+height = np.where(d > 0, height, SEA + d * 170.0)
 H = np.maximum(np.round(height).astype(int), FLOOR)
-HMAX = int(H.max())
 hmap = {(int(x), int(z)): int(H[i, j]) for i, x in enumerate(xs) for j, z in enumerate(xs)}
+inland_water = {(x, z) for (x, z), h in hmap.items() if h < SEA and math.hypot(x, z) < coast[x + N, z + N] - 3}
+# a strip of sand level with the water all round the lake and river, where reeds can stand
+banks = set()
+for (x, z) in inland_water:
+    for dx in (-1, 0, 1):
+        for dz in (-1, 0, 1):
+            p = (x + dx, z + dz)
+            if hmap.get(p, 0) > SEA:
+                banks.add(p)
+for p in banks:
+    hmap[p] = SEA
+# the stream: a shallow channel straight down the mountain's near face into the lake
+stream = [z for z in range(LAKE[1] - 14, MOUNT[1] + 4, -1) if hmap[(0, z)] >= SEA]
+top = next((z for z in stream if hmap[(0, z)] >= 98), stream[-1])
+stream = [z for z in stream if z >= top]
+for z in stream:
+    hmap[(0, z)] -= 1
+SPRING = (0, hmap[(0, top)] + 1, top)
+HMAX = max(hmap.values())
 
 
 def top_material(h):
-    return "sand" if h <= SEA + 2 else ("stone" if h >= 88 else "dirt")
+    return "sand" if h <= SEA + 2 else ("snow_block" if h >= 113 else ("stone" if h >= 99 else "dirt"))
 
 
-def runs(cells):
+def runs(cells, lo=-N, hi=N):
     """Merge a {(x, z): key} layer into rectangles: [(x1, z1, x2, z2, key)]."""
     rows = {}
-    for z in range(-N, N + 1):
-        row, x = [], -N
-        while x <= N:
+    for z in range(lo, hi + 1):
+        row, x = [], lo
+        while x <= hi:
             m = cells.get((x, z))
             if m is None:
                 x += 1
                 continue
             x2 = x
-            while x2 + 1 <= N and cells.get((x2 + 1, z)) == m:
+            while x2 + 1 <= hi and cells.get((x2 + 1, z)) == m:
                 x2 += 1
             row.append((x, x2, m))
             x = x2 + 1
         rows[z] = row
     out, open_ = [], {}
-    for z in range(-N, N + 2):
+    for z in range(lo, hi + 2):
         cur = set(rows.get(z, []))
         for key in list(open_):
             if key not in cur:
@@ -136,64 +175,133 @@ for y in range(FLOOR + 1, HMAX + 1):
             cells[(x, z)] = top if (y > h - 3 and top != "stone") else "stone"
     layers[y] = [fill(x1, z1, x2, z2, y, f"minecraft:{m}") for x1, z1, x2, z2, m in runs(cells)]
 
+
+def zone(x, z, h=None):
+    h = hmap.get((x, z), 0) if h is None else h
+    if h >= 90 or math.hypot(x - MOUNT[0], z - MOUNT[1]) < 36:
+        return "mountain"
+    if x > 26 and z < -4:
+        return "jungle"
+    if x < -26 and z < -6:
+        return "savanna"
+    if x < -30:
+        return "cherry"
+    if x > 42:
+        return "forest"
+    return "meadow"
+
+
+BIOME = {"mountain": "minecraft:meadow", "jungle": "minecraft:jungle", "savanna": "minecraft:savanna",
+         "cherry": "minecraft:cherry_grove", "forest": "minecraft:flower_forest"}
+coarse = {}
+for cx in range(-N // 4, N // 4 + 1):
+    for cz in range(-N // 4, N // 4 + 1):
+        x, z = cx * 4 + 2, cz * 4 + 2
+        if hmap.get((x, z), 0) > SEA - 4 and zone(x, z) in BIOME:
+            coarse[(cx, cz)] = BIOME[zone(x, z)]
+BIOMES = []
+for x1, z1, x2, z2, b in runs(coarse, -N // 4, N // 4):
+    wx1, wx2 = -(z2 * 4 + 3) - 1, -(z1 * 4) - 1
+    BIOMES.append(f"fillbiome {wx1} 40 {x1 * 4} {wx2} 150 {x2 * 4 + 3} {b}")
+
 grass_cols = [(x, z, h) for (x, z), h in hmap.items() if top_material(h) == "dirt" and h > SEA]
-RING = 4.0
-ring_of = lambda x, z: int(math.hypot(x, z - 66) / RING)     # green spreads away from the near shore
+RING = 5.0
+ring_of = lambda x, z: int(math.hypot(x, z - (S0 - 2)) / RING)   # green spreads away from the near shore
 rings = {}
 for x, z, h in grass_cols:
     rings.setdefault(ring_of(x, z), []).append((x, z, h))
 NRINGS = max(rings) + 1
 
-# trees stay out of the long view from the near shore, over the clearing and the meadow, to the hill
-open_view = lambda x, z: (abs(x) < 11 and z > -18) or (abs(x) < 27 and -14 < z < CLEAR_Z + 12)
+# trees stay out of the long view from the near shore over the clearing, the meadow and the lake
+LAKE_S = LAKE[1] + 18                                             # the lake's near shore
+open_view = lambda x, z: (abs(x) < 13 and z > MOUNT[1] + 30) or (abs(x) < 31 and LAKE_S - 6 < z < CLEAR_Z + 14)
+near_people = lambda x, z, r=5: math.hypot(x, z - CLEAR_Z) < r
+TREES = {  # zone: (chance, spacing, [(feature, weight)])
+    "meadow": (0.12, 9, [("oak", 3), ("fancy_oak", 1), ("oak_bees_005", 1)]),
+    "cherry": (1.0, 7, [("cherry", 7), ("birch", 2), ("oak_bees_005", 1)]),
+    "forest": (1.0, 7, [("oak", 4), ("fancy_oak", 2), ("birch", 3)]),
+    "jungle": (1.0, 6, [("jungle_tree_no_vine", 6), ("mega_jungle_tree", 1), ("jungle_bush", 3)]),
+    "savanna": (1.0, 11, [("acacia", 1)]),
+    "mountain": (1.0, 7, [("spruce", 3), ("pine", 2)]),
+}
 tree_sites, taken = [], []
-cands = [c for c in grass_cols if 65 <= c[2] <= 84 and not open_view(c[0], c[1])]
+cands = [c for c in grass_cols if 65 <= c[2] <= 98 and not open_view(c[0], c[1]) and not near_people(c[0], c[1], 13)]
 random.shuffle(cands)
 for x, z, h in cands:
-    if all((x - a) ** 2 + (z - b) ** 2 >= 49 for a, b in taken):
+    chance, space, kinds = TREES[zone(x, z, h)]
+    if random.random() < chance and all((x - a) ** 2 + (z - b) ** 2 >= space * space for a, b in taken):
         taken.append((x, z))
-        kind = random.choices(["oak", "fancy_oak", "birch", "cherry", "oak_bees_005"], [34, 16, 20, 22, 8])[0]
-        tree_sites.append((x, z, h, kind))
-    if len(tree_sites) >= 80:
+        tree_sites.append((x, z, h, random.choices([k for k, _ in kinds], [w for _, w in kinds])[0]))
+    if len(tree_sites) >= 300:
         break
 tree_sites.sort(key=lambda t: -t[1])                         # nearest the viewer first
-near_tree = lambda x, z, r=3: any((x - a) ** 2 + (z - b) ** 2 <= r * r for a, b in taken)
-near_people = lambda x, z, r=5: math.hypot(x, z - CLEAR_Z) < r
+tree_grid = {}
+for a, b in taken:
+    tree_grid.setdefault((a // 8, b // 8), []).append((a, b))
+
+
+def near_tree(x, z, r=3):
+    return any((x - a) ** 2 + (z - b) ** 2 <= r * r
+               for gx in (x // 8 - 1, x // 8, x // 8 + 1) for gz in (z // 8 - 1, z // 8, z // 8 + 1)
+               for a, b in tree_grid.get((gx, gz), []))
+
+
 open_cols = [c for c in grass_cols if not near_tree(c[0], c[1]) and not near_people(c[0], c[1], 4)]
-FLOWERS = ["dandelion", "poppy", "cornflower", "oxeye_daisy", "azure_bluet", "allium", "wildflowers", "pink_petals"]
+FLOWERS = ["dandelion", "poppy", "cornflower", "oxeye_daisy", "azure_bluet", "allium", "wildflowers"]
+GROUND = {  # zone: [(chance, what)]; what is a block, or "feature:<name>"
+    "meadow": [(0.22, "short_grass"), (0.07, FLOWERS)],
+    "cherry": [(0.14, "pink_petals"), (0.12, "short_grass"), (0.04, FLOWERS)],
+    "forest": [(0.15, "short_grass"), (0.10, FLOWERS + ["lily_of_the_valley"]), (0.015, "sweet_berry_bush[age=3]"), (0.004, "pumpkin")],
+    "jungle": [(0.24, "short_grass"), (0.12, "fern"), (0.035, "feature:bamboo_no_podzol"), (0.010, "melon")],
+    "savanna": [(0.42, "short_grass")],
+    "mountain": [(0.10, "short_grass"), (0.03, FLOWERS)],
+}
 plants, plant_cols = {}, set()
+
+
+def plant(x, z, h, what):
+    bx, bz = wb(x, z)
+    cmd = (f"place feature minecraft:{what[8:]} {bx} {h + 1} {bz}" if what.startswith("feature:")
+           else f"setblock {bx} {h + 1} {bz} minecraft:{what}")
+    plants.setdefault(ring_of(x, z), []).append(cmd)
+    plant_cols.add((x, z))
+
+
 for x, z, h in open_cols:
-    r = random.random()
-    block = None
-    if r < 0.20:
-        block = "short_grass"
-    elif r < 0.27:
-        block = random.choice(FLOWERS)
-    elif r < 0.285 and not open_view(x, z):
-        block = "sweet_berry_bush[age=3]"
-    elif r < 0.2865 and not open_view(x, z):
-        block = random.choice(["melon", "pumpkin"])
-    if block:
+    r, acc = random.random(), 0.0
+    for chance, what in GROUND[zone(x, z, h)]:
+        acc += chance
+        if r < acc:
+            if what in ("melon", "pumpkin") and open_view(x, z):
+                break
+            plant(x, z, h, random.choice(what) if isinstance(what, list) else what)
+            break
+for (x, z) in banks:                                          # reeds on the banks, lilies on the lake
+    if random.random() < 0.16 and not open_view(x, z):
         bx, bz = wb(x, z)
-        plants.setdefault(ring_of(x, z), []).append(f"setblock {bx} {h + 1} {bz} minecraft:{block}")
-        plant_cols.add((x, z))
+        plants.setdefault(ring_of(x, z), []).append(f"fill {bx} {SEA + 1} {bz} {bx} {SEA + random.randint(2, 3)} {bz} minecraft:sugar_cane")
+for (x, z) in inland_water:
+    if lake_e[x + N, z + N] < 0.9 and random.random() < 0.018:
+        bx, bz = wb(x, z)
+        plants.setdefault(ring_of(x, z), []).append(f"setblock {bx} {SEA + 1} {bz} minecraft:lily_pad")
+CAM0_S = (0.5, 66.0, S0 + 56.5)
 
 # ---------------------------------------------------------------- creatures
 # id -> (how it looks to someone who has no word for it, count, group)
 CREATURES = {
-    "cow": ("large and heavy, four legs, a patched hide, horns, a deep lowing voice", 6, "cattle"),
-    "sheep": ("round and woolly, four thin legs, bleats, eats the grass", 8, "cattle"),
-    "pig": ("pink, stout, a flat snout, grunts, roots in the ground", 5, "cattle"),
-    "horse": ("tall and swift, long legs, a mane and a long tail", 5, "cattle"),
+    "cow": ("large and heavy, four legs, a patched hide, horns, a deep lowing voice", 9, "cattle"),
+    "sheep": ("round and woolly, four thin legs, bleats, eats the grass", 12, "cattle"),
+    "pig": ("pink, stout, a flat snout, grunts, roots in the ground", 7, "cattle"),
+    "horse": ("tall and swift, long legs, a mane and a long tail", 8, "cattle"),
     "donkey": ("like the swift tall one but smaller, with long ears and a loud bray", 3, "cattle"),
-    "rabbit": ("small, long ears, hops, very quick", 8, "creeping"),
-    "frog": ("small, wet skin, leaps, croaks, a long tongue", 5, "creeping"),
-    "turtle": ("carries a round shell on its back, slow on land, graceful in water", 4, "creeping"),
-    "armadillo": ("small, covered in hard plates, rolls into a ball", 4, "creeping"),
-    "bee": ("tiny, striped, hums, goes from flower to flower", 6, "creeping"),
-    "llama": ("tall with a long woolly neck, proud, sometimes spits", 4, "beast"),
-    "panda": ("big, round, black and white, sits and eats, rolls over", 3, "beast"),
-    "camel": ("very tall, a hump on its back, long legs, kneels to rest", 2, "beast"),
+    "rabbit": ("small, long ears, hops, very quick", 12, "creeping"),
+    "frog": ("small, wet skin, leaps, croaks, a long tongue", 8, "creeping"),
+    "turtle": ("carries a round shell on its back, slow on land, graceful in water", 6, "creeping"),
+    "armadillo": ("small, covered in hard plates, rolls into a ball", 6, "creeping"),
+    "bee": ("tiny, striped, hums, goes from flower to flower", 10, "creeping"),
+    "llama": ("tall with a long woolly neck, proud, sometimes spits", 6, "beast"),
+    "panda": ("big, round, black and white, sits and eats, rolls over", 5, "beast"),
+    "camel": ("very tall, a hump on its back, long legs, kneels to rest", 4, "beast"),
     "chicken": ("a small bird that walks more than it flies, clucks, pecks at seeds", 8, "fowl"),
     "parrot": ("a bright bird of many colours that flies and copies sounds", 26, "fowl"),
     "cod": ("a plain brown fish that swims in shoals", 30, "sea"),
@@ -205,8 +313,8 @@ CREATURES = {
     "nautilus": ("a swimmer in a great coiled shell, with trailing arms", 4, "sea"),
 }
 KINDS = ["whale"] + list(CREATURES)          # the look query answers 1 + the index into this list
-hill = max(hmap, key=hmap.get)
 cherries = [t for t in tree_sites if t[3] == "cherry"]
+zone_centre = lambda name: tuple(int(v) for v in np.mean([(t[0], t[1]) for t in tree_sites if zone(t[0], t[1], t[2]) == name] or [(0, 0)], axis=0))
 
 
 def place(name, x, z, look):
@@ -215,13 +323,18 @@ def place(name, x, z, look):
 
 
 PLACES = dict([
-    place("the hill", hill[0], hill[1] + 3, "the high place ahead of where you woke; from the top you can see all the land and the water around it"),
-    place("the near shore", 0, 62, "behind where you woke, where the land ends in pale sand and the great water begins"),
+    place("the lake", 0, LAKE_S + 2, "a wide still water in the middle of the land, ahead of where you woke; lilies float on it and reeds grow at its edge"),
+    place("the falling stream", 6, LAKE[1] - 20, "where water comes down the face of the mountain and runs into the lake"),
+    place("the river", 37, 30, "running water that leaves the lake and goes down to the great water"),
+    place("the mountain", 30, MOUNT[1] + 22, "the great height beyond the lake, grey stone above the trees and white at the very top"),
+    place("the near shore", 0, S0 - 4, "behind where you woke, where the land ends in pale sand and the great water begins"),
     place("the clearing", 0, CLEAR_Z + 2, "the flat ground where you both first opened your eyes"),
-    place("the meadow", 0, 6, "the wide open grass between the clearing and the hill, where the creatures graze"),
-    place("the left rise", -38, 6, "a low rise of ground with trees on it"),
-    place("the right rise", 40, 2, "another low rise, on the other side"),
-] + ([place("the pink trees", cherries[0][0] + 2, cherries[0][1] + 2, "trees covered in pale pink blossom that drifts down")] if cherries else []))
+    place("the meadow", 0, CLEAR_Z - 26, "the wide open grass between the clearing and the lake, where the creatures graze"),
+    place("the pink trees", *zone_centre("cherry"), "a grove to the left, every tree covered in pale pink blossom that drifts down"),
+    place("the forest", *zone_centre("forest"), "tall green trees across the river, with flowers under them"),
+    place("the jungle", *zone_centre("jungle"), "a thick tangle of huge trees and tall green canes, beyond the river and the lake"),
+    place("the dry grassland", *zone_centre("savanna"), "open yellow-green ground with flat-topped trees, far to the left"),
+])
 json.dump({"kinds": KINDS,
            "look": {"whale": "enormous, the greatest of all that swim, shaped like the leaping grey one but vast",
                     **{k: v[0] for k, v in CREATURES.items()}},
@@ -230,11 +343,15 @@ json.dump({"kinds": KINDS,
            "places": PLACES},
           open(os.path.join(ROOT, "companion", "creatures.json"), "w"), indent=1)
 
-meadow = [c for c in open_cols if c not in plant_cols and (c[0], c[1]) not in plant_cols and 65 <= c[2] <= 76
-          and abs(c[0]) < 27 and -13 < c[1] < CLEAR_Z - 5]
-edges = [c for c in open_cols if (c[0], c[1]) not in plant_cols and c[2] <= 70 and 12 < abs(c[0]) < 30 and CLEAR_Z - 4 < c[1] < CLEAR_Z + 16] or meadow
-random.shuffle(meadow)
-random.shuffle(edges)
+free = [c for c in open_cols if (c[0], c[1]) not in plant_cols]
+meadow = [c for c in free if zone(*c) == "meadow" and 66 <= c[2] <= 73 and abs(c[0]) < 30 and LAKE_S + 3 < c[1] < CLEAR_Z - 6]
+edges = [c for c in free if zone(*c) == "meadow" and c[2] <= 72 and 12 < abs(c[0]) < 30 and CLEAR_Z - 4 < c[1] < CLEAR_Z + 16] or meadow
+lake_shore = [(x, z, SEA) for (x, z) in banks if abs(x) < 30 and z > LAKE[1] + 4 and lake_e[x + N, z + N] < 2.2] or meadow
+nearest = lambda name: sorted([c for c in free if zone(*c) == name and c[2] < 90], key=lambda c: math.hypot(c[0], c[1] - 20))[:160] or meadow
+POOL = {"frog": lake_shore, "turtle": lake_shore, "armadillo": nearest("savanna"), "camel": nearest("savanna"),
+        "panda": nearest("jungle"), "llama": nearest("mountain")}
+for pool in [meadow, edges, lake_shore] + list(POOL.values()):
+    random.shuffle(pool)
 _used = [0]
 
 
@@ -334,12 +451,12 @@ SPIRIT0, SPIRIT1 = tc(2, 2), E[2] + 20
 sound(SPIRIT0, f"{NS}:sfx.wind", 0.9)
 sound(SPIRIT0, "minecraft:item.elytra.flying", 0.3, 0.5)
 for k, tick in enumerate(range(SPIRIT0, SPIRIT1, 2)):      # a glimmer passes over the unseen water
-    z = 126 - 110 * k / max(1, (SPIRIT1 - SPIRIT0) // 2)
+    z = S0 + 60 - 110 * k / max(1, (SPIRIT1 - SPIRIT0) // 2)
     at(tick, [f"particle minecraft:glow {pt(0.5, 63.4, z)} 0.3 0.05 9 0 10 force",
               f"particle minecraft:end_rod {pt(0.5, 64.2, z)} 0.3 0.3 8 0.01 2 force"])
 ORB = tw(3, "Let there be light") - 6
 LIGHT = tc(3, 1)
-orb_at = pt(0.5, 82, 50)
+orb_at = pt(0.5, 86, S0 - 16)
 orb = lambda s: (f"transformation:{{translation:[{-s / 2:.3f}f,0f,{-0.7071 * s:.3f}f],left_rotation:[0.3827f,0f,0f,0.9239f],"
                  f"scale:[{s}f,{s}f,{s}f],right_rotation:[0f,0f,0f,1f]}}")
 at(ORB, f'summon minecraft:block_display {orb_at} {{Tags:["gen.orb"],block_state:"minecraft:pearlescent_froglight",'
@@ -378,8 +495,8 @@ bell(E[8])
 music(S[9], "earth")
 STIR, RISE = tw(9, "be gathered together"), tw(9, "let the dry land appear")
 for tick in range(STIR, RISE + 40, 5):
-    at(tick, ["particle minecraft:bubble_pop 0 63 0 42 0.2 42 0.01 500 force",
-              "particle minecraft:splash 0 63.2 0 40 0.3 40 0.2 400 force"])
+    at(tick, ["particle minecraft:bubble_pop 0 63 0 62 0.2 62 0.01 800 force",
+              "particle minecraft:splash 0 63.2 0 60 0.3 60 0.2 700 force"])
 sound(STIR, "minecraft:ambient.underwater.loop", 0.8, 0.8)
 sound(RISE, f"{NS}:sfx.rise", 1.0)
 sound(RISE, "minecraft:entity.warden.emerge", 0.9, 0.5)
@@ -391,12 +508,14 @@ for k, y in enumerate(under):                               # the unseen part co
 RISE2 = RISE + len(under) * 2
 step = max(2, (E[9] + T(GAP[9]) - 24 - RISE2) // len(above))
 for k, y in enumerate(above):
-    at(RISE2 + k * step, layers[y] + ["particle minecraft:splash 0 63.2 0 46 0.4 46 0.3 300 force",
-                                      f"particle minecraft:cloud 0 {y} 0 30 0.5 30 0.02 50 force",
-                                      f"particle minecraft:dust_plume 0 {y} 0 26 0.4 26 0.02 40 force"])
+    at(RISE2 + k * step, layers[y] + ["particle minecraft:splash 0 63.2 0 68 0.4 68 0.3 500 force",
+                                      f"particle minecraft:cloud 0 {y} 0 45 0.5 45 0.02 80 force",
+                                      f"particle minecraft:dust_plume 0 {y} 0 40 0.4 40 0.02 60 force"])
     if k % 5 == 0:
         sound(RISE2 + k * step, "minecraft:entity.generic.splash", 0.6, 0.5)
 sound(tc(10, 1), "minecraft:ambient.underwater.exit", 0.7, 0.7)
+_sx, _sz = wb(SPRING[0], SPRING[2])                         # the spring on the mountain starts to run
+at(tc(10, 1), [f"setblock {_sx} {SPRING[1]} {_sz} minecraft:water", f"particle minecraft:splash {_sx} {SPRING[1] + 1} {_sz} 0.5 0.5 0.5 0.2 60 force"])
 GREEN = tw(11, "grass")
 gstep = max(1, (E[11] + T(GAP[11]) - GREEN) // (NRINGS + 2))
 sound(GREEN, f"{NS}:sfx.growth", 0.9)
@@ -417,7 +536,7 @@ def grow(tick, site):
               f"particle minecraft:composter {bx} {h + 2} {bz} 1 2 1 0 16 force"])
 
 
-FIRST = 12
+FIRST = 30
 for k, site in enumerate(tree_sites[:FIRST]):               # "and the fruit tree yielding fruit"
     grow(max(tw(11, "the fruit tree"), GREEN + (ring_of(site[0], site[1]) + 3) * gstep) + k * 4, site)
 T12a, T12b = tw(12, "and the tree yielding fruit"), E[12] + T(GAP[12]) - 20
@@ -445,7 +564,7 @@ for k in range(10):
     sound(STARS + k * 7, "minecraft:block.amethyst_block.chime", 0.7, 0.9 + k * 0.1)
 for tick in range(STARS + 10, E[16] + 70, 6):               # a few of them fall
     a = random.uniform(-70, 70)
-    at(tick, f"particle minecraft:end_rod {pt(a, random.uniform(120, 150), random.uniform(-40, 60))} 0.2 0.2 0.2 0.6 14 force")
+    at(tick, f"particle minecraft:end_rod {pt(a * 1.5, random.uniform(150, 190), random.uniform(-80, 80))} 0.2 0.2 0.2 0.6 14 force")
 lapse(S[17], E[17] + 10, 67000, 73000)                      # they take up their paths: dawn
 lapse(tc(18, 0), tc(18, 0, True), 73000, 97000, 73000)      # one whole day and night
 lapse(tc(18, 1), E[18], 73000, 78000)
@@ -453,7 +572,7 @@ lapse(S[19], E[19] + 30, 78000, 102000, 78000)
 bell(E[19])
 # ---- the fifth day: the waters and the air
 music(S[20], "waters")
-SEA_BOX = lambda: (random.uniform(-22, 22), random.uniform(57, 61), random.uniform(78, 116))
+SEA_BOX = lambda: (random.uniform(-22, 22), random.uniform(57, 61), random.uniform(S0 + 10, S0 + 48))
 SWIM = tw(20, "the moving creature") - 10
 k = 0
 for kind, (_, count, group) in CREATURES.items():
@@ -464,13 +583,17 @@ for kind, (_, count, group) in CREATURES.items():
                                      f"particle minecraft:splash {pt(x, 63.2, z)} 0.3 0.1 0.3 0.1 8 force"])
             k += 1
 for i in range(4):                                          # the leaping ones leap
-    x, z = random.uniform(-14, 14), random.uniform(80, 90)
+    x, z = random.uniform(-14, 14), random.uniform(S0 + 12, S0 + 22)
     at(SWIM + 14 + i * 9, [summon("dolphin", x, 61, z, ",Motion:[0.0d,0.75d,0.0d]"),
                            f"particle minecraft:splash {pt(x, 63.3, z)} 0.6 0.3 0.6 0.4 60 force"])
+lake_water = [p for p in inland_water if lake_e[p[0] + N, p[1] + N] < 0.6]
+for i in range(10):                                         # and the lake has its own
+    x, z = random.choice(lake_water)
+    at(SWIM + 20 + i * 5, [summon("salmon" if i % 2 else "cod", x + 0.5, 60.5, z + 0.5), f"particle minecraft:splash {pt(x + 0.5, 63.2, z + 0.5)} 0.3 0.1 0.3 0.1 10 force"])
 sound(SWIM, "minecraft:entity.dolphin.splash", 0.8, 0.8)
 sound(SWIM + 20, "minecraft:entity.dolphin.jump", 0.9, 1.0)
 FOWL = tw(20, "and fowl that may fly")
-air = lambda: (random.uniform(-26, 26), random.uniform(66, 76), random.uniform(68, 92))
+air = lambda: (random.uniform(-26, 26), random.uniform(66, 78), random.uniform(S0 - 4, S0 + 20))
 for i in range(12):
     x, y, z = air()
     at(FOWL + i * 4, appear("parrot", x, y, z, f",Variant:{i % 5}"))
@@ -478,9 +601,9 @@ sound(FOWL, f"{NS}:sfx.birds", 0.9)
 sound(FOWL, "minecraft:entity.parrot.fly", 1.0, 1.0)
 WHALES = tw(21, "great whales")
 whale = lambda s: f',Invulnerable:1b,Tags:["gen.made","gen.whale"],attributes:[{{id:"minecraft:scale",base:{s}}}]'
-at(WHALES, [summon("dolphin", -12, 53, 80, whale(9.0)).replace('Tags:["gen.made"],', ""),
-            summon("dolphin", 15, 52, 76, whale(7.0)).replace('Tags:["gen.made"],', ""),
-            f"particle minecraft:bubble {pt(0.5, 54, 80)} 10 3 4 0.1 200 force"])
+at(WHALES, [summon("dolphin", -12, 54, S0 + 12, whale(9.0)).replace('Tags:["gen.made"],', ""),
+            summon("dolphin", 15, 53, S0 + 8, whale(7.0)).replace('Tags:["gen.made"],', ""),
+            f"particle minecraft:bubble {pt(0.5, 54, S0 + 12)} 10 3 4 0.1 200 force"])
 sound(WHALES, f"{NS}:sfx.whale", 1.0)
 sound(WHALES, "minecraft:entity.elder_guardian.ambient", 0.8, 0.5)
 MOVETH = tw(21, "every living creature that moveth")
@@ -492,7 +615,7 @@ for kind, (_, count, group) in CREATURES.items():
             at(MOVETH + (k % 30) * 3, [summon(kind, x, y - 3, z), f"particle minecraft:bubble {pt(x, y - 3, z)} 0.3 0.3 0.3 0.05 12 force"])
             k += 1
 for i in range(3):
-    at(MOVETH + 20 + i * 12, summon("dolphin", random.uniform(-16, 16), 57, random.uniform(82, 100)))
+    at(MOVETH + 20 + i * 12, summon("dolphin", random.uniform(-16, 16), 57, random.uniform(S0 + 14, S0 + 32)))
 WINGED = tw(21, "and every winged fowl")
 for i in range(8):
     x, z, h = edges[i % len(edges)]
@@ -520,7 +643,7 @@ for v, order in ((24, [("cattle", "cattle"), ("creeping", "and creeping thing"),
         for kind, count in by_group(group):
             n = (count + 1) // 2 if v == 24 else count // 2
             for _ in range(n):
-                at(t0 + i * 3, from_earth(kind, edges if kind in ("turtle", "frog") else meadow))
+                at(t0 + i * 3, from_earth(kind, POOL.get(kind, meadow)))
                 i += 1
 sound(tw(24, "cattle"), "minecraft:entity.cow.ambient", 1.0, 0.9)
 sound(tw(24, "cattle") + 25, "minecraft:entity.horse.ambient", 1.0, 1.0)
@@ -566,7 +689,7 @@ at(tw(29, "and every tree"), [f"particle minecraft:glow {pt(x + 0.5, h + 5, z + 
 at(tw(29, "to you it shall be for meat"), ["give @a[tag=gen.human] minecraft:apple 6", "give @a[tag=gen.human] minecraft:sweet_berries 8",
                                            "give @a[tag=gen.human] minecraft:melon_slice 6"])
 sound(tw(29, "to you it shall be for meat"), "minecraft:block.amethyst_block.chime", 1.0, 1.2)
-at(tw(30, "every green herb"), f"particle minecraft:happy_villager {pt(0.5, 69.5, 6)} 18 0.6 14 0 200 force")
+at(tw(30, "every green herb"), f"particle minecraft:happy_villager {pt(0.5, 69.5, CLEAR_Z - 28)} 22 0.6 16 0 260 force")
 lapse(tc(31, 0), tc(31, 0, True), 78000, 82500)             # very good: the long gold of afternoon
 lapse(tc(31, 1), E[31] + 30, 82500, 90000)                  # evening; then night and all the host of stars
 bell(E[31])
@@ -578,16 +701,16 @@ at(END, f"function {NS}:free")
 
 # ---------------------------------------------------------------- the camera
 cz = CLEAR_Z + 0.5
-cam_keys = [(0, CAM0_S), (LIFT, CAM0_S), (E[7] + 30, (0.5, 74, 122.5)),
-            (RISE2, (0.5, 74, 122.5)), (E[10], (0.5, 94, 134.5)),
-            (S[11], (0.5, 94, 134.5)), (E[12] + 40, (0.5, 84, 106.5)),
-            (S[20] - 30, (0.5, 84, 106.5)), (SWIM, (0.5, 64.3, 96.5)),
-            (S[21] - 6, (0.5, 64.3, 96.5)), (WHALES - 4, (0.5, 55.5, 96.5)),
-            (WINGED, (0.5, 55.5, 96.5)), (WINGED + 50, (0.5, 64.3, 96.5)),
-            (S[22], (0.5, 64.3, 96.5)), (E[22], (0.5, 70, 96.5)),
-            (S[23], (0.5, 70, 96.5)), (tw(24, "the living creature"), (0.5, 80, cz + 34)),
-            (S[25], (0.5, 80, cz + 34)), (E[25], (0.5, 75, cz + 24)),
-            (S[26] - 20, (0.5, 75, cz + 24)), (BEAM + 30, (0.5, 69.4, cz + 12)),
+cam_keys = [(0, CAM0_S), (LIFT, CAM0_S), (E[7] + 30, (0.5, 74, S0 + 56.5)),
+            (RISE2, (0.5, 74, S0 + 56.5)), (E[10], (0.5, 112, S0 + 78.5)),
+            (S[11], (0.5, 112, S0 + 78.5)), (E[12] + 40, (0.5, 98, S0 + 42.5)),
+            (S[20] - 30, (0.5, 98, S0 + 42.5)), (SWIM, (0.5, 64.3, S0 + 28.5)),
+            (S[21] - 6, (0.5, 64.3, S0 + 28.5)), (WHALES - 4, (0.5, 55.5, S0 + 28.5)),
+            (WINGED, (0.5, 55.5, S0 + 28.5)), (WINGED + 50, (0.5, 64.3, S0 + 28.5)),
+            (S[22], (0.5, 64.3, S0 + 28.5)), (E[22], (0.5, 72, S0 + 28.5)),
+            (S[23], (0.5, 72, S0 + 28.5)), (tw(24, "the living creature"), (0.5, 86, cz + 38)),
+            (S[25], (0.5, 86, cz + 38)), (E[25], (0.5, 78, cz + 26)),
+            (S[26] - 20, (0.5, 78, cz + 26)), (BEAM + 30, (0.5, 69.4, cz + 12)),
             (E[27] + 14, (0.5, 69.4, cz + 12)), (AWAKE, (0.5, 69.0, cz + 1.0))]
 for (t0, p0), (t1, p1) in zip(cam_keys, cam_keys[1:]):
     assert t1 >= t0, (t0, t1)
@@ -625,8 +748,9 @@ fn("setup", ["scoreboard players set #phase gen 0", "scoreboard players set #t g
        ("player_movement_check", "false"), ("max_command_sequence_length", "10000000"),
        ("max_block_modifications", "10000000"), ("spectators_generate_chunks", "true")]]
    + [f"time of {NS}:cut set 0", f"time of {NS}:cut pause", f"{DAY} set 6000", f"{DAY} pause",
-      "forceload add -144 -96 95 95", f"forceload add {lx - 8} {lz - 8} {lx + 10} {lz + 8}",
-      f"setworldspawn {lx - 3} {ly} {lz}", f"schedule function {NS}:setup2 60t"])
+      "forceload add -192 -136 -65 135", "forceload add -64 -136 39 135", "forceload add 40 -136 135 135", f"forceload add {lx - 8} {lz - 8} {lx + 10} {lz + 8}",
+      f"setworldspawn {lx - 3} {ly} {lz}", f"schedule function {NS}:setup2 60t", f"schedule function {NS}:setup3 120t"])
+fn("setup3", BIOMES)   # the different kinds of country, laid over the sea before any land exists
 # The lobby is a short hall running east. The stones and their names are at the far end, so whoever
 # walks up to choose is already facing the way everything will happen. That matters in VR, where the
 # game cannot turn the player's head for them.

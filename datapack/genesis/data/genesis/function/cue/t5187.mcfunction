@@ -1,6 +1,6 @@
-summon minecraft:turtle -36.50 68.00 -13.50 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:poof -36.50 68.60 -13.50 0.4 0.5 0.4 0.02 14 force
-particle minecraft:happy_villager -36.50 68.80 -13.50 0.5 0.6 0.5 0 8 force
-particle minecraft:block{block_state:"minecraft:dirt"} -36.50 68.20 -13.50 0.4 0.3 0.4 0.1 24 force
-particle minecraft:dust_plume -36.50 68.00 -13.50 0.3 0.2 0.3 0.02 10 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -59.220 77.360 0.500
+summon minecraft:frog -3.50 63.00 6.50 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:poof -3.50 63.60 6.50 0.4 0.5 0.4 0.02 14 force
+particle minecraft:happy_villager -3.50 63.80 6.50 0.5 0.6 0.5 0 8 force
+particle minecraft:block{block_state:"minecraft:dirt"} -3.50 63.20 6.50 0.4 0.3 0.4 0.1 24 force
+particle minecraft:dust_plume -3.50 63.00 6.50 0.3 0.2 0.3 0.02 10 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -92.164 81.776 0.500

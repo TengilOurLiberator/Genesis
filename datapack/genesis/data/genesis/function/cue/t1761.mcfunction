@@ -1,1 +1,63 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -125.800 79.500 0.500
+fill 69 122 10 69 122 11 minecraft:snow_block
+fill 69 122 -8 69 122 -3 minecraft:snow_block
+fill 68 122 -4 68 122 -2 minecraft:snow_block
+fill 68 122 9 68 122 12 minecraft:snow_block
+fill 68 122 -11 68 122 -7 minecraft:snow_block
+fill 68 122 -6 68 122 -5 minecraft:stone
+fill 67 122 -8 67 122 -4 minecraft:stone
+fill 67 122 -13 67 122 -9 minecraft:snow_block
+fill 67 122 10 67 122 11 minecraft:stone
+fill 67 122 12 67 122 13 minecraft:snow_block
+fill 67 122 -3 67 122 -2 minecraft:snow_block
+fill 66 122 8 67 122 9 minecraft:snow_block
+fill 66 122 -14 66 122 -11 minecraft:snow_block
+fill 66 122 -10 66 122 -3 minecraft:stone
+fill 66 122 10 66 122 12 minecraft:stone
+fill 65 122 13 66 122 14 minecraft:snow_block
+fill 65 122 9 65 122 12 minecraft:stone
+fill 65 122 -15 65 122 -12 minecraft:snow_block
+fill 65 122 -11 65 122 -3 minecraft:stone
+fill 64 122 -15 64 122 -13 minecraft:snow_block
+fill 62 122 14 64 122 14 minecraft:snow_block
+fill 62 122 -16 63 122 -13 minecraft:snow_block
+fill 61 122 -12 64 122 -3 minecraft:stone
+fill 61 122 -17 61 122 -13 minecraft:snow_block
+fill 60 122 7 65 122 8 minecraft:snow_block
+fill 60 122 9 64 122 13 minecraft:stone
+fill 60 122 14 61 122 15 minecraft:snow_block
+fill 60 122 -18 60 122 -12 minecraft:snow_block
+fill 59 122 -2 66 122 -1 minecraft:snow_block
+fill 59 122 -11 60 122 -3 minecraft:stone
+fill 59 122 7 59 122 9 minecraft:snow_block
+fill 59 122 -21 59 122 -12 minecraft:snow_block
+fill 58 122 -12 58 122 -4 minecraft:stone
+fill 58 122 -3 58 122 -1 minecraft:snow_block
+fill 58 122 -22 58 122 -13 minecraft:snow_block
+fill 57 122 -13 57 122 -4 minecraft:stone
+fill 57 122 -23 57 122 -14 minecraft:snow_block
+fill 56 122 10 59 122 12 minecraft:stone
+fill 56 122 8 58 122 9 minecraft:snow_block
+fill 56 122 -23 56 122 -16 minecraft:snow_block
+fill 56 122 -15 56 122 -4 minecraft:stone
+fill 55 122 8 55 122 10 minecraft:snow_block
+fill 54 122 13 59 122 15 minecraft:snow_block
+fill 54 122 -3 57 122 -2 minecraft:snow_block
+fill 54 122 -18 55 122 -4 minecraft:stone
+fill 54 122 11 55 122 12 minecraft:stone
+fill 54 122 9 54 122 10 minecraft:snow_block
+fill 53 122 -23 55 122 -19 minecraft:snow_block
+fill 53 122 9 53 122 15 minecraft:snow_block
+fill 52 122 -4 53 122 -3 minecraft:snow_block
+fill 52 122 -18 53 122 -5 minecraft:stone
+fill 52 122 10 52 122 14 minecraft:snow_block
+fill 52 122 -22 52 122 -19 minecraft:snow_block
+fill 51 122 -17 51 122 -11 minecraft:stone
+fill 51 122 -10 51 122 -4 minecraft:snow_block
+fill 51 122 -21 51 122 -18 minecraft:snow_block
+fill 51 122 11 51 122 12 minecraft:snow_block
+fill 50 122 -20 50 122 -5 minecraft:snow_block
+fill 49 122 -18 49 122 -13 minecraft:snow_block
+particle minecraft:splash 0 63.2 0 68 0.4 68 0.3 500 force
+particle minecraft:cloud 0 122 0 45 0.5 45 0.02 80 force
+particle minecraft:dust_plume 0 122 0 40 0.4 40 0.02 60 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -156.550 84.450 0.500

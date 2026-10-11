@@ -1,2 +1,2 @@
-summon minecraft:salmon -87.00 60.87 5.74 {PersistenceRequired:1b,Tags:["gen.made"]}
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -96.500 67.637 0.500
+summon minecraft:salmon -125.96 57.16 -10.90 {PersistenceRequired:1b,Tags:["gen.made"]}
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 68.808 0.500

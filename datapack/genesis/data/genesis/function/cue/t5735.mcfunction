@@ -1,9 +1,9 @@
 execute as @a at @s run playsound genesis:narration.god.v27 voice @s ~ ~ ~ 1 1 1
-particle minecraft:end_rod -30.50 84.00 -1.50 0.12 8 0.12 0.002 22 force
-particle minecraft:glow -30.50 84.00 -1.50 0.2 8 0.2 0 6 force
-particle minecraft:dust_plume -30.50 69.10 -1.50 0.3 0.1 0.3 0.01 3 force
-particle minecraft:end_rod -30.50 70.00 -1.50 0.25 0.9 0.25 0.01 3 force
-particle minecraft:end_rod -30.50 84.00 2.50 0.12 8 0.12 0.002 22 force
-particle minecraft:glow -30.50 84.00 2.50 0.2 8 0.2 0 6 force
-particle minecraft:dust_plume -30.50 69.10 2.50 0.3 0.1 0.3 0.01 3 force
-particle minecraft:end_rod -30.50 70.00 2.50 0.25 0.9 0.25 0.01 3 force
+particle minecraft:end_rod -60.50 84.00 -1.50 0.12 8 0.12 0.002 22 force
+particle minecraft:glow -60.50 84.00 -1.50 0.2 8 0.2 0 6 force
+particle minecraft:dust_plume -60.50 69.10 -1.50 0.3 0.1 0.3 0.01 3 force
+particle minecraft:end_rod -60.50 70.00 -1.50 0.25 0.9 0.25 0.01 3 force
+particle minecraft:end_rod -60.50 84.00 2.50 0.12 8 0.12 0.002 22 force
+particle minecraft:glow -60.50 84.00 2.50 0.2 8 0.2 0 6 force
+particle minecraft:dust_plume -60.50 69.10 2.50 0.3 0.1 0.3 0.01 3 force
+particle minecraft:end_rod -60.50 70.00 2.50 0.25 0.9 0.25 0.01 3 force

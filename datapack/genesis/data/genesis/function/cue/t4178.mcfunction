@@ -1,4 +1,4 @@
-summon minecraft:cod -107.25 56.52 4.68 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:bubble -107.25 56.52 4.68 0.3 0.3 0.3 0.05 12 force
-summon minecraft:tropical_fish -99.59 56.10 -8.40 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:bubble -99.59 56.10 -8.40 0.3 0.3 0.3 0.05 12 force
+summon minecraft:cod -127.84 56.19 -12.77 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -127.84 56.19 -12.77 0.3 0.3 0.3 0.05 12 force
+summon minecraft:tropical_fish -127.10 56.49 15.40 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -127.10 56.49 15.40 0.3 0.3 0.3 0.05 12 force

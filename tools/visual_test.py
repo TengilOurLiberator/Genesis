@@ -135,7 +135,7 @@ def main():
             shot(f"t{t:05d}")
         r.cmd("tick rate 20")
         time.sleep(6)
-        for i, (pos, rot) in enumerate([("-34.5 69 -1.5", "-90 0"), ("-28.5 69 6.5", "160 5")][:args.after]):
+        for i, (pos, rot) in enumerate([("-64.5 69 -1.5", "-90 0"), ("-8.5 64 0.5", "-90 -12"), ("-40.5 71 20.5", "-50 0")][:args.after]):
             r.cmd(f"tp {NAME} {pos} {rot}")
             time.sleep(4)
             shot(f"z_free{i}")

@@ -1,4 +1,4 @@
-summon minecraft:cod -91.17 55.69 6.02 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:bubble -91.17 55.69 6.02 0.3 0.3 0.3 0.05 12 force
-summon minecraft:squid -80.85 55.00 3.45 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:bubble -80.85 55.00 3.45 0.3 0.3 0.3 0.05 12 force
+summon minecraft:cod -111.67 56.11 9.03 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -111.67 56.11 9.03 0.3 0.3 0.3 0.05 12 force
+summon minecraft:squid -116.55 54.34 -19.98 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -116.55 54.34 -19.98 0.3 0.3 0.3 0.05 12 force

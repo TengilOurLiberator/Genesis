@@ -1,2 +1,2 @@
-summon minecraft:tropical_fish -87.62 59.23 15.38 {PersistenceRequired:1b,Tags:["gen.made"]}
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -96.500 68.211 0.500
+summon minecraft:tropical_fish -133.51 58.76 12.57 {PersistenceRequired:1b,Tags:["gen.made"]}
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 69.584 0.500

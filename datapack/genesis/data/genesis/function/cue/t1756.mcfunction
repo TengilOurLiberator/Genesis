@@ -1,1 +1,1 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -125.564 79.107 0.500
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -156.118 83.704 0.500

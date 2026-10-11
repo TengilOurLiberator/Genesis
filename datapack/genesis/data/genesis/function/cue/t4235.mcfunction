@@ -1,2 +1,2 @@
-summon minecraft:tropical_fish -95.91 55.09 12.41 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:bubble -95.91 55.09 12.41 0.3 0.3 0.3 0.05 12 force
+summon minecraft:tropical_fish -107.15 56.48 15.20 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -107.15 56.48 15.20 0.3 0.3 0.3 0.05 12 force

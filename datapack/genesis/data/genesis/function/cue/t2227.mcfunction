@@ -1,265 +1,331 @@
-setblock 9 66 -57 minecraft:short_grass
-setblock 7 66 -57 minecraft:short_grass
-setblock 10 66 -56 minecraft:short_grass
-setblock 6 67 -56 minecraft:short_grass
-setblock 11 67 -55 minecraft:short_grass
-setblock 13 68 -53 minecraft:short_grass
-setblock 12 68 -53 minecraft:short_grass
-setblock 11 68 -53 minecraft:pink_petals
-setblock 10 68 -53 minecraft:short_grass
-setblock 14 69 -50 minecraft:allium
-setblock 16 69 -48 minecraft:oxeye_daisy
-setblock 14 69 -47 minecraft:short_grass
-setblock 13 70 -47 minecraft:short_grass
-setblock 13 70 -46 minecraft:short_grass
-setblock 14 70 -45 minecraft:poppy
-setblock 18 70 -41 minecraft:short_grass
-setblock 21 70 -38 minecraft:short_grass
-setblock 18 71 -37 minecraft:short_grass
-setblock 20 71 -36 minecraft:short_grass
-setblock 19 71 -36 minecraft:short_grass
-setblock 18 71 -36 minecraft:short_grass
-setblock 21 71 -35 minecraft:short_grass
-setblock 19 71 -35 minecraft:short_grass
-setblock 19 71 -34 minecraft:short_grass
-setblock 23 71 -32 minecraft:short_grass
-setblock 22 71 -32 minecraft:short_grass
-setblock 21 71 -32 minecraft:short_grass
-setblock 20 72 -32 minecraft:short_grass
-setblock 21 72 -31 minecraft:short_grass
-setblock 22 72 -30 minecraft:short_grass
-setblock 21 72 -30 minecraft:short_grass
-setblock 20 72 -30 minecraft:sweet_berry_bush[age=3]
-setblock 22 72 -28 minecraft:short_grass
-setblock 24 73 -26 minecraft:short_grass
-setblock 22 73 -26 minecraft:short_grass
-setblock 24 73 -25 minecraft:oxeye_daisy
-setblock 25 79 -16 minecraft:short_grass
-setblock 24 79 -16 minecraft:short_grass
-setblock 27 81 -15 minecraft:short_grass
-setblock 27 82 -14 minecraft:wildflowers
-setblock 28 85 -10 minecraft:pink_petals
-setblock 26 85 -8 minecraft:poppy
-setblock 26 85 -7 minecraft:short_grass
-setblock 25 85 -7 minecraft:short_grass
-setblock 25 85 -6 minecraft:short_grass
-setblock 27 87 -5 minecraft:short_grass
-setblock 26 86 -5 minecraft:short_grass
-setblock 25 85 -5 minecraft:sweet_berry_bush[age=3]
-setblock 25 86 -4 minecraft:short_grass
-setblock 26 87 -2 minecraft:short_grass
-setblock 26 88 0 minecraft:short_grass
-setblock 25 87 0 minecraft:short_grass
-setblock 26 88 5 minecraft:short_grass
-setblock 25 87 5 minecraft:short_grass
-setblock 28 88 7 minecraft:cornflower
-setblock 28 86 10 minecraft:short_grass
-setblock 28 85 11 minecraft:short_grass
-setblock 28 84 12 minecraft:short_grass
-setblock 25 82 13 minecraft:short_grass
-setblock 27 82 14 minecraft:dandelion
-setblock 25 81 14 minecraft:short_grass
-setblock 27 77 19 minecraft:short_grass
-setblock 26 77 19 minecraft:short_grass
-setblock 26 76 20 minecraft:short_grass
-setblock 26 75 21 minecraft:short_grass
-setblock 25 75 21 minecraft:short_grass
-setblock 25 74 22 minecraft:short_grass
-setblock 25 73 24 minecraft:allium
-setblock 24 72 25 minecraft:short_grass
-setblock 24 72 26 minecraft:pink_petals
-setblock 22 71 27 minecraft:short_grass
-setblock 24 71 28 minecraft:short_grass
-setblock 21 71 28 minecraft:cornflower
-setblock 21 70 29 minecraft:short_grass
-setblock 21 70 31 minecraft:sweet_berry_bush[age=3]
-setblock 20 69 32 minecraft:short_grass
-setblock 20 69 36 minecraft:short_grass
-setblock 19 69 36 minecraft:short_grass
-setblock 18 69 36 minecraft:short_grass
-setblock 19 69 37 minecraft:short_grass
-setblock 18 69 37 minecraft:short_grass
-setblock 17 69 38 minecraft:short_grass
-setblock 17 69 39 minecraft:short_grass
-setblock 16 69 40 minecraft:cornflower
-setblock 18 68 42 minecraft:short_grass
-setblock 17 69 42 minecraft:azure_bluet
-setblock 16 69 42 minecraft:short_grass
-setblock 15 69 42 minecraft:short_grass
-setblock 17 68 43 minecraft:dandelion
-setblock 15 69 43 minecraft:short_grass
-setblock 16 69 44 minecraft:short_grass
-setblock 14 70 44 minecraft:short_grass
-setblock 13 70 47 minecraft:short_grass
-setblock 14 70 50 minecraft:short_grass
-setblock 12 70 51 minecraft:dandelion
-setblock 11 71 51 minecraft:short_grass
-setblock 9 71 52 minecraft:short_grass
-setblock 11 70 55 minecraft:sweet_berry_bush[age=3]
-setblock 8 70 55 minecraft:short_grass
-setblock 10 69 56 minecraft:azure_bluet
-setblock 9 70 56 minecraft:short_grass
-setblock 4 68 60 minecraft:short_grass
-setblock 1 67 64 minecraft:short_grass
-setblock 1 67 66 minecraft:sweet_berry_bush[age=3]
-setblock 0 67 66 minecraft:wildflowers
-setblock -2 67 66 minecraft:short_grass
-setblock -3 67 67 minecraft:short_grass
-setblock -2 67 68 minecraft:short_grass
-setblock -3 67 68 minecraft:pink_petals
-setblock -5 67 68 minecraft:short_grass
-setblock -4 67 69 minecraft:cornflower
-setblock -4 67 70 minecraft:short_grass
-setblock -4 66 71 minecraft:short_grass
-setblock -4 66 72 minecraft:pink_petals
-setblock -5 66 72 minecraft:pink_petals
-setblock -5 66 73 minecraft:short_grass
-fill 36 87 -10 36 87 -10 minecraft:grass_block replace minecraft:dirt
-fill 35 78 20 35 78 20 minecraft:grass_block replace minecraft:dirt
-fill 35 80 18 35 80 18 minecraft:grass_block replace minecraft:dirt
-fill 35 79 19 35 79 19 minecraft:grass_block replace minecraft:dirt
-fill 34 87 11 36 87 11 minecraft:grass_block replace minecraft:dirt
-fill 34 85 -12 36 85 -12 minecraft:grass_block replace minecraft:dirt
-fill 34 86 -11 36 86 -11 minecraft:grass_block replace minecraft:dirt
-fill 34 87 -10 35 87 -9 minecraft:grass_block replace minecraft:dirt
-fill 34 82 16 35 82 16 minecraft:grass_block replace minecraft:dirt
-fill 34 83 15 35 83 15 minecraft:grass_block replace minecraft:dirt
-fill 34 81 17 35 81 17 minecraft:grass_block replace minecraft:dirt
-fill 34 74 23 34 74 24 minecraft:grass_block replace minecraft:dirt
-fill 33 84 -13 36 84 -13 minecraft:grass_block replace minecraft:dirt
-fill 33 86 12 36 86 12 minecraft:grass_block replace minecraft:dirt
-fill 33 84 14 36 84 14 minecraft:grass_block replace minecraft:dirt
-fill 33 85 13 36 85 13 minecraft:grass_block replace minecraft:dirt
-fill 33 83 -14 36 83 -14 minecraft:grass_block replace minecraft:dirt
-fill 33 76 -22 34 76 -21 minecraft:grass_block replace minecraft:dirt
-fill 33 75 -23 34 75 -23 minecraft:grass_block replace minecraft:dirt
-fill 33 86 -10 33 86 -10 minecraft:grass_block replace minecraft:dirt
-fill 33 73 -26 33 73 -25 minecraft:grass_block replace minecraft:dirt
-fill 33 72 26 33 72 26 minecraft:grass_block replace minecraft:dirt
-fill 33 73 24 33 73 25 minecraft:grass_block replace minecraft:dirt
-fill 33 87 10 33 87 11 minecraft:grass_block replace minecraft:dirt
-fill 33 71 -28 33 71 -28 minecraft:grass_block replace minecraft:dirt
-fill 33 85 -12 33 85 -11 minecraft:grass_block replace minecraft:dirt
-fill 33 72 -27 33 72 -27 minecraft:grass_block replace minecraft:dirt
-fill 33 70 28 33 70 28 minecraft:grass_block replace minecraft:dirt
-fill 33 87 -9 33 87 -9 minecraft:grass_block replace minecraft:dirt
-fill 32 82 -15 35 82 -15 minecraft:grass_block replace minecraft:dirt
-fill 32 79 -18 35 79 -18 minecraft:grass_block replace minecraft:dirt
-fill 32 78 -19 35 78 -19 minecraft:grass_block replace minecraft:dirt
-fill 32 80 -17 35 80 -17 minecraft:grass_block replace minecraft:dirt
-fill 32 81 -16 35 81 -16 minecraft:grass_block replace minecraft:dirt
-fill 32 79 18 34 79 18 minecraft:grass_block replace minecraft:dirt
-fill 32 74 -24 34 74 -24 minecraft:grass_block replace minecraft:dirt
-fill 32 78 19 34 78 19 minecraft:grass_block replace minecraft:dirt
-fill 32 80 17 33 80 17 minecraft:grass_block replace minecraft:dirt
-fill 32 81 16 33 81 16 minecraft:grass_block replace minecraft:dirt
-fill 32 82 15 33 82 15 minecraft:grass_block replace minecraft:dirt
-fill 32 71 27 33 71 27 minecraft:grass_block replace minecraft:dirt
-fill 32 72 25 32 72 26 minecraft:grass_block replace minecraft:dirt
-fill 32 71 -29 32 71 -28 minecraft:grass_block replace minecraft:dirt
-fill 32 70 -31 32 70 -30 minecraft:grass_block replace minecraft:dirt
-fill 32 75 -23 32 75 -22 minecraft:grass_block replace minecraft:dirt
-fill 31 77 -20 35 77 -20 minecraft:grass_block replace minecraft:dirt
-fill 31 75 22 34 75 22 minecraft:grass_block replace minecraft:dirt
-fill 31 76 21 34 76 21 minecraft:grass_block replace minecraft:dirt
-fill 31 77 20 34 77 20 minecraft:grass_block replace minecraft:dirt
-fill 31 74 23 33 74 23 minecraft:grass_block replace minecraft:dirt
-fill 31 72 -27 32 72 -26 minecraft:grass_block replace minecraft:dirt
-fill 31 70 28 32 70 29 minecraft:grass_block replace minecraft:dirt
-fill 31 73 24 32 73 24 minecraft:grass_block replace minecraft:dirt
-fill 31 76 -21 32 76 -21 minecraft:grass_block replace minecraft:dirt
-fill 31 69 30 32 69 31 minecraft:grass_block replace minecraft:dirt
-fill 31 67 34 31 67 34 minecraft:grass_block replace minecraft:dirt
-fill 31 71 -28 31 71 -28 minecraft:grass_block replace minecraft:dirt
-fill 31 68 32 31 68 33 minecraft:grass_block replace minecraft:dirt
-fill 31 68 -34 31 68 -34 minecraft:grass_block replace minecraft:dirt
-fill 31 75 -22 31 75 -22 minecraft:grass_block replace minecraft:dirt
-fill 31 74 -24 31 74 -23 minecraft:grass_block replace minecraft:dirt
-fill 30 73 -25 32 73 -25 minecraft:grass_block replace minecraft:dirt
-fill 30 71 26 31 71 27 minecraft:grass_block replace minecraft:dirt
-fill 30 72 25 31 72 25 minecraft:grass_block replace minecraft:dirt
-fill 30 67 34 30 67 36 minecraft:grass_block replace minecraft:dirt
-fill 30 71 -28 30 71 -27 minecraft:grass_block replace minecraft:dirt
-fill 30 68 -37 30 68 -34 minecraft:grass_block replace minecraft:dirt
-fill 30 66 37 30 66 37 minecraft:grass_block replace minecraft:dirt
-fill 30 72 -26 30 72 -26 minecraft:grass_block replace minecraft:dirt
-fill 29 70 -30 31 70 -29 minecraft:grass_block replace minecraft:dirt
-fill 29 69 -33 31 69 -31 minecraft:grass_block replace minecraft:dirt
-fill 29 70 28 30 70 28 minecraft:grass_block replace minecraft:dirt
-fill 29 68 31 30 68 33 minecraft:grass_block replace minecraft:dirt
-fill 29 69 29 30 69 30 minecraft:grass_block replace minecraft:dirt
-fill 29 71 -28 29 71 -28 minecraft:grass_block replace minecraft:dirt
-fill 29 68 -39 29 68 -34 minecraft:grass_block replace minecraft:dirt
-fill 29 66 38 29 66 39 minecraft:grass_block replace minecraft:dirt
-fill 28 67 34 29 67 37 minecraft:grass_block replace minecraft:dirt
-fill 28 68 32 28 68 33 minecraft:grass_block replace minecraft:dirt
-fill 28 68 -41 28 68 -34 minecraft:grass_block replace minecraft:dirt
-fill 28 66 38 28 66 42 minecraft:grass_block replace minecraft:dirt
-fill 28 69 -33 28 69 -32 minecraft:grass_block replace minecraft:dirt
-fill 28 67 -42 28 67 -42 minecraft:grass_block replace minecraft:dirt
-fill 27 65 44 27 65 44 minecraft:grass_block replace minecraft:dirt
-fill 27 67 35 27 67 37 minecraft:grass_block replace minecraft:dirt
-fill 27 68 -41 27 68 -35 minecraft:grass_block replace minecraft:dirt
-fill 27 67 -44 27 67 -42 minecraft:grass_block replace minecraft:dirt
-fill 27 66 38 27 66 43 minecraft:grass_block replace minecraft:dirt
-fill 26 68 -42 26 68 -37 minecraft:grass_block replace minecraft:dirt
-fill 26 67 -46 26 67 -43 minecraft:grass_block replace minecraft:dirt
-fill 26 67 37 26 67 37 minecraft:grass_block replace minecraft:dirt
-fill 26 65 45 26 65 46 minecraft:grass_block replace minecraft:dirt
-fill 26 66 38 26 66 44 minecraft:grass_block replace minecraft:dirt
-fill 25 65 47 25 65 48 minecraft:grass_block replace minecraft:dirt
-fill 25 68 -43 25 68 -40 minecraft:grass_block replace minecraft:dirt
-fill 25 67 -48 25 67 -44 minecraft:grass_block replace minecraft:dirt
-fill 25 66 40 25 66 46 minecraft:grass_block replace minecraft:dirt
-fill 24 66 42 24 66 50 minecraft:grass_block replace minecraft:dirt
-fill 24 67 -50 24 67 -44 minecraft:grass_block replace minecraft:dirt
-fill 24 68 -43 24 68 -42 minecraft:grass_block replace minecraft:dirt
-fill 23 67 -50 23 67 -45 minecraft:grass_block replace minecraft:dirt
-fill 23 66 -52 23 66 -51 minecraft:grass_block replace minecraft:dirt
-fill 23 66 44 23 66 52 minecraft:grass_block replace minecraft:dirt
-fill 23 68 -44 23 68 -44 minecraft:grass_block replace minecraft:dirt
-fill 22 66 -53 22 66 -52 minecraft:grass_block replace minecraft:dirt
-fill 22 66 46 22 66 53 minecraft:grass_block replace minecraft:dirt
-fill 22 67 -51 22 67 -46 minecraft:grass_block replace minecraft:dirt
-fill 21 66 -55 21 66 -53 minecraft:grass_block replace minecraft:dirt
-fill 21 66 48 21 66 55 minecraft:grass_block replace minecraft:dirt
-fill 21 67 -52 21 67 -48 minecraft:grass_block replace minecraft:dirt
-fill 20 66 55 20 66 56 minecraft:grass_block replace minecraft:dirt
-fill 20 67 -52 20 67 -50 minecraft:grass_block replace minecraft:dirt
-fill 20 66 -56 20 66 -53 minecraft:grass_block replace minecraft:dirt
-fill 20 67 50 20 67 54 minecraft:grass_block replace minecraft:dirt
-fill 19 65 -58 19 65 -57 minecraft:grass_block replace minecraft:dirt
-fill 19 66 57 19 66 58 minecraft:grass_block replace minecraft:dirt
-fill 19 67 52 19 67 56 minecraft:grass_block replace minecraft:dirt
-fill 19 67 -53 19 67 -52 minecraft:grass_block replace minecraft:dirt
-fill 18 66 -56 19 66 -54 minecraft:grass_block replace minecraft:dirt
-fill 18 67 53 18 67 57 minecraft:grass_block replace minecraft:dirt
-fill 18 67 -53 18 67 -53 minecraft:grass_block replace minecraft:dirt
-fill 18 66 58 18 66 59 minecraft:grass_block replace minecraft:dirt
-fill 17 66 59 17 66 61 minecraft:grass_block replace minecraft:dirt
-fill 17 67 55 17 67 58 minecraft:grass_block replace minecraft:dirt
-fill 17 66 -56 17 66 -55 minecraft:grass_block replace minecraft:dirt
-fill 16 65 -57 18 65 -57 minecraft:grass_block replace minecraft:dirt
-fill 16 66 -56 16 66 -56 minecraft:grass_block replace minecraft:dirt
-fill 16 67 56 16 67 59 minecraft:grass_block replace minecraft:dirt
-fill 16 66 60 16 66 62 minecraft:grass_block replace minecraft:dirt
-fill 15 67 58 15 67 60 minecraft:grass_block replace minecraft:dirt
-fill 15 66 61 15 66 63 minecraft:grass_block replace minecraft:dirt
-fill 14 65 64 14 65 65 minecraft:grass_block replace minecraft:dirt
-fill 14 67 59 14 67 61 minecraft:grass_block replace minecraft:dirt
-fill 14 66 62 14 66 63 minecraft:grass_block replace minecraft:dirt
-fill 13 65 65 13 65 66 minecraft:grass_block replace minecraft:dirt
-fill 13 67 60 13 67 61 minecraft:grass_block replace minecraft:dirt
-fill 12 66 62 13 66 64 minecraft:grass_block replace minecraft:dirt
-fill 12 65 65 12 65 67 minecraft:grass_block replace minecraft:dirt
-fill 11 66 63 11 66 65 minecraft:grass_block replace minecraft:dirt
-fill 11 65 66 11 65 67 minecraft:grass_block replace minecraft:dirt
-fill 10 66 64 10 66 65 minecraft:grass_block replace minecraft:dirt
-fill 9 65 66 10 65 68 minecraft:grass_block replace minecraft:dirt
-fill 9 66 65 9 66 65 minecraft:grass_block replace minecraft:dirt
-fill 8 65 67 8 65 69 minecraft:grass_block replace minecraft:dirt
-fill 7 65 68 7 65 69 minecraft:grass_block replace minecraft:dirt
-fill 6 65 69 6 65 70 minecraft:grass_block replace minecraft:dirt
-fill 5 65 70 5 65 70 minecraft:grass_block replace minecraft:dirt
-fill 4 65 71 4 65 71 minecraft:grass_block replace minecraft:dirt
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -126.835 91.262 0.500
+setblock 24 66 -85 minecraft:short_grass
+setblock 23 66 -85 minecraft:short_grass
+setblock 22 66 -85 minecraft:short_grass
+setblock 25 66 -84 minecraft:short_grass
+setblock 19 66 -84 minecraft:short_grass
+setblock 24 67 -83 minecraft:short_grass
+setblock 22 67 -83 minecraft:short_grass
+setblock 20 66 -83 minecraft:short_grass
+setblock 24 67 -82 minecraft:short_grass
+setblock 22 67 -82 minecraft:short_grass
+setblock 27 67 -81 minecraft:short_grass
+setblock 22 68 -80 minecraft:short_grass
+setblock 29 68 -78 minecraft:short_grass
+setblock 28 68 -76 minecraft:short_grass
+setblock 30 68 -75 minecraft:short_grass
+setblock 31 68 -74 minecraft:short_grass
+setblock 30 68 -74 minecraft:short_grass
+setblock 29 68 -74 minecraft:short_grass
+setblock 28 69 -74 minecraft:short_grass
+setblock 27 69 -74 minecraft:short_grass
+setblock 26 69 -74 minecraft:short_grass
+setblock 30 68 -73 minecraft:short_grass
+setblock 29 68 -73 minecraft:short_grass
+setblock 27 69 -73 minecraft:short_grass
+setblock 31 68 -72 minecraft:short_grass
+setblock 30 68 -72 minecraft:short_grass
+setblock 32 68 -71 minecraft:short_grass
+setblock 34 68 -69 minecraft:short_grass
+setblock 33 68 -69 minecraft:short_grass
+setblock 35 68 -68 minecraft:short_grass
+setblock 35 67 -67 minecraft:short_grass
+setblock 33 68 -67 minecraft:short_grass
+setblock 35 67 -66 minecraft:short_grass
+setblock 33 67 -66 minecraft:short_grass
+setblock 33 67 -65 minecraft:short_grass
+setblock 31 68 -65 minecraft:short_grass
+setblock 37 67 -64 minecraft:short_grass
+setblock 35 67 -64 minecraft:short_grass
+setblock 34 67 -64 minecraft:short_grass
+setblock 33 67 -64 minecraft:short_grass
+setblock 32 68 -64 minecraft:short_grass
+setblock 36 68 -63 minecraft:short_grass
+setblock 35 68 -63 minecraft:short_grass
+setblock 33 68 -63 minecraft:short_grass
+setblock 36 68 -62 minecraft:short_grass
+setblock 35 68 -61 minecraft:short_grass
+setblock 36 68 -60 minecraft:short_grass
+setblock 36 69 -59 minecraft:short_grass
+setblock 35 69 -59 minecraft:short_grass
+setblock 34 69 -59 minecraft:short_grass
+setblock 38 69 -58 minecraft:short_grass
+setblock 36 69 -58 minecraft:short_grass
+setblock 40 70 -57 minecraft:short_grass
+setblock 39 70 -57 minecraft:short_grass
+setblock 36 70 -57 minecraft:short_grass
+setblock 41 71 -55 minecraft:short_grass
+setblock 40 71 -55 minecraft:short_grass
+setblock 41 72 -54 minecraft:short_grass
+setblock 38 71 -54 minecraft:short_grass
+setblock 41 73 -53 minecraft:short_grass
+setblock 38 72 -53 minecraft:short_grass
+setblock 42 74 -52 minecraft:short_grass
+setblock 42 75 -51 minecraft:short_grass
+setblock 42 78 -48 minecraft:short_grass
+setblock 44 80 -47 minecraft:short_grass
+setblock 40 78 -47 minecraft:short_grass
+setblock 44 81 -46 minecraft:short_grass
+setblock 44 82 -45 minecraft:short_grass
+setblock 42 82 -45 minecraft:short_grass
+setblock 45 84 -44 minecraft:short_grass
+setblock 44 84 -44 minecraft:short_grass
+setblock 43 83 -44 minecraft:short_grass
+setblock 41 84 -43 minecraft:short_grass
+setblock 43 86 -42 minecraft:short_grass
+setblock 41 85 -42 minecraft:short_grass
+setblock 48 98 31 minecraft:short_grass
+place feature minecraft:bamboo_no_podzol 46 90 34
+setblock 46 89 35 minecraft:short_grass
+setblock 45 88 35 minecraft:fern
+setblock 47 89 36 minecraft:fern
+setblock 45 86 36 minecraft:short_grass
+setblock 46 86 37 minecraft:short_grass
+setblock 44 84 37 minecraft:fern
+setblock 43 83 37 minecraft:short_grass
+setblock 45 84 38 minecraft:short_grass
+setblock 45 76 44 minecraft:short_grass
+setblock 41 74 44 minecraft:short_grass
+setblock 43 74 45 minecraft:short_grass
+setblock 42 73 46 minecraft:fern
+setblock 42 71 49 minecraft:short_grass
+setblock 40 70 50 minecraft:short_grass
+setblock 42 70 51 minecraft:melon
+setblock 41 70 51 minecraft:short_grass
+setblock 39 70 52 minecraft:short_grass
+setblock 38 70 52 minecraft:short_grass
+setblock 41 69 53 minecraft:fern
+setblock 40 69 53 minecraft:short_grass
+setblock 40 69 54 minecraft:short_grass
+setblock 38 69 55 minecraft:short_grass
+setblock 37 69 55 minecraft:short_grass
+setblock 36 68 57 minecraft:short_grass
+setblock 36 68 58 minecraft:fern
+setblock 38 68 59 minecraft:short_grass
+setblock 37 68 59 minecraft:short_grass
+place feature minecraft:bamboo_no_podzol 36 68 59
+setblock 38 67 61 minecraft:fern
+setblock 35 67 61 minecraft:fern
+setblock 36 67 62 minecraft:short_grass
+setblock 36 67 63 minecraft:short_grass
+setblock 35 67 67 minecraft:fern
+setblock 34 67 67 minecraft:short_grass
+setblock 32 67 67 minecraft:fern
+setblock 31 67 67 minecraft:short_grass
+setblock 30 67 67 minecraft:fern
+setblock 35 66 68 minecraft:short_grass
+setblock 34 66 68 minecraft:fern
+setblock 32 67 68 minecraft:short_grass
+setblock 34 66 69 minecraft:short_grass
+setblock 31 67 69 minecraft:short_grass
+setblock 30 67 69 minecraft:short_grass
+setblock 33 66 70 minecraft:short_grass
+setblock 33 66 71 minecraft:short_grass
+setblock 32 67 72 minecraft:short_grass
+setblock 26 67 74 minecraft:short_grass
+setblock 26 67 76 minecraft:short_grass
+setblock 25 67 76 minecraft:short_grass
+setblock 27 67 77 minecraft:short_grass
+setblock 26 67 77 minecraft:fern
+setblock 25 67 77 minecraft:short_grass
+setblock 28 67 78 minecraft:short_grass
+setblock 27 67 78 minecraft:short_grass
+setblock 24 67 78 minecraft:fern
+setblock 22 67 80 minecraft:short_grass
+setblock 22 67 81 minecraft:short_grass
+setblock 23 67 82 minecraft:short_grass
+setblock 21 67 83 minecraft:fern
+setblock 24 67 84 minecraft:short_grass
+setblock 22 67 84 minecraft:short_grass
+setblock 23 67 85 minecraft:fern
+setblock 22 67 85 minecraft:fern
+setblock 19 67 85 minecraft:short_grass
+setblock 23 67 86 minecraft:short_grass
+setblock 22 67 86 minecraft:fern
+setblock 21 67 86 minecraft:fern
+setblock 19 67 86 minecraft:short_grass
+setblock 22 67 87 minecraft:fern
+setblock 18 67 87 minecraft:short_grass
+place feature minecraft:bamboo_no_podzol 17 67 87
+setblock 22 67 88 minecraft:short_grass
+setblock 21 67 88 minecraft:short_grass
+setblock 16 67 88 minecraft:short_grass
+setblock 20 67 89 minecraft:fern
+setblock 16 67 89 minecraft:short_grass
+setblock 18 67 90 minecraft:fern
+setblock 17 67 90 minecraft:short_grass
+setblock 16 67 90 minecraft:short_grass
+setblock 17 67 92 minecraft:short_grass
+setblock 14 67 95 minecraft:fern
+setblock 13 67 96 minecraft:melon
+place feature minecraft:bamboo_no_podzol 11 67 96
+setblock 14 67 97 minecraft:melon
+setblock 12 67 97 minecraft:fern
+setblock 11 67 97 minecraft:short_grass
+setblock 3 67 102 minecraft:sweet_berry_bush[age=3]
+setblock 3 66 103 minecraft:wildflowers
+setblock 2 66 104 minecraft:short_grass
+setblock 4 66 105 minecraft:fern
+setblock -2 66 108 minecraft:short_grass
+fill 59 98 30 59 98 30 minecraft:grass_block replace minecraft:dirt
+fill 58 96 32 58 96 32 minecraft:grass_block replace minecraft:dirt
+fill 58 97 31 58 97 31 minecraft:grass_block replace minecraft:dirt
+fill 58 95 33 58 95 33 minecraft:grass_block replace minecraft:dirt
+fill 57 94 34 58 94 34 minecraft:grass_block replace minecraft:dirt
+fill 57 88 38 57 88 38 minecraft:grass_block replace minecraft:dirt
+fill 57 90 37 57 90 37 minecraft:grass_block replace minecraft:dirt
+fill 57 93 35 57 93 35 minecraft:grass_block replace minecraft:dirt
+fill 57 98 31 57 98 31 minecraft:grass_block replace minecraft:dirt
+fill 57 97 32 57 97 32 minecraft:grass_block replace minecraft:dirt
+fill 56 92 36 57 92 36 minecraft:grass_block replace minecraft:dirt
+fill 56 96 33 57 96 33 minecraft:grass_block replace minecraft:dirt
+fill 56 91 -41 56 91 -41 minecraft:grass_block replace minecraft:dirt
+fill 56 89 -42 56 89 -42 minecraft:grass_block replace minecraft:dirt
+fill 56 98 32 56 98 32 minecraft:grass_block replace minecraft:dirt
+fill 56 81 42 56 81 42 minecraft:grass_block replace minecraft:dirt
+fill 56 95 34 56 95 34 minecraft:grass_block replace minecraft:dirt
+fill 55 95 -39 57 95 -39 minecraft:grass_block replace minecraft:dirt
+fill 55 94 35 56 94 35 minecraft:grass_block replace minecraft:dirt
+fill 55 93 -40 56 93 -40 minecraft:grass_block replace minecraft:dirt
+fill 55 97 33 55 97 33 minecraft:grass_block replace minecraft:dirt
+fill 55 82 42 55 82 42 minecraft:grass_block replace minecraft:dirt
+fill 55 77 45 55 77 45 minecraft:grass_block replace minecraft:dirt
+fill 55 87 -43 55 87 -43 minecraft:grass_block replace minecraft:dirt
+fill 54 97 -38 57 97 -38 minecraft:grass_block replace minecraft:dirt
+fill 54 85 -44 55 85 -44 minecraft:grass_block replace minecraft:dirt
+fill 54 80 43 55 80 43 minecraft:grass_block replace minecraft:dirt
+fill 54 96 34 55 96 34 minecraft:grass_block replace minecraft:dirt
+fill 54 72 49 54 72 49 minecraft:grass_block replace minecraft:dirt
+fill 54 74 47 54 74 47 minecraft:grass_block replace minecraft:dirt
+fill 54 77 -49 54 77 -49 minecraft:grass_block replace minecraft:dirt
+fill 54 98 33 54 98 33 minecraft:grass_block replace minecraft:dirt
+fill 54 73 48 54 73 48 minecraft:grass_block replace minecraft:dirt
+fill 53 91 37 56 91 37 minecraft:grass_block replace minecraft:dirt
+fill 53 89 38 56 89 38 minecraft:grass_block replace minecraft:dirt
+fill 53 75 46 55 75 46 minecraft:grass_block replace minecraft:dirt
+fill 53 88 -42 55 88 -42 minecraft:grass_block replace minecraft:dirt
+fill 53 82 -46 55 82 -46 minecraft:grass_block replace minecraft:dirt
+fill 53 90 -41 55 90 -41 minecraft:grass_block replace minecraft:dirt
+fill 53 78 44 55 78 44 minecraft:grass_block replace minecraft:dirt
+fill 53 93 36 55 93 36 minecraft:grass_block replace minecraft:dirt
+fill 53 94 -39 54 94 -39 minecraft:grass_block replace minecraft:dirt
+fill 53 95 35 54 95 35 minecraft:grass_block replace minecraft:dirt
+fill 53 92 -40 54 92 -40 minecraft:grass_block replace minecraft:dirt
+fill 53 69 52 53 69 52 minecraft:grass_block replace minecraft:dirt
+fill 53 71 50 53 71 50 minecraft:grass_block replace minecraft:dirt
+fill 53 96 -38 53 96 -38 minecraft:grass_block replace minecraft:dirt
+fill 53 72 48 53 72 49 minecraft:grass_block replace minecraft:dirt
+fill 52 87 39 57 87 39 minecraft:grass_block replace minecraft:dirt
+fill 52 85 40 56 85 40 minecraft:grass_block replace minecraft:dirt
+fill 52 83 41 56 83 41 minecraft:grass_block replace minecraft:dirt
+fill 52 86 -43 54 86 -43 minecraft:grass_block replace minecraft:dirt
+fill 52 76 45 54 76 45 minecraft:grass_block replace minecraft:dirt
+fill 52 76 -50 53 76 -50 minecraft:grass_block replace minecraft:dirt
+fill 52 70 51 53 70 51 minecraft:grass_block replace minecraft:dirt
+fill 52 91 -40 52 91 -40 minecraft:grass_block replace minecraft:dirt
+fill 52 68 54 52 68 54 minecraft:grass_block replace minecraft:dirt
+fill 52 89 -41 52 89 -41 minecraft:grass_block replace minecraft:dirt
+fill 52 71 49 52 71 50 minecraft:grass_block replace minecraft:dirt
+fill 52 93 -39 52 93 -39 minecraft:grass_block replace minecraft:dirt
+fill 51 83 -45 55 83 -45 minecraft:grass_block replace minecraft:dirt
+fill 51 81 42 54 81 42 minecraft:grass_block replace minecraft:dirt
+fill 51 84 -44 53 84 -44 minecraft:grass_block replace minecraft:dirt
+fill 51 79 43 53 79 43 minecraft:grass_block replace minecraft:dirt
+fill 51 77 44 52 77 44 minecraft:grass_block replace minecraft:dirt
+fill 51 87 -42 52 87 -42 minecraft:grass_block replace minecraft:dirt
+fill 51 75 45 51 75 45 minecraft:grass_block replace minecraft:dirt
+fill 51 67 56 51 67 57 minecraft:grass_block replace minecraft:dirt
+fill 51 85 -43 51 85 -43 minecraft:grass_block replace minecraft:dirt
+fill 50 79 -48 54 79 -48 minecraft:grass_block replace minecraft:dirt
+fill 50 80 -47 54 80 -47 minecraft:grass_block replace minecraft:dirt
+fill 50 73 47 53 73 47 minecraft:grass_block replace minecraft:dirt
+fill 50 72 48 52 72 48 minecraft:grass_block replace minecraft:dirt
+fill 50 74 46 52 74 46 minecraft:grass_block replace minecraft:dirt
+fill 50 81 -46 52 81 -46 minecraft:grass_block replace minecraft:dirt
+fill 50 69 52 52 69 53 minecraft:grass_block replace minecraft:dirt
+fill 50 70 50 51 70 51 minecraft:grass_block replace minecraft:dirt
+fill 50 68 54 51 68 55 minecraft:grass_block replace minecraft:dirt
+fill 50 77 -50 51 77 -50 minecraft:grass_block replace minecraft:dirt
+fill 50 67 56 50 67 59 minecraft:grass_block replace minecraft:dirt
+fill 50 68 -59 50 68 -59 minecraft:grass_block replace minecraft:dirt
+fill 49 75 -51 53 75 -51 minecraft:grass_block replace minecraft:dirt
+fill 49 78 -49 53 78 -49 minecraft:grass_block replace minecraft:dirt
+fill 49 71 49 51 71 49 minecraft:grass_block replace minecraft:dirt
+fill 49 67 -62 49 67 -61 minecraft:grass_block replace minecraft:dirt
+fill 49 66 61 49 66 62 minecraft:grass_block replace minecraft:dirt
+fill 49 76 -50 49 76 -50 minecraft:grass_block replace minecraft:dirt
+fill 49 70 50 49 70 50 minecraft:grass_block replace minecraft:dirt
+fill 49 69 51 49 69 52 minecraft:grass_block replace minecraft:dirt
+fill 48 74 -52 53 74 -52 minecraft:grass_block replace minecraft:dirt
+fill 48 73 -53 52 73 -53 minecraft:grass_block replace minecraft:dirt
+fill 48 68 53 49 68 55 minecraft:grass_block replace minecraft:dirt
+fill 48 69 52 48 69 52 minecraft:grass_block replace minecraft:dirt
+fill 48 66 61 48 66 64 minecraft:grass_block replace minecraft:dirt
+fill 48 66 -64 48 66 -64 minecraft:grass_block replace minecraft:dirt
+fill 47 72 -54 52 72 -54 minecraft:grass_block replace minecraft:dirt
+fill 47 71 -55 51 71 -55 minecraft:grass_block replace minecraft:dirt
+fill 47 70 -57 51 70 -56 minecraft:grass_block replace minecraft:dirt
+fill 47 67 56 49 67 60 minecraft:grass_block replace minecraft:dirt
+fill 47 68 54 47 68 55 minecraft:grass_block replace minecraft:dirt
+fill 47 66 -66 47 66 -64 minecraft:grass_block replace minecraft:dirt
+fill 47 66 61 47 66 66 minecraft:grass_block replace minecraft:dirt
+fill 46 69 -58 50 69 -58 minecraft:grass_block replace minecraft:dirt
+fill 46 66 -68 46 66 -64 minecraft:grass_block replace minecraft:dirt
+fill 46 66 61 46 66 68 minecraft:grass_block replace minecraft:dirt
+fill 46 70 -57 46 70 -57 minecraft:grass_block replace minecraft:dirt
+fill 46 67 57 46 67 60 minecraft:grass_block replace minecraft:dirt
+fill 45 68 -60 49 68 -59 minecraft:grass_block replace minecraft:dirt
+fill 45 67 -63 48 67 -61 minecraft:grass_block replace minecraft:dirt
+fill 45 67 59 45 67 60 minecraft:grass_block replace minecraft:dirt
+fill 45 66 -70 45 66 -64 minecraft:grass_block replace minecraft:dirt
+fill 45 66 61 45 66 70 minecraft:grass_block replace minecraft:dirt
+fill 44 66 -72 44 66 -64 minecraft:grass_block replace minecraft:dirt
+fill 44 66 62 44 66 72 minecraft:grass_block replace minecraft:dirt
+fill 44 67 -63 44 67 -62 minecraft:grass_block replace minecraft:dirt
+fill 43 66 -74 43 66 -64 minecraft:grass_block replace minecraft:dirt
+fill 43 66 64 43 66 74 minecraft:grass_block replace minecraft:dirt
+fill 42 66 66 42 66 76 minecraft:grass_block replace minecraft:dirt
+fill 42 66 -76 42 66 -66 minecraft:grass_block replace minecraft:dirt
+fill 41 66 68 41 66 77 minecraft:grass_block replace minecraft:dirt
+fill 41 66 -77 41 66 -76 minecraft:grass_block replace minecraft:dirt
+fill 41 66 -72 41 66 -68 minecraft:grass_block replace minecraft:dirt
+fill 41 67 -75 41 67 -73 minecraft:grass_block replace minecraft:dirt
+fill 40 66 -79 40 66 -77 minecraft:grass_block replace minecraft:dirt
+fill 40 66 -71 40 66 -70 minecraft:grass_block replace minecraft:dirt
+fill 40 65 79 40 65 79 minecraft:grass_block replace minecraft:dirt
+fill 40 67 -76 40 67 -72 minecraft:grass_block replace minecraft:dirt
+fill 40 66 70 40 66 78 minecraft:grass_block replace minecraft:dirt
+fill 39 66 72 39 66 79 minecraft:grass_block replace minecraft:dirt
+fill 39 67 -77 39 67 -72 minecraft:grass_block replace minecraft:dirt
+fill 39 65 80 39 65 81 minecraft:grass_block replace minecraft:dirt
+fill 39 66 -81 39 66 -78 minecraft:grass_block replace minecraft:dirt
+fill 38 65 81 38 65 82 minecraft:grass_block replace minecraft:dirt
+fill 38 66 74 38 66 80 minecraft:grass_block replace minecraft:dirt
+fill 38 67 -77 38 67 -74 minecraft:grass_block replace minecraft:dirt
+fill 38 66 -82 38 66 -78 minecraft:grass_block replace minecraft:dirt
+fill 37 66 75 37 66 80 minecraft:grass_block replace minecraft:dirt
+fill 37 65 81 37 65 84 minecraft:grass_block replace minecraft:dirt
+fill 37 67 -78 37 67 -75 minecraft:grass_block replace minecraft:dirt
+fill 36 66 -84 37 66 -79 minecraft:grass_block replace minecraft:dirt
+fill 36 67 -78 36 67 -77 minecraft:grass_block replace minecraft:dirt
+fill 36 65 -85 36 65 -85 minecraft:grass_block replace minecraft:dirt
+fill 36 65 78 36 65 85 minecraft:grass_block replace minecraft:dirt
+fill 36 66 77 36 66 77 minecraft:grass_block replace minecraft:dirt
+fill 35 67 -79 35 67 -79 minecraft:grass_block replace minecraft:dirt
+fill 35 65 79 35 65 86 minecraft:grass_block replace minecraft:dirt
+fill 34 66 -84 35 66 -80 minecraft:grass_block replace minecraft:dirt
+fill 34 65 80 34 65 87 minecraft:grass_block replace minecraft:dirt
+fill 33 65 82 33 65 88 minecraft:grass_block replace minecraft:dirt
+fill 33 66 -84 33 66 -82 minecraft:grass_block replace minecraft:dirt
+fill 32 66 -84 32 66 -83 minecraft:grass_block replace minecraft:dirt
+fill 32 65 83 32 65 88 minecraft:grass_block replace minecraft:dirt
+fill 31 65 -86 35 65 -85 minecraft:grass_block replace minecraft:dirt
+fill 31 65 85 31 65 89 minecraft:grass_block replace minecraft:dirt
+fill 30 65 -86 30 65 -86 minecraft:grass_block replace minecraft:dirt
+fill 30 65 86 30 65 90 minecraft:grass_block replace minecraft:dirt
+fill 29 65 88 29 65 91 minecraft:grass_block replace minecraft:dirt
+fill 28 65 89 28 65 91 minecraft:grass_block replace minecraft:dirt
+fill 27 65 90 27 65 92 minecraft:grass_block replace minecraft:dirt
+fill 26 65 92 26 65 93 minecraft:grass_block replace minecraft:dirt
+fill 25 65 93 25 65 94 minecraft:grass_block replace minecraft:dirt
+fill 24 65 94 24 65 94 minecraft:grass_block replace minecraft:dirt
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -162.645 108.167 0.500

@@ -27,7 +27,10 @@ time of genesis:cut set 0
 time of genesis:cut pause
 time of genesis:day set 6000
 time of genesis:day pause
-forceload add -144 -96 95 95
+forceload add -192 -136 -65 135
+forceload add -64 -136 39 135
+forceload add 40 -136 135 135
 forceload add 992 992 1010 1008
 setworldspawn 997 100 1000
 schedule function genesis:setup2 60t
+schedule function genesis:setup3 120t

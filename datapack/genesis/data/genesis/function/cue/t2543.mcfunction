@@ -1,1 +1,6 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -107.570 84.382 0.500
+setblock 21 67 93 minecraft:air
+place feature minecraft:jungle_bush 21 67 93
+particle minecraft:happy_villager 21 70 93 1.5 2.5 1.5 0 30 force
+particle minecraft:composter 21 68 93 1 2 1 0 16 force
+execute as @a at @s run playsound minecraft:item.bone_meal.use ambient @s ~ ~ ~ 0.8 0.7 0.8
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -137.875 98.535 0.500

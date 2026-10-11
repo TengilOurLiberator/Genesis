@@ -1,5 +1,5 @@
-summon minecraft:cow -18.50 69.00 4.50 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:poof -18.50 69.60 4.50 0.4 0.5 0.4 0.02 14 force
-particle minecraft:happy_villager -18.50 69.80 4.50 0.5 0.6 0.5 0 8 force
-particle minecraft:block{block_state:"minecraft:dirt"} -18.50 69.20 4.50 0.4 0.3 0.4 0.1 24 force
-particle minecraft:dust_plume -18.50 69.00 4.50 0.3 0.2 0.3 0.02 10 force
+summon minecraft:cow -12.50 72.00 -28.50 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:poof -12.50 72.60 -28.50 0.4 0.5 0.4 0.02 14 force
+particle minecraft:happy_villager -12.50 72.80 -28.50 0.5 0.6 0.5 0 8 force
+particle minecraft:block{block_state:"minecraft:dirt"} -12.50 72.20 -28.50 0.4 0.3 0.4 0.1 24 force
+particle minecraft:dust_plume -12.50 72.00 -28.50 0.3 0.2 0.3 0.02 10 force

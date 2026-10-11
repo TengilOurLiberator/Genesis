@@ -1,5 +1,5 @@
-setblock 23 77 17 minecraft:air
-place feature minecraft:fancy_oak 23 77 17
-particle minecraft:happy_villager 23 80 17 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 23 78 17 1 2 1 0 16 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -107.852 84.483 0.500
+setblock 16 72 37 minecraft:air
+place feature minecraft:jungle_tree_no_vine 16 72 37
+particle minecraft:happy_villager 16 75 37 1.5 2.5 1.5 0 30 force
+particle minecraft:composter 16 73 37 1 2 1 0 16 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -138.238 98.676 0.500

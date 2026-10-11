@@ -1,5 +1,5 @@
-summon minecraft:rabbit -23.50 69.00 8.50 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:poof -23.50 69.60 8.50 0.4 0.5 0.4 0.02 14 force
-particle minecraft:happy_villager -23.50 69.80 8.50 0.5 0.6 0.5 0 8 force
-particle minecraft:block{block_state:"minecraft:dirt"} -23.50 69.20 8.50 0.4 0.3 0.4 0.1 24 force
-particle minecraft:dust_plume -23.50 69.00 8.50 0.3 0.2 0.3 0.02 10 force
+summon minecraft:rabbit -13.50 71.00 13.50 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:poof -13.50 71.60 13.50 0.4 0.5 0.4 0.02 14 force
+particle minecraft:happy_villager -13.50 71.80 13.50 0.5 0.6 0.5 0 8 force
+particle minecraft:block{block_state:"minecraft:dirt"} -13.50 71.20 13.50 0.4 0.3 0.4 0.1 24 force
+particle minecraft:dust_plume -13.50 71.00 13.50 0.3 0.2 0.3 0.02 10 force

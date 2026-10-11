@@ -1,5 +1,5 @@
-particle minecraft:end_rod -30.50 104.70 -1.50 0.12 8 0.12 0.002 22 force
-particle minecraft:glow -30.50 104.70 -1.50 0.2 8 0.2 0 6 force
-particle minecraft:end_rod -30.50 104.70 2.50 0.12 8 0.12 0.002 22 force
-particle minecraft:glow -30.50 104.70 2.50 0.2 8 0.2 0 6 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -42.890 69.582 0.500
+particle minecraft:end_rod -60.50 104.70 -1.50 0.12 8 0.12 0.002 22 force
+particle minecraft:glow -60.50 104.70 -1.50 0.2 8 0.2 0 6 force
+particle minecraft:end_rod -60.50 104.70 2.50 0.12 8 0.12 0.002 22 force
+particle minecraft:glow -60.50 104.70 2.50 0.2 8 0.2 0 6 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -72.955 69.680 0.500
