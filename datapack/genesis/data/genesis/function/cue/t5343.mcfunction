@@ -1,1 +1,2 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -51.084 73.406 0.500
+execute as @a at @s run playsound genesis:music.man music @s ~ ~ ~ 0.55 1 0.55
+stopsound @a ambient

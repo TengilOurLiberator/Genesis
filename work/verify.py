@@ -20,7 +20,7 @@ model = WhisperModel("large-v3", device="cuda", compute_type="float16")
 scores = []
 for path in sorted(glob.glob(os.path.join(folder, "*.wav"))):
     key = os.path.basename(path)[3:-4]
-    segs, _ = model.transcribe(path, language="en", beam_size=5, condition_on_previous_text=False,
+    segs, _ = model.transcribe(path, language="en", beam_size=5, condition_on_previous_text=False, vad_filter=True,
                                no_speech_threshold=None, log_prob_threshold=None,
                                compression_ratio_threshold=None, temperature=0.0)
     heard, want = norm(" ".join(s.text for s in segs)), norm(script[key])

@@ -1,1 +1,1 @@
-summon minecraft:parrot 0.00 77.31 -18.40 {PersistenceRequired:1b,Tags:["gen.made"],Variant:1,Motion:[-0.5d,0.0d,0.0d]}
+particle minecraft:end_rod -20.00 77.00 0.50 7 1.5 7 0.004 4 force

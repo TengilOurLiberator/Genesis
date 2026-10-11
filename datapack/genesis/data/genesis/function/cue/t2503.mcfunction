@@ -1,5 +1,5 @@
-setblock 1 74 -29 minecraft:air
-place feature minecraft:cherry 1 74 -29
-particle minecraft:happy_villager 1 77 -29 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 1 75 -29 1 2 1 0 16 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -109.653 85.126 0.500
+setblock 9 70 -50 minecraft:air
+place feature minecraft:birch 9 70 -50
+particle minecraft:happy_villager 9 73 -50 1.5 2.5 1.5 0 30 force
+particle minecraft:composter 9 71 -50 1 2 1 0 16 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -109.038 84.906 0.500

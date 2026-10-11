@@ -1,1 +1,1 @@
-execute as @a at @s run playsound minecraft:block.amethyst_block.chime ambient @s ~ ~ ~ 0.7 1.1 0.7
+particle minecraft:end_rod -16.43 131.63 -38.50 0.2 0.2 0.2 0.6 14 force

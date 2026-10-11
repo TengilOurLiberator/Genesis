@@ -1,1 +1,65 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -125.250 78.583 0.500
+fill 54 82 0 54 82 6 minecraft:dirt
+fill 53 82 -3 53 82 8 minecraft:dirt
+fill 52 82 -5 52 82 9 minecraft:dirt
+fill 51 82 0 51 82 5 minecraft:stone
+fill 51 82 6 51 82 10 minecraft:dirt
+fill 51 82 -7 51 82 -1 minecraft:dirt
+fill 50 82 8 50 82 11 minecraft:dirt
+fill 50 82 -9 50 82 -4 minecraft:dirt
+fill 50 82 -3 50 82 7 minecraft:stone
+fill 49 82 9 49 82 12 minecraft:dirt
+fill 49 82 -10 49 82 -6 minecraft:dirt
+fill 49 82 -5 49 82 8 minecraft:stone
+fill 48 82 10 48 82 13 minecraft:dirt
+fill 48 82 -7 48 82 9 minecraft:stone
+fill 48 82 -11 48 82 -8 minecraft:dirt
+fill 47 82 11 47 82 13 minecraft:dirt
+fill 47 82 -8 47 82 10 minecraft:stone
+fill 47 82 -12 47 82 -9 minecraft:dirt
+fill 46 82 11 46 82 14 minecraft:dirt
+fill 46 82 -13 46 82 -10 minecraft:dirt
+fill 46 82 -9 46 82 10 minecraft:stone
+fill 45 82 -13 45 82 -11 minecraft:dirt
+fill 45 82 12 45 82 14 minecraft:dirt
+fill 44 82 -10 45 82 11 minecraft:stone
+fill 44 82 -14 44 82 -11 minecraft:dirt
+fill 44 82 12 44 82 15 minecraft:dirt
+fill 42 82 13 43 82 15 minecraft:dirt
+fill 42 82 -11 43 82 12 minecraft:stone
+fill 42 82 -14 43 82 -12 minecraft:dirt
+fill 34 82 14 41 82 16 minecraft:dirt
+fill 33 82 -12 41 82 13 minecraft:stone
+fill 33 82 -15 41 82 -13 minecraft:dirt
+fill 33 82 14 33 82 15 minecraft:dirt
+fill 32 82 -15 32 82 -12 minecraft:dirt
+fill 31 82 13 32 82 15 minecraft:dirt
+fill 31 82 -11 32 82 12 minecraft:stone
+fill 31 82 -14 31 82 -12 minecraft:dirt
+fill 30 82 -14 30 82 -11 minecraft:dirt
+fill 30 82 -10 30 82 12 minecraft:stone
+fill 30 82 13 30 82 14 minecraft:dirt
+fill 29 82 -13 29 82 -11 minecraft:dirt
+fill 29 82 12 29 82 14 minecraft:dirt
+fill 29 82 -10 29 82 11 minecraft:stone
+fill 28 82 11 28 82 14 minecraft:dirt
+fill 28 82 -13 28 82 -10 minecraft:dirt
+fill 28 82 -9 28 82 10 minecraft:stone
+fill 27 82 -12 27 82 -8 minecraft:dirt
+fill 27 82 -7 27 82 10 minecraft:stone
+fill 27 82 11 27 82 13 minecraft:dirt
+fill 26 82 -6 26 82 9 minecraft:stone
+fill 26 82 -11 26 82 -7 minecraft:dirt
+fill 26 82 10 26 82 12 minecraft:dirt
+fill 25 82 8 25 82 12 minecraft:dirt
+fill 25 82 -4 25 82 7 minecraft:stone
+fill 25 82 -10 25 82 -5 minecraft:dirt
+fill 24 82 6 24 82 11 minecraft:dirt
+fill 24 82 -9 24 82 -2 minecraft:dirt
+fill 24 82 -1 24 82 5 minecraft:stone
+fill 23 82 -8 23 82 10 minecraft:dirt
+fill 22 82 -6 22 82 8 minecraft:dirt
+fill 21 82 -3 21 82 6 minecraft:dirt
+particle minecraft:splash 0 63.2 0 46 0.4 46 0.3 300 force
+particle minecraft:cloud 0 82 0 30 0.5 30 0.02 50 force
+particle minecraft:dust_plume 0 82 0 26 0.4 26 0.02 40 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -124.763 77.772 0.500

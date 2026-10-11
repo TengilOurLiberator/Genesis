@@ -1,2 +1,2 @@
-execute as @a at @s run playsound genesis:narration.god.v08 voice @s ~ ~ ~ 1 1 1
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 73.984 0.500
+execute at @e[type=minecraft:marker,tag=gen.cam,limit=1] run particle minecraft:cloud ~ ~4 ~ 14 2 14 0.25 40 force
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 73.685 0.500

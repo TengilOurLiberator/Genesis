@@ -1,3 +1,3 @@
-summon minecraft:parrot -78.89 66.53 2.06 {PersistenceRequired:1b,Tags:["gen.made"],Variant:0}
-particle minecraft:poof -78.89 67.13 2.06 0.4 0.5 0.4 0.02 14 force
-particle minecraft:happy_villager -78.89 67.33 2.06 0.5 0.6 0.5 0 8 force
+summon minecraft:tropical_fish -102.32 58.33 -15.86 {PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -102.32 58.33 -15.86 0.3 0.3 0.3 0.05 12 force
+particle minecraft:splash -102.32 63.20 -15.86 0.3 0.1 0.3 0.1 8 force

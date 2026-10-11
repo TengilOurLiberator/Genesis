@@ -41,13 +41,13 @@ def clauses(text):
 norm = lambda w: re.sub(r"[^a-z]", "", w.lower())
 stt = WhisperModel("large-v3", device="cuda", compute_type="float16")
 timing, differs = {}, []
-files = sorted(glob.glob(os.path.join(ROOT, "verses", "dry", "*.wav")))
+files = sorted(glob.glob(os.path.join(ROOT, "verses", "best", "*.wav")))   # see work\best_of_takes.py
 for i, ((ref, text), path) in enumerate(zip(verses, files), 1):
     dst = os.path.join(OUT, f"v{i:02d}.wav")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-ac", "1", "-ar", "48000", "-c:a", "pcm_s16le", dst], check=True)
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", dst],
                                capture_output=True, text=True).stdout)
-    segs, _ = stt.transcribe(dst, language="en", word_timestamps=True, beam_size=5, condition_on_previous_text=False,
+    segs, _ = stt.transcribe(dst, language="en", word_timestamps=True, beam_size=5, condition_on_previous_text=False, vad_filter=True,
                              no_speech_threshold=None, log_prob_threshold=None, compression_ratio_threshold=None, temperature=0.0)
     heard = [(norm(w.word), w.start, w.end) for s in segs for w in s.words if norm(w.word)]
     cl = clauses(text)

@@ -1,2 +1,2 @@
-particle minecraft:glow -101.31 63.40 0.50 0.3 0.05 9 0 10 force
-particle minecraft:end_rod -101.31 64.20 0.50 0.3 0.3 8 0.01 2 force
+particle minecraft:glow -118.00 63.40 0.50 0.3 0.05 9 0 10 force
+particle minecraft:end_rod -118.00 64.20 0.50 0.3 0.3 8 0.01 2 force
