@@ -17,7 +17,9 @@ Start-Process powershell -ArgumentList $serverArgs
 Write-Host "Waiting for the server..."
 do { Start-Sleep -Seconds 2; & $python -I "$root\tools\rcon.py" "list" 2>$null | Out-Null } until ($LASTEXITCODE -eq 0)
 
-$bridgeArgs = @("-NoExit", "-Command", "& '$python' '$root\companion\bridge.py'" + $(if ($Text) { " --text" } else { "" }))
+$bridgeCommand = "& '$python' '$root\companion\bridge.py'"
+if ($Text) { $bridgeCommand += " --text" }
+$bridgeArgs = @("-NoExit", "-Command", $bridgeCommand)
 Start-Process powershell -ArgumentList $bridgeArgs
 
 Write-Host ""
