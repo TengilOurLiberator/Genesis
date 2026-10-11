@@ -1,4 +1,4 @@
-# Genesis
+﻿# Genesis
 
 The creation of the world, Genesis 1:1 to 2:3, as a Minecraft experience for VR.
 
@@ -52,3 +52,7 @@ from then on.
 `tools/build_datapack.py` needs the verse clips in `verses/dry` (for their lengths) and the vanilla data
 reports in `work/mcdata`, made with the server jar's data generator. Python comes from the
 `D:\voice-assistant` environment (faster-whisper, chatterbox-tts, silero-vad, sounddevice).
+
+## Licence
+
+Free for everyone to use, for anything. The code is released into the public domain under the Unlicense (`LICENSE`); everything else, including the narration, music and models, is CC0 (`LICENSE-ASSETS.md`). Minecraft itself, Fabric and Vivecraft are not part of this repository and keep their own terms.
