@@ -1,0 +1,153 @@
+fill 178 54 -188 178 54 154 stone
+setblock 178 54 155 gravel
+setblock 177 54 156 gravel
+fill 177 54 -193 177 54 -190 gravel
+fill 177 54 215 177 54 216 gravel
+fill 177 54 -189 177 54 155 stone
+fill 176 54 187 177 54 214 stone
+fill 176 54 186 177 54 186 gravel
+fill 176 54 -190 176 54 156 stone
+fill 176 54 -193 176 54 -191 gravel
+fill 175 54 215 176 54 217 gravel
+fill 175 54 157 176 54 157 gravel
+fill 175 54 186 175 54 214 stone
+fill 175 54 -195 175 54 -192 gravel
+fill 175 54 -191 175 54 156 stone
+fill 174 54 185 175 54 185 gravel
+fill 174 54 -196 174 54 -192 gravel
+setblock 174 54 158 gravel
+fill 174 54 186 174 54 215 stone
+fill 174 54 -191 174 54 157 stone
+setblock 173 54 159 gravel
+fill 173 54 -197 173 54 -194 gravel
+fill 173 54 -193 173 54 158 stone
+fill 172 54 -198 172 54 -195 gravel
+fill 172 54 -194 172 54 159 stone
+fill 171 54 185 173 54 215 stone
+fill 171 54 184 173 54 184 gravel
+fill 171 54 160 172 54 160 gravel
+fill 171 54 -198 171 54 -196 gravel
+fill 171 54 -195 171 54 159 stone
+fill 170 54 -199 170 54 -197 gravel
+fill 170 54 -196 170 54 160 stone
+setblock 170 54 161 gravel
+fill 169 54 216 174 54 217 gravel
+fill 169 54 184 170 54 215 stone
+fill 169 54 183 170 54 183 gravel
+fill 169 54 -200 169 54 -197 gravel
+fill 169 54 -196 169 54 161 stone
+setblock 169 54 162 gravel
+fill 168 54 -201 168 54 -198 gravel
+setblock 168 54 163 gravel
+fill 168 54 -197 168 54 162 stone
+fill 167 54 216 168 54 218 gravel
+fill 167 54 182 168 54 182 gravel
+fill 167 54 183 168 54 215 stone
+setblock 167 54 164 gravel
+fill 167 54 -202 167 54 -199 gravel
+fill 167 54 -198 167 54 163 stone
+fill 166 54 165 166 54 166 gravel
+fill 166 54 -199 166 54 164 stone
+fill 166 54 182 166 54 216 stone
+fill 166 54 -202 166 54 -200 gravel
+setblock 166 54 181 gravel
+fill 165 54 181 165 54 216 stone
+fill 165 54 -202 165 54 -201 gravel
+setblock 165 54 167 gravel
+fill 165 54 -200 165 54 166 stone
+setblock 165 54 180 gravel
+fill 164 54 180 164 54 216 stone
+setblock 164 54 179 gravel
+fill 164 54 -200 164 54 167 stone
+fill 164 54 -203 164 54 -201 gravel
+fill 164 54 168 164 54 169 gravel
+setblock 163 54 178 gravel
+fill 163 54 -203 163 54 -202 gravel
+fill 163 54 170 163 54 172 gravel
+fill 163 54 -201 163 54 169 stone
+fill 163 54 179 163 54 216 stone
+fill 162 54 178 162 54 216 stone
+fill 162 54 173 162 54 177 gravel
+fill 162 54 -201 162 54 172 stone
+fill 162 54 -204 162 54 -202 gravel
+fill 161 54 -204 161 54 -203 gravel
+fill 160 54 -202 161 54 216 stone
+fill 160 54 -205 160 54 -203 gravel
+fill 158 54 -205 159 54 -204 gravel
+fill 157 54 -203 159 54 216 stone
+fill 157 54 -206 157 54 -204 gravel
+fill 156 54 217 166 54 218 gravel
+fill 155 54 -206 156 54 -205 gravel
+fill 154 54 -204 156 54 216 stone
+fill 154 54 217 155 54 219 gravel
+fill 154 54 -207 154 54 -205 gravel
+fill 153 54 218 153 54 219 gravel
+fill 152 54 -207 153 54 -206 gravel
+fill 152 54 218 152 54 220 gravel
+fill 151 54 -205 153 54 217 stone
+fill 151 54 218 151 54 222 gravel
+fill 151 54 -208 151 54 -206 gravel
+fill 150 54 219 150 54 224 gravel
+fill 150 54 -206 150 54 218 stone
+fill 149 54 -208 150 54 -207 gravel
+fill 149 54 221 149 54 226 gravel
+fill 149 54 -206 149 54 220 stone
+fill 148 54 -206 148 54 222 stone
+fill 148 54 226 148 54 228 sand
+fill 148 54 223 148 54 225 gravel
+fill 147 54 -209 148 54 -207 gravel
+fill 147 54 225 147 54 230 sand
+fill 147 54 -206 147 54 224 stone
+fill 146 54 227 146 54 231 sand
+fill 146 54 -207 146 54 226 stone
+fill 145 54 -210 146 54 -208 gravel
+fill 145 54 -207 145 54 187 stone
+fill 145 54 188 145 54 192 gravel
+fill 145 54 193 145 54 228 stone
+fill 145 54 229 145 54 233 sand
+fill 144 54 194 144 54 229 stone
+fill 144 54 230 144 54 234 sand
+setblock 144 54 193 gravel
+fill 144 54 -211 144 54 -209 gravel
+fill 144 54 -208 144 54 186 stone
+fill 143 54 195 143 54 231 stone
+fill 143 54 -212 143 54 -210 gravel
+fill 143 54 -209 143 54 186 stone
+fill 143 54 232 143 54 235 sand
+fill 142 54 187 144 54 187 gravel
+fill 142 54 233 142 54 236 sand
+fill 142 54 -210 142 54 186 stone
+fill 142 54 -215 142 54 -211 gravel
+fill 142 54 195 142 54 232 stone
+fill 141 54 193 143 54 194 gravel
+fill 141 54 234 141 54 237 sand
+fill 141 54 195 141 54 233 stone
+fill 141 54 -211 141 54 187 stone
+fill 141 54 -223 141 54 -212 gravel
+setblock 141 54 188 gravel
+fill 140 54 194 140 54 234 stone
+fill 140 54 188 140 54 189 gravel
+setblock 140 54 193 gravel
+fill 140 54 -225 140 54 -214 gravel
+fill 140 54 -213 140 54 187 stone
+fill 140 54 190 140 54 192 stone
+fill 140 54 235 140 54 238 sand
+fill 139 54 -226 139 54 -217 gravel
+fill 139 54 236 139 54 239 sand
+fill 139 54 -216 139 54 235 stone
+fill 138 54 237 138 54 240 sand
+fill 138 54 -224 138 54 236 stone
+fill 138 54 -228 138 54 -225 gravel
+fill 137 54 238 137 54 240 sand
+fill 137 54 -230 137 54 -226 gravel
+fill 137 54 -225 137 54 237 stone
+setblock 137 54 241 gravel
+fill 136 54 240 136 54 241 gravel
+setblock 136 54 239 sand
+fill 136 54 -232 136 54 238 stone
+fill 135 54 -234 135 54 239 stone
+fill 135 54 240 135 54 242 gravel
+fill 134 54 240 134 54 243 gravel
+fill 134 54 -235 134 54 239 stone
+setblock 133 54 -236 gravel
+fill 133 54 241 133 54 243 gravel

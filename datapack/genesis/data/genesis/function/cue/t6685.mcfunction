@@ -1,0 +1,21 @@
+function genesis:god/spark
+particle minecraft:glow -254.50 69.00 18.50 2 2 2 0 40 force
+particle minecraft:glow -256.50 69.00 -14.50 2 2 2 0 40 force
+particle minecraft:glow -244.50 73.00 17.50 2 2 2 0 40 force
+particle minecraft:glow -245.50 73.00 -14.50 2 2 2 0 40 force
+particle minecraft:glow -245.50 72.00 -23.50 2 2 2 0 40 force
+particle minecraft:glow -256.50 69.00 -22.50 2 2 2 0 40 force
+particle minecraft:glow -236.50 74.00 -23.50 2 2 2 0 40 force
+particle minecraft:glow -239.50 74.00 27.50 2 2 2 0 40 force
+particle minecraft:glow -242.50 72.00 -30.50 2 2 2 0 40 force
+particle minecraft:glow -248.50 70.00 31.50 2 2 2 0 40 force
+particle minecraft:glow -255.50 68.00 33.50 2 2 2 0 40 force
+particle minecraft:glow -256.50 68.00 -31.50 2 2 2 0 40 force
+particle minecraft:glow -240.50 73.00 35.50 2 2 2 0 40 force
+particle minecraft:glow -241.50 71.00 -39.50 2 2 2 0 40 force
+particle minecraft:glow -250.50 69.00 -41.50 2 2 2 0 40 force
+particle minecraft:glow -226.50 74.00 39.50 2 2 2 0 40 force
+particle minecraft:glow -229.50 73.00 -37.50 2 2 2 0 40 force
+particle minecraft:glow -235.50 73.00 41.50 2 2 2 0 40 force
+particle minecraft:glow -248.50 69.00 47.50 2 2 2 0 40 force
+particle minecraft:glow -248.50 68.00 -48.50 2 2 2 0 40 force

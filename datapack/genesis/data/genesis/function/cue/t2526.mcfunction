@@ -1,5 +1,10 @@
-setblock 12 66 101 minecraft:air
-place feature minecraft:jungle_tree_no_vine 12 66 101
-particle minecraft:happy_villager 12 69 101 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 12 67 101 1 2 1 0 16 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -138.592 98.813 0.500
+setblock -88 65 248 minecraft:air
+place feature minecraft:tall_mangrove -88 65 248
+setblock -89 64 252 minecraft:air
+place feature minecraft:tall_mangrove -89 64 252
+setblock -91 64 256 minecraft:air
+place feature minecraft:tall_mangrove -91 64 256
+setblock -95 64 259 minecraft:air
+place feature minecraft:mangrove -95 64 259
+execute as @a at @s run playsound minecraft:item.bone_meal.use ambient @s ~ ~ ~ 0.8 0.7 0.8
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -316.104 117.076 0.500

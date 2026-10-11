@@ -1,1 +1,3 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -127.785 77.022 0.500
+time of genesis:day set 78000
+time of genesis:day rate 275.86
+time of genesis:day resume

@@ -1,0 +1,93 @@
+fill -90 50 -257 -89 50 268 sand
+fill 86 50 261 86 50 286 sand
+fill 31 50 -290 31 50 282 sand
+fill 262 50 72 262 50 73 gravel
+fill -131 50 160 -131 50 251 sand
+fill 193 50 -184 193 50 144 sand
+setblock 260 50 29 gravel
+fill 58 50 256 58 50 287 sand
+fill 214 50 -128 214 50 -107 sand
+fill 8 50 -283 8 50 291 sand
+fill -130 50 -285 -130 50 -251 sand
+fill -245 50 -177 -245 50 -161 sand
+fill -190 50 102 -190 50 129 sand
+fill 247 50 157 247 50 180 sand
+fill 203 50 -157 203 50 -155 gravel
+fill 153 50 -209 153 50 222 sand
+fill -140 50 -244 -140 50 134 sand
+fill -193 50 -141 -193 50 96 sand
+fill -203 50 -194 -203 50 -146 sand
+fill -8 50 -268 -8 50 285 sand
+fill -197 50 97 -196 50 132 sand
+fill 133 50 -239 133 50 245 sand
+fill -241 50 188 -240 50 208 sand
+fill 139 50 -230 139 50 243 sand
+fill -183 50 -222 -183 50 102 sand
+fill -192 50 -168 -192 50 -159 sand
+fill -218 50 147 -218 50 231 sand
+fill 10 50 -285 10 50 291 sand
+fill 211 50 -135 211 50 140 sand
+fill 159 50 -208 161 50 -208 gravel
+setblock 193 50 -185 gravel
+fill 154 50 222 155 50 222 gravel
+fill 210 50 -140 210 50 -139 gravel
+fill 198 50 -176 198 50 142 sand
+fill -94 50 -253 -94 50 268 sand
+fill -159 50 -234 -159 50 116 sand
+fill -201 50 148 -201 50 232 sand
+fill 140 50 -230 140 50 -229 gravel
+fill -269 50 -45 -269 50 45 sand
+fill 120 50 -260 121 50 248 sand
+setblock 207 50 -145 gravel
+fill 102 50 -267 102 50 247 sand
+setblock 170 50 -203 gravel
+fill -30 50 -255 -30 50 259 sand
+fill -97 50 -248 -97 50 268 sand
+fill 147 50 -212 148 50 -212 gravel
+fill -205 50 -134 -205 50 93 sand
+fill 170 50 182 171 50 220 sand
+fill 228 50 151 228 50 189 sand
+fill 244 50 -41 248 50 97 sand
+fill 62 50 -280 62 50 245 sand
+setblock 284 50 5 gravel
+fill 179 50 -194 179 50 156 sand
+fill 264 50 -36 264 50 24 sand
+fill 207 50 -144 207 50 141 sand
+fill -7 50 -269 -7 50 286 sand
+fill -99 50 -242 -99 50 268 sand
+fill -202 50 -136 -201 50 133 sand
+fill 249 50 159 249 50 175 sand
+fill 169 50 -203 169 50 164 sand
+fill 284 50 -22 284 50 4 sand
+fill -222 50 219 -222 50 226 sand
+fill -236 50 170 -236 50 211 sand
+fill 287 50 -7 287 50 -5 gravel
+fill 213 50 -133 213 50 -132 gravel
+fill -241 50 175 -241 50 181 sand
+fill 132 50 -241 132 50 246 sand
+setblock 271 50 19 gravel
+fill -239 50 -90 -239 50 78 sand
+fill 35 50 -287 35 50 277 sand
+fill 71 50 254 72 50 294 sand
+fill 1 50 -277 1 50 289 sand
+fill 150 50 229 150 50 230 gravel
+fill -74 50 -260 -73 50 260 sand
+fill -272 50 -36 -272 50 35 sand
+fill 181 50 187 181 50 217 sand
+fill -220 50 149 -220 50 229 sand
+setblock 286 50 2 gravel
+fill -119 50 -246 -119 50 260 sand
+fill -148 50 181 -148 50 227 sand
+fill 217 50 156 217 50 188 sand
+fill -68 50 -261 -68 50 257 sand
+fill 265 50 78 265 50 87 sand
+fill 218 50 155 218 50 188 sand
+fill 75 50 256 75 50 292 sand
+fill -226 50 -195 -222 50 -143 sand
+fill -157 50 -235 -157 50 118 sand
+fill 230 50 99 231 50 99 gravel
+fill -88 50 -258 -87 50 267 sand
+fill 61 50 254 61 50 290 sand
+fill -235 50 170 -235 50 213 sand
+fill -129 50 -247 -129 50 148 sand
+schedule function genesis:setup_t108 1t

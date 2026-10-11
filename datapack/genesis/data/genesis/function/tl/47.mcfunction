@@ -1,0 +1,11 @@
+execute if score #t gen matches 3013 run function genesis:cue/t3013
+execute if score #t gen matches 3019 run function genesis:cue/t3019
+execute if score #t gen matches 3025 run function genesis:cue/t3025
+execute if score #t gen matches 3031 run function genesis:cue/t3031
+execute if score #t gen matches 3033 run function genesis:cue/t3033
+execute if score #t gen matches 3037 run function genesis:cue/t3037
+execute if score #t gen matches 3043 run function genesis:cue/t3043
+execute if score #t gen matches 3049 run function genesis:cue/t3049
+execute if score #t gen matches 3055 run function genesis:cue/t3055
+execute if score #t gen matches 3061 run function genesis:cue/t3061
+execute if score #t gen matches 3067 run function genesis:cue/t3067

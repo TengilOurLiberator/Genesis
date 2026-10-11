@@ -24,7 +24,10 @@ shutil.copytree(src, dst)
 # options: start from the player's own, then set what the piece needs
 wanted = {"resourcePacks": f'["vanilla","fabric","file/{PACK}"]', "onboardAccessibility": "false",
           "skipMultiplayerWarning": "true", "joinedFirstServer": "true", "tutorialStep": "none",
-          "pauseOnLostFocus": "false", "soundCategory_voice": "1.0"}
+          "pauseOnLostFocus": "false", "soundCategory_voice": "1.0",
+          # as far and as fine as the game allows: the piece is about seeing a whole world appear
+          "renderDistance": "32", "simulationDistance": "16", "entityDistanceScaling": "5.0", "biomeBlendRadius": "7",
+          "cloudRange": "128", "particles": "0", "graphicsPreset": "\"custom\"", "mipmapLevels": "4", "entityShadows": "true"}
 lines, seen = [], set()
 base = os.path.join(game, "options.txt") if os.path.exists(os.path.join(game, "options.txt")) else os.path.join(MC, "options.txt")
 if os.path.exists(base):

@@ -1,1 +1,450 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -156.463 84.299 0.500
+fill 49 72 -123 49 72 171 stone
+fill 49 72 228 49 72 229 dirt
+fill 49 72 177 49 72 190 stone
+fill 48 72 -261 50 72 -201 terracotta
+fill 48 72 -200 48 72 -197 stone
+fill 48 72 191 48 72 198 dirt
+fill 48 72 176 48 72 190 stone
+fill 48 72 -196 48 72 -123 terracotta
+fill 48 72 -122 48 72 170 stone
+fill 48 72 171 48 72 175 gravel
+fill 47 72 -199 47 72 -196 stone
+fill 47 72 -195 47 72 -122 terracotta
+fill 47 72 173 47 72 174 gravel
+fill 47 72 -121 47 72 172 stone
+fill 46 72 229 48 72 229 dirt
+fill 46 72 -261 47 72 -261 red_sand
+fill 46 72 192 47 72 198 dirt
+fill 46 72 175 47 72 191 stone
+fill 46 72 -120 46 72 173 stone
+fill 46 72 -199 46 72 -194 stone
+setblock 46 72 174 gravel
+fill 46 72 -193 46 72 -121 terracotta
+fill 45 72 -260 47 72 -200 terracotta
+fill 45 72 -199 45 72 -193 stone
+fill 45 72 174 45 72 175 gravel
+fill 45 72 -119 45 72 173 stone
+fill 45 72 176 45 72 192 stone
+fill 45 72 193 45 72 198 dirt
+fill 44 72 199 48 72 228 stone
+fill 44 72 -192 45 72 -120 terracotta
+fill 44 72 229 45 72 230 dirt
+fill 44 72 -119 44 72 174 stone
+fill 44 72 176 44 72 194 stone
+fill 44 72 -198 44 72 -193 stone
+fill 44 72 -259 44 72 -199 terracotta
+fill 44 72 195 44 72 198 dirt
+setblock 44 72 175 gravel
+fill 43 72 -260 44 72 -260 red_sand
+fill 43 72 175 43 72 176 gravel
+fill 43 72 -120 43 72 174 stone
+fill 43 72 210 43 72 227 stone
+fill 43 72 177 43 72 200 stone
+fill 43 72 228 43 72 230 dirt
+fill 43 72 201 43 72 209 dirt
+fill 42 72 -197 43 72 -193 stone
+fill 42 72 -259 43 72 -198 terracotta
+fill 42 72 178 42 72 200 stone
+fill 42 72 229 42 72 232 dirt
+fill 42 72 211 42 72 228 stone
+fill 42 72 201 42 72 210 dirt
+fill 41 72 230 41 72 237 dirt
+fill 41 72 212 41 72 229 stone
+fill 40 72 -258 41 72 -197 terracotta
+fill 40 72 -196 41 72 -193 stone
+fill 40 72 236 40 72 239 dirt
+fill 40 72 212 40 72 235 stone
+fill 39 72 176 42 72 177 gravel
+fill 39 72 200 41 72 211 dirt
+fill 39 72 178 41 72 199 stone
+fill 39 72 -258 39 72 -196 terracotta
+fill 39 72 212 39 72 237 stone
+fill 39 72 -195 39 72 -193 stone
+fill 38 72 -120 42 72 175 stone
+fill 38 72 238 39 72 239 dirt
+fill 38 72 -194 38 72 -193 stone
+setblock 38 72 176 gravel
+fill 38 72 -258 38 72 -195 terracotta
+fill 37 72 -192 43 72 -121 terracotta
+fill 37 72 199 38 72 210 dirt
+fill 37 72 177 38 72 198 stone
+fill 37 72 175 37 72 176 gravel
+fill 37 72 -120 37 72 174 stone
+fill 36 72 -259 41 72 -259 red_sand
+fill 36 72 211 38 72 237 stone
+fill 36 72 -258 37 72 -194 terracotta
+fill 36 72 -193 37 72 -193 stone
+fill 36 72 207 36 72 210 dirt
+fill 36 72 -121 36 72 174 stone
+fill 36 72 176 36 72 197 stone
+fill 36 72 -192 36 72 -122 terracotta
+setblock 36 72 175 gravel
+fill 36 72 198 36 72 205 dirt
+fill 35 72 -193 35 72 -192 stone
+fill 35 72 198 35 72 204 dirt
+setblock 35 72 174 gravel
+fill 35 72 -259 35 72 -194 terracotta
+fill 35 72 -121 35 72 173 stone
+fill 35 72 175 35 72 197 stone
+fill 34 72 238 37 72 240 dirt
+fill 34 72 210 35 72 237 stone
+fill 34 72 -259 34 72 -193 terracotta
+setblock 34 72 -192 stone
+fill 33 72 207 35 72 209 dirt
+fill 33 72 -191 35 72 -122 terracotta
+fill 33 72 174 34 72 197 stone
+fill 33 72 173 34 72 173 gravel
+fill 33 72 -260 34 72 -260 red_sand
+fill 33 72 -121 34 72 172 stone
+fill 33 72 198 34 72 203 dirt
+fill 33 72 210 33 72 236 stone
+fill 33 72 -259 33 72 -194 terracotta
+fill 32 72 -193 33 72 -192 stone
+setblock 32 72 172 gravel
+fill 32 72 173 32 72 198 stone
+fill 32 72 -122 32 72 171 stone
+fill 32 72 -191 32 72 -123 terracotta
+fill 32 72 -260 32 72 -194 terracotta
+fill 31 72 -261 32 72 -261 red_sand
+setblock 31 72 171 gravel
+fill 31 72 -194 31 72 -192 stone
+fill 31 72 -191 31 72 -124 terracotta
+fill 31 72 -123 31 72 170 stone
+fill 31 72 -276 31 72 -271 stone
+fill 31 72 -260 31 72 -195 terracotta
+fill 31 72 172 31 72 198 stone
+fill 30 72 199 32 72 202 dirt
+fill 30 72 -194 30 72 -193 stone
+fill 30 72 -271 30 72 -269 terracotta
+fill 30 72 -124 30 72 168 stone
+fill 30 72 -261 30 72 -195 terracotta
+fill 30 72 171 30 72 198 stone
+fill 30 72 169 30 72 170 gravel
+fill 30 72 -192 30 72 -125 terracotta
+fill 30 72 -276 30 72 -272 stone
+fill 29 72 207 32 72 208 dirt
+fill 29 72 -262 30 72 -262 red_sand
+fill 29 72 169 29 72 198 stone
+setblock 29 72 -267 red_sand
+fill 29 72 199 29 72 201 dirt
+fill 29 72 -261 29 72 -196 terracotta
+fill 29 72 -271 29 72 -268 terracotta
+fill 29 72 -277 29 72 -272 stone
+fill 29 72 -195 29 72 -193 stone
+fill 29 72 -125 29 72 166 stone
+fill 29 72 167 29 72 168 gravel
+fill 29 72 -192 29 72 -126 terracotta
+fill 28 72 237 33 72 241 dirt
+fill 28 72 -196 28 72 -194 stone
+fill 28 72 165 28 72 166 gravel
+setblock 28 72 -264 red_sand
+fill 28 72 -263 28 72 -197 terracotta
+fill 28 72 167 28 72 197 stone
+fill 28 72 -193 28 72 -127 terracotta
+fill 28 72 -126 28 72 164 stone
+fill 28 72 -272 28 72 -265 terracotta
+fill 28 72 -277 28 72 -273 stone
+fill 27 72 198 28 72 201 dirt
+fill 27 72 -197 27 72 -194 stone
+fill 27 72 -271 27 72 -198 terracotta
+fill 27 72 237 27 72 242 dirt
+fill 27 72 166 27 72 197 stone
+fill 27 72 -193 27 72 -128 terracotta
+fill 27 72 164 27 72 165 gravel
+fill 27 72 -127 27 72 163 stone
+fill 26 72 209 32 72 236 stone
+fill 26 72 206 28 72 208 dirt
+fill 26 72 -277 27 72 -272 stone
+fill 26 72 -271 26 72 -199 terracotta
+setblock 26 72 163 gravel
+fill 26 72 237 26 72 243 dirt
+fill 26 72 -128 26 72 162 stone
+fill 26 72 -198 26 72 -195 stone
+fill 26 72 164 26 72 197 stone
+fill 26 72 -194 26 72 -129 terracotta
+fill 25 72 198 26 72 200 dirt
+fill 25 72 237 25 72 244 dirt
+fill 25 72 -195 25 72 -129 terracotta
+fill 25 72 -199 25 72 -196 stone
+fill 25 72 -273 25 72 -200 terracotta
+fill 25 72 -128 25 72 197 stone
+fill 25 72 -277 25 72 -274 stone
+fill 24 72 210 25 72 236 stone
+fill 24 72 205 25 72 209 dirt
+fill 24 72 -200 24 72 -197 stone
+fill 24 72 -273 24 72 -201 terracotta
+fill 24 72 -196 24 72 -131 terracotta
+fill 24 72 199 24 72 200 dirt
+fill 24 72 237 24 72 245 dirt
+fill 24 72 -130 24 72 198 stone
+fill 23 72 199 23 72 201 dirt
+fill 23 72 -198 23 72 -132 terracotta
+fill 23 72 237 23 72 246 dirt
+fill 23 72 -202 23 72 -199 stone
+fill 23 72 -273 23 72 -203 terracotta
+fill 23 72 211 23 72 236 stone
+fill 23 72 204 23 72 210 dirt
+fill 23 72 -131 23 72 198 stone
+fill 22 72 -276 24 72 -274 stone
+fill 22 72 -203 22 72 -200 stone
+fill 22 72 -273 22 72 -204 terracotta
+fill 22 72 -132 22 72 198 stone
+fill 22 72 237 22 72 253 dirt
+fill 22 72 199 22 72 211 dirt
+fill 22 72 212 22 72 236 stone
+fill 22 72 -199 22 72 -133 terracotta
+fill 21 72 -133 21 72 199 stone
+fill 21 72 -203 21 72 -201 stone
+fill 21 72 212 21 72 237 stone
+fill 21 72 238 21 72 256 dirt
+fill 21 72 -272 21 72 -204 terracotta
+fill 21 72 -200 21 72 -134 terracotta
+fill 20 72 -275 21 72 -273 stone
+fill 20 72 -276 21 72 -276 dirt
+fill 20 72 245 20 72 254 stone
+fill 20 72 -272 20 72 -135 terracotta
+fill 20 72 239 20 72 244 dirt
+fill 20 72 -134 20 72 199 stone
+fill 20 72 212 20 72 238 stone
+fill 20 72 255 20 72 259 dirt
+fill 19 72 200 21 72 211 dirt
+fill 19 72 -135 19 72 199 stone
+fill 19 72 258 19 72 261 dirt
+fill 19 72 212 19 72 257 stone
+setblock 19 72 -275 dirt
+fill 19 72 -274 19 72 -273 stone
+fill 19 72 -272 19 72 -136 terracotta
+fill 18 72 -136 18 72 175 stone
+fill 18 72 -271 18 72 -149 terracotta
+fill 18 72 260 18 72 262 dirt
+setblock 18 72 -274 dirt
+fill 18 72 -148 18 72 -147 stone
+fill 18 72 187 18 72 200 stone
+fill 18 72 -146 18 72 -137 terracotta
+fill 18 72 201 18 72 211 dirt
+fill 18 72 212 18 72 259 stone
+fill 18 72 176 18 72 186 dirt
+fill 17 72 -273 18 72 -272 stone
+fill 17 72 -271 17 72 -152 terracotta
+fill 17 72 261 17 72 262 dirt
+fill 17 72 -151 17 72 -146 stone
+fill 17 72 185 17 72 190 dirt
+fill 17 72 191 17 72 201 stone
+fill 17 72 -145 17 72 -139 terracotta
+fill 17 72 -138 17 72 171 stone
+fill 17 72 202 17 72 211 dirt
+fill 17 72 172 17 72 177 dirt
+fill 17 72 212 17 72 260 stone
+fill 16 72 -144 16 72 -140 terracotta
+fill 16 72 170 16 72 172 dirt
+fill 16 72 -139 16 72 169 stone
+fill 16 72 -270 16 72 -154 terracotta
+fill 16 72 -153 16 72 -145 stone
+fill 16 72 -272 16 72 -271 stone
+fill 16 72 190 16 72 193 dirt
+fill 16 72 203 16 72 211 dirt
+fill 16 72 194 16 72 202 stone
+setblock 16 72 -273 dirt
+fill 15 72 212 16 72 259 stone
+fill 15 72 260 16 72 263 dirt
+fill 15 72 -156 15 72 -144 stone
+fill 15 72 197 15 72 203 stone
+fill 15 72 204 15 72 211 dirt
+fill 15 72 193 15 72 196 dirt
+fill 15 72 -141 15 72 168 stone
+fill 15 72 -143 15 72 -142 terracotta
+fill 15 72 -271 15 72 -270 stone
+fill 15 72 -269 15 72 -157 terracotta
+setblock 15 72 -272 dirt
+fill 15 72 169 15 72 170 dirt
+fill 14 72 196 14 72 197 dirt
+fill 14 72 168 14 72 169 dirt
+setblock 14 72 -271 dirt
+fill 14 72 205 14 72 211 dirt
+fill 14 72 198 14 72 204 stone
+fill 14 72 -268 14 72 -159 terracotta
+fill 14 72 212 14 72 258 stone
+fill 14 72 -158 14 72 167 stone
+fill 13 72 -270 14 72 -269 stone
+fill 13 72 259 14 72 263 dirt
+fill 13 72 167 13 72 168 dirt
+fill 13 72 211 13 72 258 stone
+fill 13 72 206 13 72 210 dirt
+fill 13 72 -160 13 72 166 stone
+fill 13 72 -268 13 72 -161 terracotta
+fill 13 72 200 13 72 205 stone
+fill 13 72 198 13 72 199 dirt
+fill 12 72 -262 12 72 -163 terracotta
+fill 12 72 201 12 72 257 stone
+fill 12 72 -270 12 72 -268 stone
+setblock 12 72 167 dirt
+fill 12 72 199 12 72 200 dirt
+setblock 12 72 -263 red_sand
+fill 12 72 -267 12 72 -264 terracotta
+fill 12 72 258 12 72 262 dirt
+fill 12 72 -162 12 72 166 stone
+setblock 11 72 -261 red_sand
+setblock 11 72 -265 red_sand
+fill 11 72 -269 11 72 -267 stone
+fill 11 72 202 11 72 257 stone
+fill 11 72 -260 11 72 -164 terracotta
+fill 11 72 -163 11 72 165 stone
+fill 11 72 258 11 72 261 dirt
+fill 11 72 200 11 72 201 dirt
+setblock 11 72 -266 terracotta
+setblock 11 72 -270 dirt
+fill 10 72 166 11 72 166 dirt
+setblock 10 72 201 dirt
+fill 10 72 257 10 72 260 dirt
+fill 10 72 -164 10 72 165 stone
+fill 10 72 -268 10 72 -267 stone
+fill 10 72 202 10 72 256 stone
+fill 10 72 -259 10 72 -165 terracotta
+fill 9 72 -258 9 72 -166 terracotta
+fill 9 72 203 9 72 256 stone
+setblock 9 72 202 dirt
+fill 9 72 -165 9 72 164 stone
+fill 9 72 257 9 72 259 dirt
+fill 8 72 202 8 72 203 dirt
+fill 8 72 -257 8 72 -167 terracotta
+fill 8 72 -166 8 72 164 stone
+fill 7 72 204 8 72 255 stone
+fill 7 72 -167 7 72 164 stone
+setblock 7 72 203 dirt
+setblock 7 72 -257 red_sand
+fill 7 72 -256 7 72 -168 terracotta
+fill 6 72 256 8 72 259 dirt
+fill 6 72 -168 6 72 164 stone
+fill 6 72 205 6 72 228 stone
+fill 6 72 -255 6 72 -169 terracotta
+fill 6 72 203 6 72 204 dirt
+fill 6 72 234 6 72 255 stone
+fill 6 72 229 6 72 233 dirt
+fill 5 72 224 5 72 236 dirt
+fill 5 72 205 5 72 223 stone
+fill 5 72 237 5 72 256 stone
+fill 5 72 127 5 72 164 stone
+fill 5 72 -169 5 72 125 stone
+fill 5 72 -254 5 72 -170 terracotta
+setblock 5 72 126 gravel
+fill 4 72 204 5 72 204 dirt
+fill 4 72 257 5 72 259 dirt
+fill 4 72 221 4 72 238 dirt
+fill 4 72 -170 4 72 127 stone
+fill 4 72 239 4 72 256 stone
+fill 4 72 -252 4 72 -171 terracotta
+setblock 4 72 128 gravel
+fill 4 72 205 4 72 220 stone
+fill 4 72 129 4 72 164 stone
+setblock 4 72 -253 red_sand
+fill 3 72 165 9 72 165 dirt
+fill 3 72 258 3 72 259 dirt
+fill 3 72 -171 3 72 164 stone
+fill 3 72 234 3 72 239 dirt
+fill 3 72 240 3 72 257 stone
+setblock 3 72 -251 red_sand
+fill 3 72 220 3 72 224 dirt
+fill 3 72 -250 3 72 -172 terracotta
+fill 3 72 206 3 72 219 stone
+fill 2 72 205 3 72 205 dirt
+fill 2 72 218 2 72 221 dirt
+setblock 2 72 -248 red_sand
+fill 2 72 237 2 72 241 dirt
+fill 2 72 206 2 72 217 stone
+fill 2 72 -247 2 72 -172 terracotta
+fill 2 72 -171 2 72 165 stone
+fill 1 72 166 2 72 166 dirt
+fill 1 72 242 2 72 257 stone
+fill 1 72 258 2 72 260 dirt
+fill 1 72 134 1 72 135 stone
+setblock 1 72 136 gravel
+fill 1 72 -244 1 72 -173 terracotta
+fill 1 72 137 1 72 165 stone
+fill 1 72 205 1 72 206 dirt
+fill 1 72 207 1 72 217 stone
+fill 1 72 218 1 72 220 dirt
+fill 1 72 238 1 72 241 dirt
+setblock 1 72 -245 red_sand
+fill 1 72 -172 1 72 132 stone
+setblock 1 72 133 gravel
+fill 0 72 217 0 72 219 dirt
+fill 0 72 207 0 72 216 stone
+setblock 0 72 -244 red_sand
+fill 0 72 138 0 72 165 stone
+fill 0 72 135 0 72 137 gravel
+fill 0 72 166 0 72 167 dirt
+setblock 0 72 206 dirt
+fill -1 72 239 0 72 242 dirt
+fill -1 72 243 0 72 258 stone
+fill -1 72 -242 0 72 -242 red_sand
+fill -1 72 167 -1 72 168 dirt
+fill -1 72 206 -1 72 207 dirt
+fill -1 72 141 -1 72 166 stone
+fill -1 72 135 -1 72 140 gravel
+fill -2 72 259 0 72 260 dirt
+fill -2 72 -241 0 72 -173 terracotta
+fill -2 72 -172 0 72 134 stone
+fill -2 72 208 -1 72 215 stone
+fill -2 72 216 -1 72 219 dirt
+fill -2 72 145 -2 72 167 stone
+setblock -2 72 168 dirt
+fill -2 72 135 -2 72 144 gravel
+setblock -2 72 207 dirt
+fill -2 72 244 -2 72 258 stone
+fill -3 72 239 -2 72 243 dirt
+fill -3 72 244 -3 72 259 stone
+setblock -3 72 169 dirt
+fill -3 72 -228 -3 72 -219 stone
+fill -3 72 147 -3 72 168 stone
+fill -3 72 215 -3 72 218 dirt
+fill -3 72 -241 -3 72 -229 terracotta
+fill -3 72 207 -3 72 208 dirt
+fill -3 72 209 -3 72 214 stone
+fill -3 72 -172 -3 72 138 stone
+fill -3 72 139 -3 72 146 gravel
+fill -3 72 -218 -3 72 -173 terracotta
+fill -4 72 260 -3 72 261 dirt
+setblock -4 72 208 dirt
+setblock -4 72 170 dirt
+fill -4 72 209 -4 72 213 stone
+fill -4 72 246 -4 72 259 stone
+fill -4 72 141 -4 72 147 gravel
+fill -4 72 -216 -4 72 -173 terracotta
+fill -4 72 -231 -4 72 -217 stone
+fill -4 72 -172 -4 72 140 stone
+fill -4 72 -240 -4 72 -232 terracotta
+fill -4 72 148 -4 72 169 stone
+fill -4 72 239 -4 72 245 dirt
+fill -5 72 -241 -4 72 -241 red_sand
+fill -5 72 -240 -5 72 -234 terracotta
+fill -5 72 247 -5 72 258 stone
+fill -5 72 259 -5 72 260 dirt
+fill -5 72 -233 -5 72 -216 stone
+fill -5 72 238 -5 72 246 dirt
+setblock -5 72 171 dirt
+fill -5 72 -172 -5 72 142 stone
+fill -5 72 143 -5 72 148 gravel
+fill -5 72 149 -5 72 170 stone
+fill -5 72 -215 -5 72 -173 terracotta
+fill -6 72 208 -5 72 209 dirt
+fill -6 72 -240 -6 72 -239 terracotta
+setblock -6 72 -236 terracotta
+fill -6 72 -238 -6 72 -237 red_sand
+fill -6 72 -232 -6 72 -214 stone
+fill -6 72 -213 -6 72 -173 terracotta
+fill -6 72 252 -6 72 257 stone
+fill -6 72 150 -6 72 171 stone
+fill -6 72 258 -6 72 260 dirt
+fill -6 72 145 -6 72 149 gravel
+fill -6 72 -172 -6 72 144 stone
+fill -6 72 233 -6 72 251 dirt
+fill -6 72 172 -6 72 173 dirt
+fill -6 72 -235 -6 72 -233 dirt
+fill -7 72 210 -5 72 213 stone
+fill -7 72 173 -7 72 174 dirt
+setblock -7 72 209 dirt
+fill -7 72 244 -7 72 259 dirt
+fill -7 72 -236 -7 72 -231 dirt
+fill -7 72 -230 -7 72 -213 stone
+fill -7 72 151 -7 72 172 stone
+fill -7 72 232 -7 72 241 dirt

@@ -1,1 +1,2 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 63.464 0.500
+function genesis:god/spark
+summon minecraft:dolphin -257.36 59.62 -171.23 {Invulnerable:1b,PersistenceRequired:1b,Tags:["gen.made"]}

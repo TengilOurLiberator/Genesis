@@ -1,6 +1,10 @@
-setblock 73 92 26 minecraft:air
-place feature minecraft:pine 73 92 26
-particle minecraft:happy_villager 73 95 26 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 73 93 26 1 2 1 0 16 force
-execute as @a at @s run playsound minecraft:item.bone_meal.use ambient @s ~ ~ ~ 0.8 0.7 0.8
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -136.515 98.006 0.500
+function genesis:god/spark
+setblock 101 81 81 minecraft:air
+place feature minecraft:spruce 101 81 81
+setblock 100 81 66 minecraft:air
+place feature minecraft:spruce 100 81 66
+setblock 99 80 76 minecraft:air
+place feature minecraft:pine 99 80 76
+setblock 97 83 68 minecraft:air
+place feature minecraft:spruce 97 83 68
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -318.058 113.004 0.500

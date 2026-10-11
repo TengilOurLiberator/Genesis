@@ -1,0 +1,16 @@
+data merge entity @e[type=minecraft:item_display,tag=gen.god.rays,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.glow,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.corona,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.core,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.crown,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wheel_outer,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wheel_mid,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wheel_inner,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.gyro_a,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.gyro_b,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wing_mid_r,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wing_hi_r,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wing_lo_r,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wing_mid_l,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wing_hi_l,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}
+data merge entity @e[type=minecraft:item_display,tag=gen.god.wing_lo_l,limit=1] {start_interpolation:0,interpolation_duration:40,transformation:{translation:[0.0f,0.0f,0.0f],scale:[0.001f,0.001f,0.001f]}}

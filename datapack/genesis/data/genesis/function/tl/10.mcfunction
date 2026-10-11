@@ -1,0 +1,11 @@
+execute if score #t gen matches 643 run function genesis:cue/t643
+execute if score #t gen matches 649 run function genesis:cue/t649
+execute if score #t gen matches 655 run function genesis:cue/t655
+execute if score #t gen matches 661 run function genesis:cue/t661
+execute if score #t gen matches 667 run function genesis:cue/t667
+execute if score #t gen matches 673 run function genesis:cue/t673
+execute if score #t gen matches 679 run function genesis:cue/t679
+execute if score #t gen matches 685 run function genesis:cue/t685
+execute if score #t gen matches 691 run function genesis:cue/t691
+execute if score #t gen matches 697 run function genesis:cue/t697
+execute if score #t gen matches 703 run function genesis:cue/t703

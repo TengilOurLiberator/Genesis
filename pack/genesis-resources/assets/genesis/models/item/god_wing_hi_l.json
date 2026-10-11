@@ -1,0 +1,120 @@
+{
+  "textures": {
+    "particle": "genesis:item/god_wing",
+    "wing": "genesis:item/god_wing",
+    "back": "genesis:item/god_wing_back"
+  },
+  "elements": [
+    {
+      "from": [
+        -14,
+        -1.375,
+        7.2
+      ],
+      "to": [
+        10,
+        10.625,
+        7.2
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "z",
+        "angle": 10
+      },
+      "light_emission": 15,
+      "shade_direction_override": "up",
+      "faces": {
+        "south": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#back"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#back"
+        }
+      }
+    },
+    {
+      "from": [
+        -14,
+        -1.375,
+        8
+      ],
+      "to": [
+        10,
+        10.625,
+        8
+      ],
+      "light_emission": 15,
+      "shade_direction_override": "up",
+      "faces": {
+        "south": {
+          "uv": [
+            16,
+            0,
+            0,
+            9.1429
+          ],
+          "texture": "#wing"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            9.1429
+          ],
+          "texture": "#wing"
+        }
+      }
+    },
+    {
+      "from": [
+        -14,
+        1.25,
+        8.8
+      ],
+      "to": [
+        10,
+        10.25,
+        8.8
+      ],
+      "light_emission": 15,
+      "shade_direction_override": "up",
+      "faces": {
+        "south": {
+          "uv": [
+            16,
+            9.1429,
+            0,
+            16
+          ],
+          "texture": "#wing"
+        },
+        "north": {
+          "uv": [
+            0,
+            9.1429,
+            16,
+            16
+          ],
+          "texture": "#wing"
+        }
+      }
+    }
+  ]
+}

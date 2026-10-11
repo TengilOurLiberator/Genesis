@@ -1,0 +1,9 @@
+fillbiome -324 40 -216 -309 203 239 minecraft:ocean
+fillbiome -324 40 240 -309 203 343 minecraft:lukewarm_ocean
+fillbiome -324 40 -340 -313 203 -217 minecraft:lukewarm_ocean
+fillbiome -340 40 -212 -325 203 235 minecraft:ocean
+fillbiome -344 40 236 -325 203 343 minecraft:lukewarm_ocean
+fillbiome -344 40 -340 -325 203 -213 minecraft:lukewarm_ocean
+fillbiome -344 40 -188 -341 203 -181 minecraft:lukewarm_ocean
+fillbiome -344 40 -180 -341 203 235 minecraft:ocean
+fillbiome -344 40 -212 -341 203 -189 minecraft:ocean

@@ -1,1 +1,1 @@
-execute as @a at @s run playsound genesis:narration.god.v18 voice @s ~ ~ ~ 1 1 1
+particle minecraft:end_rod -112.78 181.29 -14.53 0.2 0.2 0.2 0.6 14 force

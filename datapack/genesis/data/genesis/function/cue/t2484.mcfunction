@@ -1,5 +1,9 @@
-setblock -16 72 -31 minecraft:air
-place feature minecraft:cherry -16 72 -31
-particle minecraft:happy_villager -16 75 -31 1.5 2.5 1.5 0 30 force
-particle minecraft:composter -16 73 -31 1 2 1 0 16 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -140.889 99.707 0.500
+setblock -45 66 188 minecraft:air
+place feature minecraft:tall_mangrove -45 66 188
+setblock -48 65 193 minecraft:air
+place feature minecraft:mangrove -48 65 193
+setblock -49 65 197 minecraft:air
+place feature minecraft:mangrove -49 65 197
+setblock -52 64 201 minecraft:air
+place feature minecraft:tall_mangrove -52 64 201
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -314.884 119.617 0.500

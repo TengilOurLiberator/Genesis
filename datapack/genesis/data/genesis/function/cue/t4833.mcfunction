@@ -1,1 +1,2 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -99.702 85.299 0.500
+function genesis:god/f11
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -318.143 72.322 0.500

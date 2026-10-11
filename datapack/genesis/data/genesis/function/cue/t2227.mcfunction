@@ -1,331 +1,658 @@
-setblock 24 66 -85 minecraft:short_grass
-setblock 23 66 -85 minecraft:short_grass
-setblock 22 66 -85 minecraft:short_grass
-setblock 25 66 -84 minecraft:short_grass
-setblock 19 66 -84 minecraft:short_grass
-setblock 24 67 -83 minecraft:short_grass
-setblock 22 67 -83 minecraft:short_grass
-setblock 20 66 -83 minecraft:short_grass
-setblock 24 67 -82 minecraft:short_grass
-setblock 22 67 -82 minecraft:short_grass
-setblock 27 67 -81 minecraft:short_grass
-setblock 22 68 -80 minecraft:short_grass
-setblock 29 68 -78 minecraft:short_grass
-setblock 28 68 -76 minecraft:short_grass
-setblock 30 68 -75 minecraft:short_grass
-setblock 31 68 -74 minecraft:short_grass
-setblock 30 68 -74 minecraft:short_grass
-setblock 29 68 -74 minecraft:short_grass
-setblock 28 69 -74 minecraft:short_grass
-setblock 27 69 -74 minecraft:short_grass
-setblock 26 69 -74 minecraft:short_grass
-setblock 30 68 -73 minecraft:short_grass
-setblock 29 68 -73 minecraft:short_grass
-setblock 27 69 -73 minecraft:short_grass
-setblock 31 68 -72 minecraft:short_grass
-setblock 30 68 -72 minecraft:short_grass
-setblock 32 68 -71 minecraft:short_grass
-setblock 34 68 -69 minecraft:short_grass
-setblock 33 68 -69 minecraft:short_grass
-setblock 35 68 -68 minecraft:short_grass
-setblock 35 67 -67 minecraft:short_grass
-setblock 33 68 -67 minecraft:short_grass
-setblock 35 67 -66 minecraft:short_grass
-setblock 33 67 -66 minecraft:short_grass
-setblock 33 67 -65 minecraft:short_grass
-setblock 31 68 -65 minecraft:short_grass
-setblock 37 67 -64 minecraft:short_grass
-setblock 35 67 -64 minecraft:short_grass
-setblock 34 67 -64 minecraft:short_grass
-setblock 33 67 -64 minecraft:short_grass
-setblock 32 68 -64 minecraft:short_grass
-setblock 36 68 -63 minecraft:short_grass
-setblock 35 68 -63 minecraft:short_grass
-setblock 33 68 -63 minecraft:short_grass
-setblock 36 68 -62 minecraft:short_grass
-setblock 35 68 -61 minecraft:short_grass
-setblock 36 68 -60 minecraft:short_grass
-setblock 36 69 -59 minecraft:short_grass
-setblock 35 69 -59 minecraft:short_grass
-setblock 34 69 -59 minecraft:short_grass
-setblock 38 69 -58 minecraft:short_grass
-setblock 36 69 -58 minecraft:short_grass
-setblock 40 70 -57 minecraft:short_grass
-setblock 39 70 -57 minecraft:short_grass
-setblock 36 70 -57 minecraft:short_grass
-setblock 41 71 -55 minecraft:short_grass
-setblock 40 71 -55 minecraft:short_grass
-setblock 41 72 -54 minecraft:short_grass
-setblock 38 71 -54 minecraft:short_grass
-setblock 41 73 -53 minecraft:short_grass
-setblock 38 72 -53 minecraft:short_grass
-setblock 42 74 -52 minecraft:short_grass
-setblock 42 75 -51 minecraft:short_grass
-setblock 42 78 -48 minecraft:short_grass
-setblock 44 80 -47 minecraft:short_grass
-setblock 40 78 -47 minecraft:short_grass
-setblock 44 81 -46 minecraft:short_grass
-setblock 44 82 -45 minecraft:short_grass
-setblock 42 82 -45 minecraft:short_grass
-setblock 45 84 -44 minecraft:short_grass
-setblock 44 84 -44 minecraft:short_grass
-setblock 43 83 -44 minecraft:short_grass
-setblock 41 84 -43 minecraft:short_grass
-setblock 43 86 -42 minecraft:short_grass
-setblock 41 85 -42 minecraft:short_grass
-setblock 48 98 31 minecraft:short_grass
-place feature minecraft:bamboo_no_podzol 46 90 34
-setblock 46 89 35 minecraft:short_grass
-setblock 45 88 35 minecraft:fern
-setblock 47 89 36 minecraft:fern
-setblock 45 86 36 minecraft:short_grass
-setblock 46 86 37 minecraft:short_grass
-setblock 44 84 37 minecraft:fern
-setblock 43 83 37 minecraft:short_grass
-setblock 45 84 38 minecraft:short_grass
-setblock 45 76 44 minecraft:short_grass
-setblock 41 74 44 minecraft:short_grass
-setblock 43 74 45 minecraft:short_grass
-setblock 42 73 46 minecraft:fern
-setblock 42 71 49 minecraft:short_grass
-setblock 40 70 50 minecraft:short_grass
-setblock 42 70 51 minecraft:melon
-setblock 41 70 51 minecraft:short_grass
-setblock 39 70 52 minecraft:short_grass
-setblock 38 70 52 minecraft:short_grass
-setblock 41 69 53 minecraft:fern
-setblock 40 69 53 minecraft:short_grass
-setblock 40 69 54 minecraft:short_grass
-setblock 38 69 55 minecraft:short_grass
-setblock 37 69 55 minecraft:short_grass
-setblock 36 68 57 minecraft:short_grass
-setblock 36 68 58 minecraft:fern
-setblock 38 68 59 minecraft:short_grass
-setblock 37 68 59 minecraft:short_grass
-place feature minecraft:bamboo_no_podzol 36 68 59
-setblock 38 67 61 minecraft:fern
-setblock 35 67 61 minecraft:fern
-setblock 36 67 62 minecraft:short_grass
-setblock 36 67 63 minecraft:short_grass
-setblock 35 67 67 minecraft:fern
-setblock 34 67 67 minecraft:short_grass
-setblock 32 67 67 minecraft:fern
-setblock 31 67 67 minecraft:short_grass
-setblock 30 67 67 minecraft:fern
-setblock 35 66 68 minecraft:short_grass
-setblock 34 66 68 minecraft:fern
-setblock 32 67 68 minecraft:short_grass
-setblock 34 66 69 minecraft:short_grass
-setblock 31 67 69 minecraft:short_grass
-setblock 30 67 69 minecraft:short_grass
-setblock 33 66 70 minecraft:short_grass
-setblock 33 66 71 minecraft:short_grass
-setblock 32 67 72 minecraft:short_grass
-setblock 26 67 74 minecraft:short_grass
-setblock 26 67 76 minecraft:short_grass
-setblock 25 67 76 minecraft:short_grass
-setblock 27 67 77 minecraft:short_grass
-setblock 26 67 77 minecraft:fern
-setblock 25 67 77 minecraft:short_grass
-setblock 28 67 78 minecraft:short_grass
-setblock 27 67 78 minecraft:short_grass
-setblock 24 67 78 minecraft:fern
-setblock 22 67 80 minecraft:short_grass
-setblock 22 67 81 minecraft:short_grass
-setblock 23 67 82 minecraft:short_grass
-setblock 21 67 83 minecraft:fern
-setblock 24 67 84 minecraft:short_grass
-setblock 22 67 84 minecraft:short_grass
-setblock 23 67 85 minecraft:fern
-setblock 22 67 85 minecraft:fern
-setblock 19 67 85 minecraft:short_grass
-setblock 23 67 86 minecraft:short_grass
-setblock 22 67 86 minecraft:fern
-setblock 21 67 86 minecraft:fern
-setblock 19 67 86 minecraft:short_grass
-setblock 22 67 87 minecraft:fern
-setblock 18 67 87 minecraft:short_grass
-place feature minecraft:bamboo_no_podzol 17 67 87
-setblock 22 67 88 minecraft:short_grass
-setblock 21 67 88 minecraft:short_grass
-setblock 16 67 88 minecraft:short_grass
-setblock 20 67 89 minecraft:fern
-setblock 16 67 89 minecraft:short_grass
-setblock 18 67 90 minecraft:fern
-setblock 17 67 90 minecraft:short_grass
-setblock 16 67 90 minecraft:short_grass
-setblock 17 67 92 minecraft:short_grass
-setblock 14 67 95 minecraft:fern
-setblock 13 67 96 minecraft:melon
-place feature minecraft:bamboo_no_podzol 11 67 96
-setblock 14 67 97 minecraft:melon
-setblock 12 67 97 minecraft:fern
-setblock 11 67 97 minecraft:short_grass
-setblock 3 67 102 minecraft:sweet_berry_bush[age=3]
-setblock 3 66 103 minecraft:wildflowers
-setblock 2 66 104 minecraft:short_grass
-setblock 4 66 105 minecraft:fern
-setblock -2 66 108 minecraft:short_grass
-fill 59 98 30 59 98 30 minecraft:grass_block replace minecraft:dirt
-fill 58 96 32 58 96 32 minecraft:grass_block replace minecraft:dirt
-fill 58 97 31 58 97 31 minecraft:grass_block replace minecraft:dirt
-fill 58 95 33 58 95 33 minecraft:grass_block replace minecraft:dirt
-fill 57 94 34 58 94 34 minecraft:grass_block replace minecraft:dirt
-fill 57 88 38 57 88 38 minecraft:grass_block replace minecraft:dirt
-fill 57 90 37 57 90 37 minecraft:grass_block replace minecraft:dirt
-fill 57 93 35 57 93 35 minecraft:grass_block replace minecraft:dirt
-fill 57 98 31 57 98 31 minecraft:grass_block replace minecraft:dirt
-fill 57 97 32 57 97 32 minecraft:grass_block replace minecraft:dirt
-fill 56 92 36 57 92 36 minecraft:grass_block replace minecraft:dirt
-fill 56 96 33 57 96 33 minecraft:grass_block replace minecraft:dirt
-fill 56 91 -41 56 91 -41 minecraft:grass_block replace minecraft:dirt
-fill 56 89 -42 56 89 -42 minecraft:grass_block replace minecraft:dirt
-fill 56 98 32 56 98 32 minecraft:grass_block replace minecraft:dirt
-fill 56 81 42 56 81 42 minecraft:grass_block replace minecraft:dirt
-fill 56 95 34 56 95 34 minecraft:grass_block replace minecraft:dirt
-fill 55 95 -39 57 95 -39 minecraft:grass_block replace minecraft:dirt
-fill 55 94 35 56 94 35 minecraft:grass_block replace minecraft:dirt
-fill 55 93 -40 56 93 -40 minecraft:grass_block replace minecraft:dirt
-fill 55 97 33 55 97 33 minecraft:grass_block replace minecraft:dirt
-fill 55 82 42 55 82 42 minecraft:grass_block replace minecraft:dirt
-fill 55 77 45 55 77 45 minecraft:grass_block replace minecraft:dirt
-fill 55 87 -43 55 87 -43 minecraft:grass_block replace minecraft:dirt
-fill 54 97 -38 57 97 -38 minecraft:grass_block replace minecraft:dirt
-fill 54 85 -44 55 85 -44 minecraft:grass_block replace minecraft:dirt
-fill 54 80 43 55 80 43 minecraft:grass_block replace minecraft:dirt
-fill 54 96 34 55 96 34 minecraft:grass_block replace minecraft:dirt
-fill 54 72 49 54 72 49 minecraft:grass_block replace minecraft:dirt
-fill 54 74 47 54 74 47 minecraft:grass_block replace minecraft:dirt
-fill 54 77 -49 54 77 -49 minecraft:grass_block replace minecraft:dirt
-fill 54 98 33 54 98 33 minecraft:grass_block replace minecraft:dirt
-fill 54 73 48 54 73 48 minecraft:grass_block replace minecraft:dirt
-fill 53 91 37 56 91 37 minecraft:grass_block replace minecraft:dirt
-fill 53 89 38 56 89 38 minecraft:grass_block replace minecraft:dirt
-fill 53 75 46 55 75 46 minecraft:grass_block replace minecraft:dirt
-fill 53 88 -42 55 88 -42 minecraft:grass_block replace minecraft:dirt
-fill 53 82 -46 55 82 -46 minecraft:grass_block replace minecraft:dirt
-fill 53 90 -41 55 90 -41 minecraft:grass_block replace minecraft:dirt
-fill 53 78 44 55 78 44 minecraft:grass_block replace minecraft:dirt
-fill 53 93 36 55 93 36 minecraft:grass_block replace minecraft:dirt
-fill 53 94 -39 54 94 -39 minecraft:grass_block replace minecraft:dirt
-fill 53 95 35 54 95 35 minecraft:grass_block replace minecraft:dirt
-fill 53 92 -40 54 92 -40 minecraft:grass_block replace minecraft:dirt
-fill 53 69 52 53 69 52 minecraft:grass_block replace minecraft:dirt
-fill 53 71 50 53 71 50 minecraft:grass_block replace minecraft:dirt
-fill 53 96 -38 53 96 -38 minecraft:grass_block replace minecraft:dirt
-fill 53 72 48 53 72 49 minecraft:grass_block replace minecraft:dirt
-fill 52 87 39 57 87 39 minecraft:grass_block replace minecraft:dirt
-fill 52 85 40 56 85 40 minecraft:grass_block replace minecraft:dirt
-fill 52 83 41 56 83 41 minecraft:grass_block replace minecraft:dirt
-fill 52 86 -43 54 86 -43 minecraft:grass_block replace minecraft:dirt
-fill 52 76 45 54 76 45 minecraft:grass_block replace minecraft:dirt
-fill 52 76 -50 53 76 -50 minecraft:grass_block replace minecraft:dirt
-fill 52 70 51 53 70 51 minecraft:grass_block replace minecraft:dirt
-fill 52 91 -40 52 91 -40 minecraft:grass_block replace minecraft:dirt
-fill 52 68 54 52 68 54 minecraft:grass_block replace minecraft:dirt
-fill 52 89 -41 52 89 -41 minecraft:grass_block replace minecraft:dirt
-fill 52 71 49 52 71 50 minecraft:grass_block replace minecraft:dirt
-fill 52 93 -39 52 93 -39 minecraft:grass_block replace minecraft:dirt
-fill 51 83 -45 55 83 -45 minecraft:grass_block replace minecraft:dirt
-fill 51 81 42 54 81 42 minecraft:grass_block replace minecraft:dirt
-fill 51 84 -44 53 84 -44 minecraft:grass_block replace minecraft:dirt
-fill 51 79 43 53 79 43 minecraft:grass_block replace minecraft:dirt
-fill 51 77 44 52 77 44 minecraft:grass_block replace minecraft:dirt
-fill 51 87 -42 52 87 -42 minecraft:grass_block replace minecraft:dirt
-fill 51 75 45 51 75 45 minecraft:grass_block replace minecraft:dirt
-fill 51 67 56 51 67 57 minecraft:grass_block replace minecraft:dirt
-fill 51 85 -43 51 85 -43 minecraft:grass_block replace minecraft:dirt
-fill 50 79 -48 54 79 -48 minecraft:grass_block replace minecraft:dirt
-fill 50 80 -47 54 80 -47 minecraft:grass_block replace minecraft:dirt
-fill 50 73 47 53 73 47 minecraft:grass_block replace minecraft:dirt
-fill 50 72 48 52 72 48 minecraft:grass_block replace minecraft:dirt
-fill 50 74 46 52 74 46 minecraft:grass_block replace minecraft:dirt
-fill 50 81 -46 52 81 -46 minecraft:grass_block replace minecraft:dirt
-fill 50 69 52 52 69 53 minecraft:grass_block replace minecraft:dirt
-fill 50 70 50 51 70 51 minecraft:grass_block replace minecraft:dirt
-fill 50 68 54 51 68 55 minecraft:grass_block replace minecraft:dirt
-fill 50 77 -50 51 77 -50 minecraft:grass_block replace minecraft:dirt
-fill 50 67 56 50 67 59 minecraft:grass_block replace minecraft:dirt
-fill 50 68 -59 50 68 -59 minecraft:grass_block replace minecraft:dirt
-fill 49 75 -51 53 75 -51 minecraft:grass_block replace minecraft:dirt
-fill 49 78 -49 53 78 -49 minecraft:grass_block replace minecraft:dirt
-fill 49 71 49 51 71 49 minecraft:grass_block replace minecraft:dirt
-fill 49 67 -62 49 67 -61 minecraft:grass_block replace minecraft:dirt
-fill 49 66 61 49 66 62 minecraft:grass_block replace minecraft:dirt
-fill 49 76 -50 49 76 -50 minecraft:grass_block replace minecraft:dirt
-fill 49 70 50 49 70 50 minecraft:grass_block replace minecraft:dirt
-fill 49 69 51 49 69 52 minecraft:grass_block replace minecraft:dirt
-fill 48 74 -52 53 74 -52 minecraft:grass_block replace minecraft:dirt
-fill 48 73 -53 52 73 -53 minecraft:grass_block replace minecraft:dirt
-fill 48 68 53 49 68 55 minecraft:grass_block replace minecraft:dirt
-fill 48 69 52 48 69 52 minecraft:grass_block replace minecraft:dirt
-fill 48 66 61 48 66 64 minecraft:grass_block replace minecraft:dirt
-fill 48 66 -64 48 66 -64 minecraft:grass_block replace minecraft:dirt
-fill 47 72 -54 52 72 -54 minecraft:grass_block replace minecraft:dirt
-fill 47 71 -55 51 71 -55 minecraft:grass_block replace minecraft:dirt
-fill 47 70 -57 51 70 -56 minecraft:grass_block replace minecraft:dirt
-fill 47 67 56 49 67 60 minecraft:grass_block replace minecraft:dirt
-fill 47 68 54 47 68 55 minecraft:grass_block replace minecraft:dirt
-fill 47 66 -66 47 66 -64 minecraft:grass_block replace minecraft:dirt
-fill 47 66 61 47 66 66 minecraft:grass_block replace minecraft:dirt
-fill 46 69 -58 50 69 -58 minecraft:grass_block replace minecraft:dirt
-fill 46 66 -68 46 66 -64 minecraft:grass_block replace minecraft:dirt
-fill 46 66 61 46 66 68 minecraft:grass_block replace minecraft:dirt
-fill 46 70 -57 46 70 -57 minecraft:grass_block replace minecraft:dirt
-fill 46 67 57 46 67 60 minecraft:grass_block replace minecraft:dirt
-fill 45 68 -60 49 68 -59 minecraft:grass_block replace minecraft:dirt
-fill 45 67 -63 48 67 -61 minecraft:grass_block replace minecraft:dirt
-fill 45 67 59 45 67 60 minecraft:grass_block replace minecraft:dirt
-fill 45 66 -70 45 66 -64 minecraft:grass_block replace minecraft:dirt
-fill 45 66 61 45 66 70 minecraft:grass_block replace minecraft:dirt
-fill 44 66 -72 44 66 -64 minecraft:grass_block replace minecraft:dirt
-fill 44 66 62 44 66 72 minecraft:grass_block replace minecraft:dirt
-fill 44 67 -63 44 67 -62 minecraft:grass_block replace minecraft:dirt
-fill 43 66 -74 43 66 -64 minecraft:grass_block replace minecraft:dirt
-fill 43 66 64 43 66 74 minecraft:grass_block replace minecraft:dirt
-fill 42 66 66 42 66 76 minecraft:grass_block replace minecraft:dirt
-fill 42 66 -76 42 66 -66 minecraft:grass_block replace minecraft:dirt
-fill 41 66 68 41 66 77 minecraft:grass_block replace minecraft:dirt
-fill 41 66 -77 41 66 -76 minecraft:grass_block replace minecraft:dirt
-fill 41 66 -72 41 66 -68 minecraft:grass_block replace minecraft:dirt
-fill 41 67 -75 41 67 -73 minecraft:grass_block replace minecraft:dirt
-fill 40 66 -79 40 66 -77 minecraft:grass_block replace minecraft:dirt
-fill 40 66 -71 40 66 -70 minecraft:grass_block replace minecraft:dirt
-fill 40 65 79 40 65 79 minecraft:grass_block replace minecraft:dirt
-fill 40 67 -76 40 67 -72 minecraft:grass_block replace minecraft:dirt
-fill 40 66 70 40 66 78 minecraft:grass_block replace minecraft:dirt
-fill 39 66 72 39 66 79 minecraft:grass_block replace minecraft:dirt
-fill 39 67 -77 39 67 -72 minecraft:grass_block replace minecraft:dirt
-fill 39 65 80 39 65 81 minecraft:grass_block replace minecraft:dirt
-fill 39 66 -81 39 66 -78 minecraft:grass_block replace minecraft:dirt
-fill 38 65 81 38 65 82 minecraft:grass_block replace minecraft:dirt
-fill 38 66 74 38 66 80 minecraft:grass_block replace minecraft:dirt
-fill 38 67 -77 38 67 -74 minecraft:grass_block replace minecraft:dirt
-fill 38 66 -82 38 66 -78 minecraft:grass_block replace minecraft:dirt
-fill 37 66 75 37 66 80 minecraft:grass_block replace minecraft:dirt
-fill 37 65 81 37 65 84 minecraft:grass_block replace minecraft:dirt
-fill 37 67 -78 37 67 -75 minecraft:grass_block replace minecraft:dirt
-fill 36 66 -84 37 66 -79 minecraft:grass_block replace minecraft:dirt
-fill 36 67 -78 36 67 -77 minecraft:grass_block replace minecraft:dirt
-fill 36 65 -85 36 65 -85 minecraft:grass_block replace minecraft:dirt
-fill 36 65 78 36 65 85 minecraft:grass_block replace minecraft:dirt
-fill 36 66 77 36 66 77 minecraft:grass_block replace minecraft:dirt
-fill 35 67 -79 35 67 -79 minecraft:grass_block replace minecraft:dirt
-fill 35 65 79 35 65 86 minecraft:grass_block replace minecraft:dirt
-fill 34 66 -84 35 66 -80 minecraft:grass_block replace minecraft:dirt
-fill 34 65 80 34 65 87 minecraft:grass_block replace minecraft:dirt
-fill 33 65 82 33 65 88 minecraft:grass_block replace minecraft:dirt
-fill 33 66 -84 33 66 -82 minecraft:grass_block replace minecraft:dirt
-fill 32 66 -84 32 66 -83 minecraft:grass_block replace minecraft:dirt
-fill 32 65 83 32 65 88 minecraft:grass_block replace minecraft:dirt
-fill 31 65 -86 35 65 -85 minecraft:grass_block replace minecraft:dirt
-fill 31 65 85 31 65 89 minecraft:grass_block replace minecraft:dirt
-fill 30 65 -86 30 65 -86 minecraft:grass_block replace minecraft:dirt
-fill 30 65 86 30 65 90 minecraft:grass_block replace minecraft:dirt
-fill 29 65 88 29 65 91 minecraft:grass_block replace minecraft:dirt
-fill 28 65 89 28 65 91 minecraft:grass_block replace minecraft:dirt
-fill 27 65 90 27 65 92 minecraft:grass_block replace minecraft:dirt
-fill 26 65 92 26 65 93 minecraft:grass_block replace minecraft:dirt
-fill 25 65 93 25 65 94 minecraft:grass_block replace minecraft:dirt
-fill 24 65 94 24 65 94 minecraft:grass_block replace minecraft:dirt
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -162.645 108.167 0.500
+function genesis:god/spark
+setblock -241 63 58 grass_block
+fill -242 63 -58 -242 63 -57 grass_block
+fill -242 63 57 -242 63 58 grass_block
+fill -243 63 56 -243 63 57 grass_block
+fill -243 63 -57 -243 63 -56 grass_block
+setblock -244 63 -55 grass_block
+fill -244 63 55 -244 63 56 grass_block
+fill -245 63 54 -245 63 55 grass_block
+setblock -245 63 -54 grass_block
+setblock -246 63 -53 grass_block
+fill -246 63 53 -246 63 54 grass_block
+setblock -247 63 53 grass_block
+fill -237 64 56 -237 64 57 grass_block
+fill -238 64 -57 -237 64 -56 grass_block
+fill -238 64 55 -238 64 57 grass_block
+fill -239 64 54 -239 64 58 grass_block
+fill -239 64 -58 -239 64 -55 grass_block
+fill -240 64 -58 -240 64 -54 grass_block
+fill -240 64 53 -240 64 58 grass_block
+fill -241 64 -58 -241 64 -52 grass_block
+fill -241 64 53 -241 64 57 grass_block
+fill -242 64 -56 -242 64 -51 grass_block
+fill -242 64 52 -242 64 56 grass_block
+fill -243 64 52 -243 64 55 grass_block
+fill -243 64 -55 -243 64 -52 grass_block
+fill -244 64 -54 -244 64 -52 grass_block
+fill -244 64 52 -244 64 54 grass_block
+fill -245 64 52 -245 64 53 grass_block
+fill -245 64 -53 -245 64 -52 grass_block
+setblock -232 65 -54 grass_block
+fill -233 65 -54 -233 65 -53 grass_block
+fill -234 65 54 -234 65 55 grass_block
+fill -235 65 -55 -234 65 -53 grass_block
+fill -235 65 53 -235 65 55 grass_block
+fill -236 65 52 -236 65 56 grass_block
+fill -236 65 -56 -236 65 -53 grass_block
+fill -237 65 -55 -237 65 -52 grass_block
+fill -237 65 51 -237 65 55 grass_block
+fill -238 65 -55 -238 65 -51 grass_block
+fill -238 65 50 -238 65 54 grass_block
+fill -239 65 -54 -239 65 -50 grass_block
+fill -239 65 50 -239 65 53 grass_block
+fill -240 65 50 -240 65 52 grass_block
+fill -240 65 -53 -240 65 -50 grass_block
+fill -241 65 51 -241 65 52 grass_block
+setblock -241 65 -51 grass_block
+setblock -242 65 51 grass_block
+setblock -228 66 -51 grass_block
+fill -229 66 -52 -229 66 -50 grass_block
+fill -230 66 -52 -230 66 -49 grass_block
+fill -231 66 52 -231 66 53 grass_block
+fill -232 66 -53 -231 66 -49 grass_block
+fill -232 66 52 -232 66 54 grass_block
+fill -233 66 51 -233 66 54 grass_block
+fill -234 66 50 -234 66 53 grass_block
+fill -235 66 -52 -233 66 -49 grass_block
+fill -235 66 49 -235 66 52 grass_block
+fill -236 66 -52 -236 66 -48 grass_block
+fill -236 66 48 -236 66 51 grass_block
+fill -237 66 48 -237 66 50 grass_block
+fill -237 66 -51 -237 66 -48 grass_block
+fill -238 66 -50 -238 66 -49 grass_block
+setblock -238 66 49 grass_block
+fill -203 67 -11 -203 67 11 grass_block
+fill -204 67 -15 -204 67 15 grass_block
+fill -205 67 -19 -205 67 19 grass_block
+fill -224 67 -48 -224 67 -47 grass_block
+fill -226 67 -49 -225 67 -44 grass_block
+fill -228 67 -50 -227 67 -43 grass_block
+setblock -228 67 51 grass_block
+fill -229 67 -49 -229 67 -43 grass_block
+fill -229 67 51 -229 67 52 grass_block
+fill -230 67 50 -230 67 52 grass_block
+fill -230 67 -48 -230 67 -43 grass_block
+fill -231 67 -48 -231 67 -44 grass_block
+fill -231 67 48 -231 67 51 grass_block
+fill -232 67 -48 -232 67 -45 grass_block
+fill -232 67 47 -232 67 51 grass_block
+fill -233 67 46 -233 67 50 grass_block
+fill -234 67 -48 -233 67 -46 grass_block
+fill -234 67 46 -234 67 49 grass_block
+fill -235 67 47 -235 67 48 grass_block
+fill -235 67 -48 -235 67 -47 grass_block
+fill -206 68 -22 -206 68 22 grass_block
+fill -207 68 -24 -207 68 24 grass_block
+fill -208 68 -27 -208 68 27 grass_block
+fill -209 68 -29 -209 68 29 grass_block
+fill -210 68 -30 -210 68 30 grass_block
+fill -211 68 11 -211 68 30 grass_block
+fill -211 68 -30 -211 68 -11 grass_block
+fill -212 68 -30 -212 68 -15 grass_block
+fill -212 68 15 -212 68 30 grass_block
+fill -213 68 -30 -213 68 -19 grass_block
+fill -213 68 19 -213 68 30 grass_block
+fill -214 68 21 -214 68 30 grass_block
+fill -214 68 -30 -214 68 -21 grass_block
+fill -217 68 -38 -217 68 -34 grass_block
+fill -218 68 -38 -218 68 -33 grass_block
+fill -220 68 -39 -219 68 -33 grass_block
+fill -221 68 -45 -221 68 -34 grass_block
+fill -222 68 -46 -222 68 -35 grass_block
+fill -223 68 -47 -223 68 -36 grass_block
+fill -224 68 -46 -224 68 -38 grass_block
+fill -225 68 -43 -225 68 -39 grass_block
+setblock -225 68 49 grass_block
+fill -226 68 48 -226 68 49 grass_block
+fill -226 68 -43 -226 68 -40 grass_block
+fill -227 68 47 -227 68 50 grass_block
+fill -227 68 -42 -227 68 -41 grass_block
+fill -228 68 45 -228 68 50 grass_block
+setblock -228 68 -42 grass_block
+fill -229 68 43 -229 68 50 grass_block
+fill -230 68 43 -230 68 49 grass_block
+fill -231 68 44 -231 68 47 grass_block
+fill -232 68 45 -232 68 46 grass_block
+fill -211 69 -32 -211 69 -31 grass_block
+fill -212 69 -34 -212 69 -31 grass_block
+fill -213 69 -35 -213 69 -31 grass_block
+fill -214 69 31 -211 69 32 grass_block
+fill -214 69 -37 -214 69 -31 grass_block
+fill -215 69 -38 -215 69 -24 grass_block
+fill -216 69 -39 -216 69 -26 grass_block
+fill -217 69 -40 -217 69 -39 grass_block
+fill -217 69 -33 -217 69 -28 grass_block
+fill -218 69 -42 -218 69 -39 grass_block
+fill -218 69 -32 -218 69 -29 grass_block
+fill -219 69 -32 -219 69 -31 grass_block
+fill -219 69 -43 -219 69 -40 grass_block
+fill -220 69 32 -220 69 35 grass_block
+fill -220 69 -44 -220 69 -40 grass_block
+setblock -220 69 -32 grass_block
+fill -221 69 34 -221 69 36 grass_block
+fill -222 69 35 -222 69 38 grass_block
+fill -223 69 36 -223 69 39 grass_block
+setblock -223 69 47 grass_block
+fill -224 69 46 -224 69 48 grass_block
+fill -224 69 38 -224 69 40 grass_block
+fill -225 69 39 -225 69 42 grass_block
+fill -225 69 44 -225 69 48 grass_block
+fill -226 69 40 -226 69 47 grass_block
+fill -227 69 41 -227 69 46 grass_block
+fill -228 69 42 -228 69 44 grass_block
+fill -214 70 33 -212 70 33 grass_block
+setblock -217 70 28 grass_block
+fill -217 70 33 -217 70 37 grass_block
+setblock -217 70 -41 grass_block
+fill -218 70 29 -218 70 38 grass_block
+fill -219 70 31 -219 70 39 grass_block
+fill -220 70 36 -220 70 40 grass_block
+fill -221 70 37 -221 70 41 grass_block
+setblock -221 70 45 grass_block
+fill -222 70 39 -222 70 46 grass_block
+fill -223 70 40 -223 70 46 grass_block
+fill -224 70 41 -224 70 45 grass_block
+setblock -225 70 43 grass_block
+setblock -212 71 34 grass_block
+fill -213 71 34 -213 71 35 grass_block
+fill -214 71 34 -214 71 37 grass_block
+fill -215 71 24 -215 71 38 grass_block
+fill -216 71 26 -216 71 39 grass_block
+fill -217 71 38 -217 71 41 grass_block
+fill -217 71 29 -217 71 32 grass_block
+fill -218 71 39 -218 71 42 grass_block
+fill -219 71 40 -219 71 43 grass_block
+fill -220 71 41 -220 71 44 grass_block
+fill -221 71 42 -221 71 44 grass_block
+place feature tall_grass -248 65 -44
+setblock -247 66 -43 short_grass
+place feature tall_grass -246 66 -42
+setblock -247 66 -42 short_grass
+setblock -245 66 -41 short_grass
+setblock -246 66 -41 short_grass
+setblock -247 66 -41 short_grass
+setblock -248 66 -41 short_grass
+setblock -254 64 -41 short_grass
+setblock -246 66 -40 short_grass
+setblock -248 66 -40 short_grass
+setblock -254 64 -40 orange_tulip
+setblock -246 67 -39 short_grass
+setblock -252 65 -39 short_grass
+setblock -245 67 -38 pumpkin
+setblock -251 65 -38 dandelion
+setblock -238 68 -37 short_grass
+setblock -241 68 -37 red_tulip
+setblock -245 67 -37 short_grass
+setblock -246 67 -37 red_tulip
+setblock -248 66 -37 short_grass
+setblock -235 69 -36 short_grass
+setblock -236 69 -36 azure_bluet
+setblock -237 69 -36 short_grass
+setblock -242 68 -36 short_grass
+place feature tall_grass -244 67 -36
+setblock -246 67 -36 short_grass
+setblock -235 69 -35 short_grass
+setblock -237 69 -35 short_grass
+setblock -238 69 -35 short_grass
+setblock -241 68 -35 short_grass
+setblock -242 68 -35 short_grass
+setblock -245 67 -35 white_tulip
+setblock -234 69 -34 short_grass
+setblock -236 69 -34 oxeye_daisy
+place feature tall_grass -241 69 -34
+setblock -242 68 -34 short_grass
+setblock -244 68 -34 short_grass
+setblock -235 69 -33 red_tulip
+setblock -238 69 -33 dandelion
+setblock -231 69 -32 short_grass
+setblock -234 69 -32 cornflower
+setblock -235 69 -32 short_grass
+setblock -236 70 -32 short_grass
+setblock -237 70 -32 short_grass
+setblock -232 69 -31 poppy
+setblock -233 69 -31 short_grass
+setblock -234 70 -31 short_grass
+setblock -235 70 -31 short_grass
+setblock -236 70 -31 dandelion
+setblock -237 70 -31 short_grass
+setblock -239 69 -31 poppy
+setblock -232 70 -30 short_grass
+setblock -233 70 -30 short_grass
+setblock -237 70 -30 short_grass
+setblock -230 69 -29 short_grass
+setblock -231 70 -29 short_grass
+setblock -230 70 -28 short_grass
+setblock -235 70 -28 short_grass
+setblock -236 70 -28 dandelion
+setblock -230 70 -27 oxeye_daisy
+setblock -231 70 -27 short_grass
+setblock -234 71 -27 pink_tulip
+setblock -236 70 -27 short_grass
+setblock -226 70 -26 short_grass
+setblock -227 69 -26 short_grass
+setblock -228 69 -26 short_grass
+setblock -229 70 -26 short_grass
+setblock -231 70 -26 poppy
+setblock -228 70 -25 short_grass
+setblock -231 70 -25 short_grass
+setblock -231 70 -24 short_grass
+setblock -232 71 -24 short_grass
+setblock -233 71 -24 short_grass
+setblock -228 70 -23 short_grass
+setblock -233 71 -23 short_grass
+setblock -225 70 -22 short_grass
+setblock -226 70 -22 red_tulip
+setblock -230 70 -22 short_grass
+setblock -224 71 -21 white_tulip
+setblock -229 70 -20 short_grass
+setblock -230 70 -20 short_grass
+setblock -223 70 -19 short_grass
+setblock -225 70 -19 short_grass
+setblock -223 70 -18 short_grass
+setblock -226 70 -18 short_grass
+setblock -227 70 -18 dandelion
+setblock -228 70 -18 short_grass
+setblock -222 70 -17 short_grass
+setblock -223 70 -17 short_grass
+setblock -226 70 -17 short_grass
+setblock -228 70 -17 short_grass
+setblock -224 70 -16 short_grass
+setblock -225 70 -16 short_grass
+setblock -228 70 -16 short_grass
+setblock -221 70 -15 azure_bluet
+setblock -226 70 -15 short_grass
+setblock -228 70 -15 short_grass
+setblock -223 70 -14 short_grass
+setblock -227 70 -14 short_grass
+setblock -220 70 -13 short_grass
+setblock -222 70 -13 short_grass
+setblock -227 69 -13 azure_bluet
+setblock -228 70 -13 short_grass
+setblock -220 69 -12 short_grass
+setblock -221 69 -12 pink_tulip
+setblock -223 69 -12 short_grass
+setblock -226 69 -12 short_grass
+setblock -227 69 -12 short_grass
+setblock -220 69 -11 short_grass
+setblock -221 69 -11 short_grass
+setblock -222 69 -11 short_grass
+setblock -226 69 -10 short_grass
+setblock -220 69 -9 short_grass
+setblock -223 69 -9 short_grass
+setblock -225 69 -9 oxeye_daisy
+setblock -219 69 -8 short_grass
+setblock -221 69 -8 short_grass
+setblock -222 69 -8 short_grass
+setblock -223 69 -8 orange_tulip
+setblock -225 69 -8 pink_tulip
+setblock -226 69 -8 short_grass
+setblock -220 69 -7 short_grass
+setblock -225 69 -7 short_grass
+setblock -219 69 -6 short_grass
+setblock -222 69 -6 cornflower
+setblock -223 69 -6 short_grass
+setblock -223 69 -5 short_grass
+setblock -225 69 -5 short_grass
+setblock -219 69 -1 short_grass
+setblock -219 69 1 short_grass
+setblock -219 69 2 short_grass
+setblock -220 69 3 short_grass
+setblock -221 69 4 short_grass
+setblock -222 69 4 oxeye_daisy
+setblock -225 69 4 short_grass
+setblock -226 69 4 pink_tulip
+setblock -219 69 5 short_grass
+setblock -220 69 5 poppy
+setblock -221 69 6 short_grass
+setblock -226 69 6 pink_tulip
+setblock -219 69 7 short_grass
+setblock -225 69 7 red_tulip
+setblock -226 69 7 short_grass
+setblock -220 69 8 short_grass
+setblock -224 69 8 short_grass
+setblock -225 69 8 poppy
+setblock -220 69 9 short_grass
+setblock -226 69 9 short_grass
+setblock -220 69 10 short_grass
+setblock -223 69 10 short_grass
+setblock -224 69 11 short_grass
+setblock -225 69 11 orange_tulip
+setblock -227 69 11 short_grass
+setblock -227 69 12 short_grass
+setblock -225 70 13 orange_tulip
+setblock -226 70 13 short_grass
+setblock -226 70 14 short_grass
+setblock -227 70 15 short_grass
+setblock -221 71 16 short_grass
+setblock -222 71 16 short_grass
+setblock -223 71 16 short_grass
+setblock -225 71 16 short_grass
+setblock -227 71 16 short_grass
+setblock -225 71 17 short_grass
+setblock -228 71 17 short_grass
+setblock -224 71 18 orange_tulip
+setblock -229 72 18 short_grass
+setblock -222 71 19 short_grass
+setblock -225 71 19 short_grass
+setblock -226 72 19 short_grass
+setblock -228 72 19 short_grass
+setblock -229 72 19 pink_tulip
+setblock -226 72 20 short_grass
+setblock -228 72 20 short_grass
+setblock -223 71 21 short_grass
+setblock -225 71 21 short_grass
+setblock -227 72 21 short_grass
+setblock -225 71 22 red_tulip
+setblock -226 72 22 short_grass
+setblock -227 72 22 short_grass
+setblock -229 72 22 short_grass
+setblock -231 72 22 short_grass
+setblock -232 72 22 pink_tulip
+setblock -228 72 23 short_grass
+setblock -231 72 23 short_grass
+setblock -228 72 24 short_grass
+setblock -232 72 24 azure_bluet
+setblock -233 72 24 white_tulip
+setblock -227 72 25 poppy
+setblock -228 72 25 short_grass
+setblock -232 72 25 short_grass
+setblock -229 72 26 short_grass
+setblock -232 72 26 short_grass
+setblock -235 72 26 short_grass
+setblock -233 72 27 short_grass
+setblock -234 72 27 orange_tulip
+setblock -235 72 27 orange_tulip
+setblock -229 72 28 short_grass
+setblock -230 72 28 short_grass
+setblock -231 73 28 short_grass
+setblock -233 72 28 short_grass
+setblock -235 72 28 short_grass
+setblock -229 72 30 dandelion
+setblock -230 72 30 cornflower
+setblock -231 72 30 azure_bluet
+setblock -232 72 30 short_grass
+setblock -235 72 30 short_grass
+setblock -238 71 30 white_tulip
+setblock -239 70 30 short_grass
+setblock -231 72 31 short_grass
+setblock -233 72 31 short_grass
+setblock -235 71 31 short_grass
+setblock -237 71 31 short_grass
+setblock -238 71 31 short_grass
+setblock -239 70 31 short_grass
+setblock -235 71 32 short_grass
+setblock -236 71 32 short_grass
+setblock -240 70 32 short_grass
+setblock -235 71 33 short_grass
+setblock -233 71 34 short_grass
+setblock -237 70 34 short_grass
+setblock -238 70 34 short_grass
+place feature tall_grass -234 70 35
+setblock -237 70 35 short_grass
+place feature tall_grass -245 67 35
+setblock -246 67 35 short_grass
+setblock -235 70 36 white_tulip
+setblock -236 70 36 short_grass
+setblock -250 65 37 short_grass
+setblock -238 69 38 short_grass
+setblock -239 69 38 short_grass
+setblock -245 67 38 short_grass
+setblock -252 65 38 short_grass
+setblock -240 69 39 short_grass
+setblock -246 67 39 short_grass
+setblock -249 65 39 short_grass
+setblock -251 65 39 red_tulip
+setblock -253 65 39 short_grass
+setblock -244 67 40 short_grass
+setblock -246 66 40 short_grass
+setblock -250 65 40 short_grass
+setblock -249 65 41 cornflower
+setblock -244 67 42 short_grass
+setblock -248 65 42 short_grass
+setblock -249 65 42 short_grass
+setblock -253 64 42 pink_tulip
+setblock -245 66 43 short_grass
+setblock -249 65 43 short_grass
+setblock -250 65 43 short_grass
+setblock -251 65 43 short_grass
+setblock -252 64 43 short_grass
+setblock -250 65 44 short_grass
+setblock -251 65 44 orange_tulip
+place feature seagrass_short -263 57 -47
+place feature kelp -264 57 -46
+place feature seagrass_short -265 55 -46
+place feature seagrass_tall -266 54 -46
+place feature seagrass_short -274 46 -46
+place feature kelp -276 45 -46
+place feature seagrass_short -264 57 -45
+place feature seagrass_tall -267 53 -45
+place feature seagrass_short -269 51 -45
+place feature seagrass_tall -273 47 -45
+place feature seagrass_tall -276 45 -45
+place feature kelp -264 58 -44
+place feature seagrass_short -267 54 -44
+place feature seagrass_short -269 51 -44
+place feature kelp -274 47 -44
+place feature seagrass_short -277 45 -44
+place feature seagrass_short -279 45 -44
+place feature kelp -281 44 -44
+place feature seagrass_short -283 44 -44
+place feature kelp -269 51 -43
+place feature seagrass_short -276 46 -43
+place feature kelp -283 44 -43
+place feature seagrass_short -284 44 -43
+place feature seagrass_short -287 43 -43
+place feature seagrass_short -263 61 -42
+place feature seagrass_short -274 47 -42
+place feature seagrass_short -280 44 -42
+place feature seagrass_short -284 44 -42
+place feature seagrass_short -285 44 -42
+place feature seagrass_short -287 43 -42
+place feature kelp -265 58 -41
+place feature seagrass_short -267 55 -41
+place feature seagrass_short -268 54 -41
+place feature kelp -271 50 -41
+place feature seagrass_short -284 44 -41
+place feature seagrass_short -268 54 -40
+place feature kelp -273 49 -40
+place feature seagrass_short -277 46 -40
+place feature kelp -285 44 -40
+place feature seagrass_short -288 43 -40
+place feature kelp -290 43 -40
+place feature seagrass_short -275 47 -39
+place feature seagrass_short -276 47 -39
+place feature seagrass_short -277 46 -39
+place feature kelp -280 45 -39
+place feature seagrass_short -282 44 -39
+place feature kelp -283 44 -39
+place feature seagrass_short -285 44 -39
+place feature seagrass_short -286 44 -39
+place feature seagrass_tall -291 43 -39
+place feature seagrass_short -281 45 -38
+place feature seagrass_short -282 44 -38
+place feature kelp -283 44 -38
+place feature seagrass_short -284 44 -38
+place feature seagrass_short -285 44 -38
+place feature kelp -288 43 -38
+place feature kelp -283 44 -37
+place feature seagrass_short -285 44 -37
+place feature seagrass_short -286 44 -37
+place feature seagrass_tall -291 43 -37
+place feature seagrass_tall -294 43 -37
+place feature kelp -295 43 -37
+place feature seagrass_short -284 44 -36
+place feature seagrass_short -288 43 -36
+place feature seagrass_tall -290 43 -36
+place feature kelp -291 43 -36
+place feature seagrass_tall -293 43 -36
+place feature seagrass_short -286 44 -35
+place feature seagrass_short -289 43 -35
+place feature seagrass_short -290 43 -35
+place feature seagrass_short -295 43 -35
+place feature kelp -299 43 -34
+place feature seagrass_tall -292 43 -33
+place feature seagrass_short -292 43 -32
+place feature seagrass_short -295 43 -32
+place feature kelp -296 43 -32
+place feature kelp -296 43 -31
+place feature seagrass_short -300 43 -31
+place feature kelp -302 43 -31
+place feature seagrass_short -293 43 -30
+place feature seagrass_short -297 43 -30
+place feature seagrass_short -298 43 -30
+place feature seagrass_tall -299 43 -30
+place feature seagrass_short -300 43 -30
+place feature kelp -295 43 -29
+place feature kelp -302 43 -29
+place feature kelp -304 43 -29
+place feature seagrass_short -299 43 -28
+place feature kelp -300 43 -28
+place feature seagrass_short -303 43 -28
+place feature seagrass_tall -296 43 -27
+place feature seagrass_short -298 43 -27
+place feature seagrass_short -299 43 -27
+place feature seagrass_short -300 43 -26
+place feature seagrass_short -301 43 -26
+place feature seagrass_short -305 43 -26
+place feature seagrass_tall -306 43 -26
+place feature seagrass_short -299 43 -25
+place feature seagrass_short -299 43 -24
+place feature seagrass_short -303 43 -24
+place feature seagrass_short -305 43 -24
+place feature seagrass_short -307 43 -24
+place feature seagrass_short -302 43 -23
+place feature seagrass_tall -307 43 -23
+place feature seagrass_tall -301 43 -22
+place feature kelp -301 43 -21
+place feature seagrass_short -301 43 -20
+place feature seagrass_tall -308 43 -19
+place feature seagrass_short -309 43 -19
+place feature seagrass_tall -303 43 -17
+place feature kelp -304 43 -17
+place feature seagrass_short -304 43 -16
+place feature kelp -310 43 -16
+place feature seagrass_tall -311 43 -16
+place feature kelp -304 43 -15
+place feature seagrass_short -307 43 -15
+place feature seagrass_tall -308 43 -15
+place feature kelp -310 43 -15
+place feature seagrass_short -304 43 -14
+place feature seagrass_short -306 43 -14
+place feature seagrass_tall -309 43 -14
+place feature seagrass_short -304 43 -13
+place feature seagrass_tall -306 43 -13
+place feature kelp -306 43 13
+place feature kelp -308 43 13
+place feature seagrass_tall -310 43 13
+place feature seagrass_short -311 43 13
+place feature seagrass_tall -304 43 14
+place feature seagrass_tall -306 43 14
+place feature seagrass_short -308 43 14
+place feature seagrass_tall -305 43 15
+place feature seagrass_short -308 43 15
+place feature seagrass_tall -303 43 17
+place feature kelp -305 43 17
+place feature kelp -309 43 17
+place feature seagrass_tall -310 43 17
+place feature seagrass_short -304 43 18
+place feature seagrass_short -305 43 18
+place feature seagrass_short -304 43 19
+place feature seagrass_tall -307 43 20
+place feature seagrass_short -308 43 20
+place feature seagrass_short -307 43 21
+place feature kelp -305 43 23
+place feature seagrass_tall -300 43 24
+place feature kelp -303 43 24
+place feature seagrass_tall -304 43 24
+place feature kelp -306 43 24
+place feature seagrass_short -307 43 24
+place feature seagrass_short -301 43 25
+place feature kelp -305 43 25
+place feature seagrass_tall -296 43 27
+place feature kelp -300 43 27
+place feature seagrass_short -302 43 27
+place feature kelp -304 43 27
+place feature seagrass_tall -295 43 28
+place feature seagrass_tall -297 43 28
+place feature seagrass_tall -302 43 29
+place feature seagrass_short -294 43 30
+place feature kelp -296 43 30
+place feature seagrass_tall -295 43 31
+place feature seagrass_short -299 43 31
+place feature kelp -301 43 31
+place feature seagrass_short -290 43 32
+place feature seagrass_short -294 43 32
+place feature kelp -297 43 32
+place feature seagrass_short -290 43 33
+place feature seagrass_short -296 43 33
+place feature seagrass_short -300 43 33
+place feature seagrass_tall -294 43 34
+place feature seagrass_short -286 44 35
+place feature seagrass_short -292 43 35
+place feature seagrass_short -293 43 35
+place feature seagrass_short -295 43 35
+place feature seagrass_tall -297 43 35
+place feature seagrass_short -286 44 36
+place feature seagrass_short -295 43 36
+place feature seagrass_short -296 43 36
+place feature seagrass_short -297 43 36
+place feature seagrass_short -282 44 37
+place feature seagrass_tall -287 43 37
+place feature kelp -291 43 37
+place feature kelp -280 45 38
+place feature seagrass_tall -291 43 38
+place feature seagrass_short -293 43 38
+place feature seagrass_short -295 43 38
+place feature kelp -275 47 39
+place feature seagrass_short -290 43 39
+place feature seagrass_short -292 43 39
+place feature seagrass_short -293 43 39
+place feature kelp -264 60 40
+place feature kelp -270 51 40
+place feature seagrass_short -271 50 40
+place feature seagrass_short -278 45 40
+place feature seagrass_short -287 43 40
+place feature seagrass_short -288 43 40
+place feature seagrass_short -289 43 40
+place feature seagrass_tall -292 43 40
+place feature seagrass_short -269 53 41
+place feature seagrass_short -271 50 41
+place feature seagrass_tall -274 47 41
+place feature seagrass_short -278 45 41
+place feature seagrass_short -279 45 41
+place feature kelp -280 45 41
+place feature kelp -264 59 42
+place feature kelp -267 55 42
+place feature seagrass_short -268 53 42
+place feature kelp -271 50 42
+place feature seagrass_tall -272 49 42
+place feature seagrass_short -273 48 42
+place feature kelp -276 46 42
+place feature seagrass_tall -282 44 42
+place feature seagrass_tall -288 43 42
+place feature seagrass_short -271 49 43
+place feature seagrass_tall -274 47 43
+place feature kelp -276 46 43
+place feature seagrass_short -277 45 43
+place feature seagrass_short -278 45 43
+place feature seagrass_short -267 54 44
+place feature seagrass_short -270 50 44
+place feature seagrass_short -271 49 44
+place feature seagrass_short -275 46 44
+place feature seagrass_tall -277 45 44
+place feature seagrass_short -282 44 44
+place feature seagrass_short -283 44 44
+place feature seagrass_tall -284 44 44
+place feature kelp -268 52 45
+place feature seagrass_tall -269 51 45
+place feature kelp -262 59 46
+place feature seagrass_short -267 53 46
+place feature seagrass_short -271 49 46
+place feature seagrass_short -272 48 46
+place feature seagrass_short -276 45 46
+place feature kelp -261 61 47
+place feature seagrass_short -265 55 47
+place feature seagrass_short -270 49 47
+place feature seagrass_tall -271 48 47
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -308.137 133.673 0.500

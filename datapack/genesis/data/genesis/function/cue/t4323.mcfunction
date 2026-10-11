@@ -1,1 +1,1 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 63.831 0.500
+summon minecraft:cod -329.36 56.82 11.44 {Invulnerable:1b,PersistenceRequired:1b,Tags:["gen.made"]}

@@ -1,6 +1,2 @@
-summon minecraft:frog 2.50 63.00 29.50 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:poof 2.50 63.60 29.50 0.4 0.5 0.4 0.02 14 force
-particle minecraft:happy_villager 2.50 63.80 29.50 0.5 0.6 0.5 0 8 force
-particle minecraft:block{block_state:"minecraft:dirt"} 2.50 63.20 29.50 0.4 0.3 0.4 0.1 24 force
-particle minecraft:dust_plume 2.50 63.00 29.50 0.3 0.2 0.3 0.02 10 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -91.718 81.479 0.500
+function genesis:god/f8
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -260.427 85.952 0.500

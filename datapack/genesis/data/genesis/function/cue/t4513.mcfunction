@@ -1,1 +1,2 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 66.195 0.500
+function genesis:god/f3
+function genesis:god/spark

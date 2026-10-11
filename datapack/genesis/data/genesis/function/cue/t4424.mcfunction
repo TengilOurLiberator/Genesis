@@ -1,1 +1,1 @@
-execute as @a at @s run playsound genesis:narration.god.v22 voice @s ~ ~ ~ 1 1 1
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -319.500 62.640 0.500

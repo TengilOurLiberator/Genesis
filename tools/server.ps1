@@ -17,4 +17,4 @@ $props = $props | ForEach-Object { if ($_ -like "online-mode=*") { "online-mode=
 $props | Out-File -Encoding ascii "$srv\server.properties"
 
 Set-Location $srv
-& $java -Xms2G -Xmx6G -jar fabric-server-launch.jar nogui
+& $java -Xms4G -Xmx10G -jar fabric-server-launch.jar nogui

@@ -1,0 +1,12 @@
+execute if score #t gen matches 901 run function genesis:cue/t901
+execute if score #t gen matches 907 run function genesis:cue/t907
+execute if score #t gen matches 913 run function genesis:cue/t913
+execute if score #t gen matches 919 run function genesis:cue/t919
+execute if score #t gen matches 925 run function genesis:cue/t925
+execute if score #t gen matches 931 run function genesis:cue/t931
+execute if score #t gen matches 937 run function genesis:cue/t937
+execute if score #t gen matches 943 run function genesis:cue/t943
+execute if score #t gen matches 944 run function genesis:cue/t944
+execute if score #t gen matches 949 run function genesis:cue/t949
+execute if score #t gen matches 953 run function genesis:cue/t953
+execute if score #t gen matches 955 run function genesis:cue/t955

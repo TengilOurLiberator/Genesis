@@ -1,4 +1,9 @@
-setblock 83 80 -27 minecraft:air
-place feature minecraft:pine 83 80 -27
-particle minecraft:happy_villager 83 83 -27 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 83 81 -27 1 2 1 0 16 force
+setblock 28 97 223 minecraft:air
+place feature minecraft:jungle_tree_no_vine 28 97 223
+setblock 27 94 228 minecraft:air
+place feature minecraft:jungle_tree_no_vine 27 94 228
+setblock 12 84 246 minecraft:air
+place feature minecraft:jungle_tree_no_vine 12 84 246
+setblock 9 79 252 minecraft:air
+place feature minecraft:jungle_tree_no_vine 9 79 252
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -318.240 112.625 0.500

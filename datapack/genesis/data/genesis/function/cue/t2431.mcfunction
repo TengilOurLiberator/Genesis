@@ -1,9 +1,12 @@
-setblock -50 67 70 minecraft:air
-place feature minecraft:oak -50 67 70
-particle minecraft:happy_villager -50 70 70 1.5 2.5 1.5 0 30 force
-particle minecraft:composter -50 68 70 1 2 1 0 16 force
-setblock -50 68 62 minecraft:air
-place feature minecraft:oak -50 68 62
-particle minecraft:happy_villager -50 71 62 1.5 2.5 1.5 0 30 force
-particle minecraft:composter -50 69 62 1 2 1 0 16 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -144.658 101.172 0.500
+function genesis:god/spark
+setblock -12 98 95 minecraft:air
+place feature minecraft:spruce -12 98 95
+setblock -15 90 -99 minecraft:air
+place feature minecraft:birch -15 90 -99
+setblock -15 84 -88 minecraft:air
+place feature minecraft:birch -15 84 -88
+setblock -17 91 -102 minecraft:air
+place feature minecraft:fancy_oak -17 91 -102
+setblock -18 82 -92 minecraft:air
+place feature minecraft:fancy_oak -18 82 -92
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -313.270 122.979 0.500

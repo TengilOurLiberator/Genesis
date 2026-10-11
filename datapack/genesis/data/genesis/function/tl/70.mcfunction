@@ -1,0 +1,11 @@
+execute if score #t gen matches 4483 run function genesis:cue/t4483
+execute if score #t gen matches 4489 run function genesis:cue/t4489
+execute if score #t gen matches 4495 run function genesis:cue/t4495
+execute if score #t gen matches 4501 run function genesis:cue/t4501
+execute if score #t gen matches 4507 run function genesis:cue/t4507
+execute if score #t gen matches 4513 run function genesis:cue/t4513
+execute if score #t gen matches 4519 run function genesis:cue/t4519
+execute if score #t gen matches 4525 run function genesis:cue/t4525
+execute if score #t gen matches 4531 run function genesis:cue/t4531
+execute if score #t gen matches 4537 run function genesis:cue/t4537
+execute if score #t gen matches 4543 run function genesis:cue/t4543

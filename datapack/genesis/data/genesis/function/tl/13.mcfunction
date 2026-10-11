@@ -1,0 +1,16 @@
+execute if score #t gen matches 833 run function genesis:cue/t833
+execute if score #t gen matches 835 run function genesis:cue/t835
+execute if score #t gen matches 837 run function genesis:cue/t837
+execute if score #t gen matches 841 run function genesis:cue/t841
+execute if score #t gen matches 847 run function genesis:cue/t847
+execute if score #t gen matches 853 run function genesis:cue/t853
+execute if score #t gen matches 859 run function genesis:cue/t859
+execute if score #t gen matches 865 run function genesis:cue/t865
+execute if score #t gen matches 871 run function genesis:cue/t871
+execute if score #t gen matches 873 run function genesis:cue/t873
+execute if score #t gen matches 877 run function genesis:cue/t877
+execute if score #t gen matches 881 run function genesis:cue/t881
+execute if score #t gen matches 883 run function genesis:cue/t883
+execute if score #t gen matches 884 run function genesis:cue/t884
+execute if score #t gen matches 889 run function genesis:cue/t889
+execute if score #t gen matches 895 run function genesis:cue/t895

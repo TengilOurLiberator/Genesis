@@ -1,2 +1,1 @@
-time of genesis:day pause
-time of genesis:day set 22300
+function genesis:god/spark

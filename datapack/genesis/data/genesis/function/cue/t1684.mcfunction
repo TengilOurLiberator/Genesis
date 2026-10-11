@@ -1,1 +1,293 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -151.373 75.507 0.500
+fill 142 61 -202 143 61 184 stone
+fill 142 61 -206 142 61 -203 sand
+fill 142 61 215 142 61 229 sand
+setblock 142 61 -207 gravel
+fill 141 61 185 145 61 185 sand
+fill 141 61 203 142 61 214 dirt
+fill 141 61 215 141 61 231 sand
+fill 141 61 -207 141 61 -204 sand
+setblock 141 61 -208 gravel
+fill 141 61 -203 141 61 184 stone
+fill 140 61 196 143 61 196 gravel
+fill 140 61 197 143 61 202 sand
+fill 140 61 216 140 61 232 sand
+setblock 140 61 -209 gravel
+fill 140 61 -208 140 61 -205 sand
+fill 140 61 190 140 61 192 dirt
+fill 140 61 203 140 61 215 dirt
+fill 139 61 186 140 61 186 sand
+fill 139 61 -204 140 61 185 stone
+fill 139 61 188 139 61 194 dirt
+fill 139 61 -209 139 61 -205 sand
+fill 139 61 218 139 61 233 sand
+fill 139 61 207 139 61 209 stone
+fill 139 61 210 139 61 217 dirt
+fill 139 61 203 139 61 206 dirt
+setblock 139 61 195 gravel
+fill 139 61 -211 139 61 -210 gravel
+fill 138 61 196 139 61 202 sand
+fill 138 61 -214 138 61 -212 gravel
+fill 138 61 221 138 61 234 sand
+fill 138 61 -205 138 61 186 stone
+fill 138 61 203 138 61 220 dirt
+fill 138 61 188 138 61 195 dirt
+fill 138 61 -211 138 61 -206 sand
+fill 137 61 187 138 61 187 sand
+fill 137 61 -222 137 61 -215 gravel
+fill 137 61 -214 137 61 -207 sand
+fill 137 61 -206 137 61 186 stone
+fill 137 61 223 137 61 235 sand
+setblock 137 61 194 dirt
+fill 137 61 204 137 61 222 dirt
+fill 136 61 195 137 61 203 sand
+fill 136 61 185 136 61 187 sand
+fill 136 61 -208 136 61 184 stone
+fill 136 61 -224 136 61 -223 gravel
+fill 136 61 225 136 61 236 sand
+fill 136 61 -232 136 61 -228 dirt
+fill 136 61 -222 136 61 -209 sand
+fill 136 61 204 136 61 224 dirt
+fill 135 61 -226 135 61 -225 gravel
+fill 135 61 185 135 61 186 sand
+fill 135 61 204 135 61 225 dirt
+fill 135 61 -234 135 61 -227 dirt
+fill 135 61 -224 135 61 -210 sand
+fill 135 61 196 135 61 203 sand
+fill 135 61 226 135 61 237 sand
+fill 135 61 -209 135 61 184 stone
+fill 134 61 217 134 61 221 stone
+setblock 134 61 -227 dirt
+fill 134 61 196 134 61 202 sand
+fill 134 61 203 134 61 216 dirt
+fill 134 61 -212 134 61 183 stone
+fill 134 61 184 134 61 186 sand
+fill 134 61 -235 134 61 -232 dirt
+fill 134 61 222 134 61 227 dirt
+fill 134 61 -226 134 61 -213 sand
+fill 134 61 228 134 61 237 sand
+fill 133 61 182 133 61 187 sand
+fill 133 61 213 133 61 223 stone
+setblock 133 61 238 gravel
+fill 133 61 203 133 61 212 dirt
+fill 133 61 -226 133 61 -221 sand
+setblock 133 61 181 dirt
+fill 133 61 197 133 61 202 sand
+fill 133 61 -220 133 61 180 stone
+fill 133 61 -235 133 61 -234 dirt
+fill 133 61 224 133 61 228 dirt
+fill 132 61 229 133 61 237 sand
+fill 132 61 238 132 61 239 gravel
+fill 132 61 -228 132 61 -227 gravel
+fill 132 61 -236 132 61 -234 dirt
+fill 132 61 183 132 61 187 sand
+setblock 132 61 -226 sand
+fill 132 61 225 132 61 228 dirt
+fill 132 61 202 132 61 208 dirt
+fill 132 61 181 132 61 182 dirt
+fill 132 61 209 132 61 224 stone
+fill 131 61 -225 132 61 180 stone
+fill 131 61 197 132 61 201 sand
+fill 131 61 207 131 61 225 stone
+fill 131 61 -229 131 61 -226 gravel
+fill 131 61 230 131 61 238 sand
+fill 131 61 184 131 61 188 sand
+setblock 131 61 239 gravel
+fill 131 61 202 131 61 206 dirt
+fill 131 61 181 131 61 183 dirt
+fill 131 61 226 131 61 229 dirt
+fill 130 61 -236 131 61 -235 dirt
+fill 130 61 227 130 61 230 dirt
+fill 130 61 -223 130 61 181 stone
+fill 130 61 239 130 61 240 gravel
+fill 130 61 206 130 61 226 stone
+fill 130 61 231 130 61 238 sand
+fill 130 61 197 130 61 200 sand
+fill 130 61 -230 130 61 -224 gravel
+fill 130 61 182 130 61 184 dirt
+fill 130 61 201 130 61 205 dirt
+fill 130 61 185 130 61 188 sand
+fill 129 61 186 129 61 188 sand
+fill 129 61 -222 129 61 181 stone
+fill 129 61 -231 129 61 -223 gravel
+fill 129 61 200 129 61 204 dirt
+fill 129 61 205 129 61 227 stone
+setblock 129 61 240 gravel
+fill 129 61 -236 129 61 -235 sand
+fill 129 61 -238 129 61 -237 gravel
+fill 129 61 182 129 61 185 dirt
+fill 128 61 197 129 61 199 sand
+fill 128 61 228 129 61 231 dirt
+fill 128 61 232 129 61 239 sand
+fill 128 61 -232 128 61 -224 gravel
+fill 128 61 183 128 61 186 dirt
+fill 128 61 204 128 61 227 stone
+fill 128 61 -240 128 61 -239 gravel
+fill 128 61 240 128 61 241 gravel
+fill 128 61 -223 128 61 182 stone
+fill 128 61 -238 128 61 -234 sand
+fill 128 61 200 128 61 203 dirt
+fill 127 61 182 127 61 186 dirt
+fill 127 61 -232 127 61 -222 gravel
+fill 127 61 204 127 61 228 stone
+fill 127 61 -240 127 61 -233 sand
+fill 127 61 -221 127 61 181 stone
+fill 127 61 199 127 61 203 dirt
+fill 127 61 -243 127 61 -241 gravel
+fill 127 61 197 127 61 198 sand
+fill 126 61 229 127 61 232 dirt
+fill 126 61 233 127 61 240 sand
+setblock 126 61 -244 gravel
+fill 126 61 196 126 61 197 sand
+fill 126 61 -221 126 61 180 stone
+fill 126 61 -243 126 61 -231 sand
+fill 126 61 -230 126 61 -222 gravel
+fill 126 61 198 126 61 202 dirt
+fill 126 61 203 126 61 228 stone
+fill 126 61 181 126 61 185 dirt
+fill 125 61 -222 125 61 181 stone
+fill 125 61 195 125 61 201 dirt
+fill 125 61 202 125 61 228 stone
+fill 125 61 -246 125 61 -231 sand
+setblock 125 61 -230 stone
+fill 125 61 -229 125 61 -223 gravel
+fill 125 61 182 125 61 184 dirt
+fill 125 61 229 125 61 233 dirt
+setblock 124 61 -225 stone
+fill 124 61 -228 124 61 -226 gravel
+fill 124 61 -249 124 61 -231 sand
+setblock 124 61 -224 gravel
+fill 124 61 -230 124 61 -229 stone
+fill 124 61 -223 124 61 182 stone
+fill 124 61 202 124 61 229 stone
+setblock 124 61 183 dirt
+fill 124 61 194 124 61 201 dirt
+fill 123 61 184 123 61 185 gravel
+fill 123 61 193 123 61 200 dirt
+fill 123 61 -245 123 61 -230 sand
+fill 123 61 -251 123 61 -248 sand
+fill 123 61 182 123 61 183 dirt
+fill 123 61 -229 123 61 181 stone
+fill 122 61 230 124 61 233 dirt
+fill 122 61 -247 123 61 -246 stone
+fill 122 61 201 123 61 229 stone
+setblock 122 61 183 gravel
+fill 122 61 185 122 61 186 gravel
+setblock 122 61 184 sand
+fill 122 61 -230 122 61 180 stone
+fill 122 61 181 122 61 182 dirt
+fill 122 61 -245 122 61 -231 sand
+fill 122 61 191 122 61 200 dirt
+fill 122 61 -253 122 61 -248 sand
+fill 121 61 234 125 61 240 sand
+fill 121 61 -254 121 61 -250 sand
+fill 121 61 -236 121 61 -235 white_terracotta
+fill 121 61 -245 121 61 -237 sand
+fill 121 61 231 121 61 233 dirt
+fill 121 61 -249 121 61 -246 stone
+setblock 121 61 182 gravel
+fill 121 61 186 121 61 188 gravel
+fill 121 61 -234 121 61 181 stone
+fill 121 61 183 121 61 185 sand
+fill 121 61 200 121 61 230 stone
+fill 121 61 190 121 61 199 dirt
+fill 120 61 189 120 61 198 dirt
+fill 120 61 -234 120 61 180 stone
+fill 120 61 183 120 61 186 sand
+fill 120 61 -250 120 61 -246 stone
+fill 120 61 -245 120 61 -242 sand
+fill 120 61 231 120 61 234 dirt
+fill 120 61 181 120 61 182 gravel
+fill 120 61 235 120 61 240 sand
+fill 120 61 187 120 61 188 gravel
+fill 120 61 -256 120 61 -251 sand
+fill 120 61 199 120 61 230 stone
+fill 120 61 -241 120 61 -235 white_terracotta
+fill 119 61 180 119 61 183 gravel
+fill 119 61 -251 119 61 -247 stone
+fill 119 61 188 119 61 197 dirt
+setblock 119 61 -246 sand
+fill 119 61 198 119 61 230 stone
+fill 119 61 186 119 61 187 gravel
+fill 119 61 184 119 61 185 sand
+fill 119 61 -233 119 61 179 stone
+fill 119 61 -245 119 61 -234 white_terracotta
+fill 118 61 -257 119 61 -252 sand
+setblock 118 61 193 dirt
+fill 118 61 188 118 61 189 stone
+fill 118 61 194 118 61 230 stone
+fill 118 61 191 118 61 192 stone
+fill 118 61 179 118 61 187 gravel
+fill 118 61 -233 118 61 178 stone
+fill 118 61 -248 118 61 -234 white_terracotta
+fill 118 61 -251 118 61 -249 stone
+setblock 118 61 190 dirt
+fill 117 61 241 127 61 241 gravel
+fill 117 61 234 119 61 240 sand
+fill 117 61 -232 117 61 177 stone
+setblock 117 61 -251 stone
+fill 117 61 187 117 61 230 stone
+fill 117 61 -250 117 61 -233 white_terracotta
+fill 117 61 -258 117 61 -252 sand
+fill 117 61 178 117 61 186 gravel
+fill 116 61 -251 116 61 -234 white_terracotta
+fill 116 61 -259 116 61 -252 sand
+fill 116 61 178 116 61 185 gravel
+fill 116 61 -233 116 61 177 stone
+fill 116 61 240 116 61 241 gravel
+fill 116 61 186 116 61 230 stone
+fill 115 61 -259 115 61 -253 sand
+fill 115 61 177 115 61 183 gravel
+fill 115 61 -252 115 61 -234 white_terracotta
+fill 115 61 -233 115 61 176 stone
+fill 115 61 184 115 61 230 stone
+fill 114 61 231 119 61 233 dirt
+fill 114 61 234 116 61 239 sand
+fill 114 61 -259 114 61 -258 sand
+fill 114 61 -234 114 61 176 stone
+fill 114 61 -257 114 61 -254 stone
+fill 114 61 -253 114 61 -235 white_terracotta
+fill 114 61 177 114 61 182 gravel
+fill 114 61 183 114 61 230 stone
+fill 113 61 240 115 61 240 gravel
+fill 113 61 -234 113 61 177 stone
+fill 113 61 233 113 61 239 sand
+fill 113 61 178 113 61 180 gravel
+fill 113 61 181 113 61 229 stone
+fill 113 61 -254 113 61 -235 white_terracotta
+fill 113 61 -258 113 61 -255 stone
+fill 113 61 -260 113 61 -259 sand
+fill 112 61 -235 112 61 177 stone
+fill 112 61 178 112 61 179 gravel
+fill 112 61 239 112 61 240 gravel
+fill 112 61 180 112 61 229 stone
+fill 111 61 -254 112 61 -236 white_terracotta
+fill 111 61 -259 112 61 -255 stone
+fill 111 61 -260 112 61 -260 sand
+fill 111 61 -235 111 61 229 stone
+fill 110 61 239 111 61 239 gravel
+fill 109 61 233 112 61 238 sand
+setblock 109 61 239 dirt
+fill 108 61 230 113 61 232 dirt
+fill 108 61 -260 110 61 -256 stone
+fill 108 61 -261 110 61 -261 sand
+fill 108 61 -255 110 61 -237 white_terracotta
+fill 108 61 -236 110 61 229 stone
+setblock 108 61 233 sand
+fill 108 61 236 108 61 238 sand
+fill 108 61 239 108 61 240 dirt
+setblock 107 61 232 sand
+fill 107 61 -237 107 61 228 stone
+fill 107 61 238 107 61 240 dirt
+fill 107 61 -261 107 61 -256 stone
+fill 107 61 229 107 61 231 dirt
+fill 107 61 -255 107 61 -238 white_terracotta
+fill 106 61 -237 106 61 227 stone
+fill 106 61 228 106 61 231 dirt
+fill 106 61 238 106 61 241 dirt
+fill 105 61 -262 106 61 -262 sand
+fill 105 61 -261 106 61 -257 stone
+fill 105 61 229 105 61 230 dirt
+fill 104 61 -256 106 61 -238 white_terracotta
+fill 104 61 230 104 61 231 gravel
+fill 104 61 -262 104 61 -257 stone
+setblock 104 61 229 dirt

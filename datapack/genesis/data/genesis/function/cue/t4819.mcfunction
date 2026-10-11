@@ -1,1 +1,4 @@
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -101.619 84.181 0.500
+function genesis:god/spark
+time of genesis:day set 78000
+time of genesis:day rate 269.66
+time of genesis:day resume

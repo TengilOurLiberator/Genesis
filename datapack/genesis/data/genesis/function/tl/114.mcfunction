@@ -1,0 +1,14 @@
+execute if score #t gen matches 7297 run function genesis:cue/t7297
+execute if score #t gen matches 7303 run function genesis:cue/t7303
+execute if score #t gen matches 7309 run function genesis:cue/t7309
+execute if score #t gen matches 7313 run function genesis:cue/t7313
+execute if score #t gen matches 7315 run function genesis:cue/t7315
+execute if score #t gen matches 7321 run function genesis:cue/t7321
+execute if score #t gen matches 7327 run function genesis:cue/t7327
+execute if score #t gen matches 7333 run function genesis:cue/t7333
+execute if score #t gen matches 7339 run function genesis:cue/t7339
+execute if score #t gen matches 7343 run function genesis:cue/t7343
+execute if score #t gen matches 7345 run function genesis:cue/t7345
+execute if score #t gen matches 7351 run function genesis:cue/t7351
+execute if score #t gen matches 7353 run function genesis:cue/t7353
+execute if score #t gen matches 7357 run function genesis:cue/t7357

@@ -1,7 +1,5 @@
-summon minecraft:chicken -61.50 68.00 21.50 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:poof -61.50 68.60 21.50 0.4 0.5 0.4 0.02 14 force
-particle minecraft:happy_villager -61.50 68.80 21.50 0.5 0.6 0.5 0 8 force
-summon minecraft:parrot -103.64 67.10 -1.22 {PersistenceRequired:1b,Tags:["gen.made"],Variant:0}
-particle minecraft:poof -103.64 67.70 -1.22 0.4 0.5 0.4 0.02 14 force
-particle minecraft:happy_villager -103.64 67.90 -1.22 0.5 0.6 0.5 0 8 force
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -122.500 61.202 0.500
+summon minecraft:pufferfish -285.90 56.05 -0.11 {Invulnerable:1b,PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -285.90 59.05 -0.11 0.3 0.3 0.3 0.05 12 force
+summon minecraft:tadpole -74.58 61.10 198.34 {Invulnerable:1b,PersistenceRequired:1b,Tags:["gen.made"]}
+summon minecraft:cod -293.38 57.25 14.12 {Invulnerable:1b,PersistenceRequired:1b,Tags:["gen.made"]}
+particle minecraft:bubble -293.38 60.25 14.12 0.3 0.3 0.3 0.05 12 force

@@ -1,0 +1,27 @@
+fill -55 46 -176 -53 47 249 stone
+fill -33 46 -255 -33 47 -202 stone
+fill 170 46 182 171 47 220 stone
+fill 122 46 -259 122 47 248 stone
+fill -62 46 -261 -59 47 -198 stone
+fill -43 46 -172 -41 47 250 stone
+fill 123 46 -258 123 47 248 stone
+fill 117 46 -232 117 47 248 stone
+fill 283 46 7 283 47 8 gravel
+fill 86 46 -209 86 47 247 stone
+fill 121 46 -260 121 47 -237 stone
+fill 14 46 -158 14 47 291 stone
+fill 234 46 126 234 47 133 stone
+fill 90 46 -227 90 47 249 stone
+fill 81 46 -204 82 47 246 stone
+fill 12 46 -162 12 47 291 stone
+fill 83 46 -205 83 47 246 stone
+fill 91 46 -229 91 47 249 stone
+fill 231 46 119 231 47 137 stone
+fill 6 46 -168 6 47 290 stone
+fill 95 46 -234 95 47 248 stone
+fill -24 46 -253 -21 47 -207 stone
+fill 164 46 177 164 47 221 stone
+fill 15 46 -141 15 47 291 stone
+fill 165 46 178 165 47 221 stone
+fill -46 46 -173 -44 47 250 stone
+schedule function genesis:setup_t63 1t

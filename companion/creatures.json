@@ -2,133 +2,256 @@
  "kinds": [
   "whale",
   "cow",
-  "sheep",
   "pig",
+  "sheep",
   "horse",
   "donkey",
+  "mule",
+  "goat",
+  "chicken",
+  "parrot",
+  "bat",
   "rabbit",
   "frog",
   "turtle",
   "armadillo",
   "bee",
   "llama",
-  "panda",
   "camel",
-  "chicken",
-  "parrot",
+  "wolf",
+  "fox",
+  "cat",
+  "ocelot",
+  "panda",
+  "polar_bear",
   "cod",
   "salmon",
   "tropical_fish",
+  "pufferfish",
   "squid",
   "glow_squid",
   "dolphin",
-  "nautilus"
+  "nautilus",
+  "axolotl",
+  "tadpole"
  ],
  "look": {
   "whale": "enormous, the greatest of all that swim, shaped like the leaping grey one but vast",
   "cow": "large and heavy, four legs, a patched hide, horns, a deep lowing voice",
-  "sheep": "round and woolly, four thin legs, bleats, eats the grass",
   "pig": "pink, stout, a flat snout, grunts, roots in the ground",
+  "sheep": "round and woolly, four thin legs, bleats, eats the grass",
   "horse": "tall and swift, long legs, a mane and a long tail",
-  "donkey": "like the swift tall one but smaller, with long ears and a loud bray",
+  "donkey": "stocky and sure-footed, grey-brown, with very long ears and a loud braying voice",
+  "mule": "strong and patient, bigger than the long-eared one but with a tall swift beast's build, with long ears and a harsh voice, and it has no young",
+  "goat": "sure-footed, horned, thick-coated, leaps on steep rock and sometimes lowers its head to charge",
+  "chicken": "a small bird that walks more than it flies, clucks, pecks at seeds",
+  "parrot": "a bright bird of many colours that flies and copies sounds",
+  "bat": "a tiny dark winged creature of dusk and gloom, with no feathers, that flutters in jerks and squeaks",
   "rabbit": "small, long ears, hops, very quick",
   "frog": "small, wet skin, leaps, croaks, a long tongue",
   "turtle": "carries a round shell on its back, slow on land, graceful in water",
   "armadillo": "small, covered in hard plates, rolls into a ball",
   "bee": "tiny, striped, hums, goes from flower to flower",
   "llama": "tall with a long woolly neck, proud, sometimes spits",
-  "panda": "big, round, black and white, sits and eats, rolls over",
   "camel": "very tall, a hump on its back, long legs, kneels to rest",
-  "chicken": "a small bird that walks more than it flies, clucks, pecks at seeds",
-  "parrot": "a bright bird of many colours that flies and copies sounds",
+  "wolf": "lean and grey-furred, long-legged, with a sharp muzzle and upright ears, hunts in packs, howls",
+  "fox": "small and quick, rust-red or white, with a thick bushy tail, pointed ears and a sharp face, sleeps curled up by day",
+  "cat": "small and soft-pawed, with a long tail and bright eyes, walks silently, purrs, and sits and watches",
+  "ocelot": "a lean spotted hunter of the dense hot forest, yellow with dark markings, shy and quick, creeping low among the leaves",
+  "panda": "big, round, black and white, sits and eats, rolls over",
+  "polar_bear": "huge, thick-furred and white, heavy-pawed, at home in ice and cold water, gentle unless its young are threatened",
   "cod": "a plain brown fish that swims in shoals",
   "salmon": "a long red-sided fish, strong, leaps",
   "tropical_fish": "a small fish in bright colours and patterns",
+  "pufferfish": "a small round fish that swells into a prickly ball when something comes near",
   "squid": "soft, dark, many arms, squirts black ink",
-  "glow_squid": "like the many-armed one, but it glows",
+  "glow_squid": "like the soft many-armed ink-squirter, but it glows blue-green in the dark water",
   "dolphin": "sleek and grey, leaps out of the water, clicks and whistles, playful",
-  "nautilus": "a swimmer in a great coiled shell, with trailing arms"
+  "nautilus": "a swimmer in a great coiled shell, with trailing arms",
+  "axolotl": "a small smiling water creature with a flat face, four stubby legs, a flat tail and feathery gills like branches at the sides of its head",
+  "tadpole": "a tiny dark swimming speck with a wriggling tail, that will one day grow legs"
  },
  "selector": {
   "whale": "@e[tag=gen.whale]",
   "cow": "@e[type=minecraft:cow,tag=!gen.whale]",
-  "sheep": "@e[type=minecraft:sheep,tag=!gen.whale]",
   "pig": "@e[type=minecraft:pig,tag=!gen.whale]",
+  "sheep": "@e[type=minecraft:sheep,tag=!gen.whale]",
   "horse": "@e[type=minecraft:horse,tag=!gen.whale]",
   "donkey": "@e[type=minecraft:donkey,tag=!gen.whale]",
+  "mule": "@e[type=minecraft:mule,tag=!gen.whale]",
+  "goat": "@e[type=minecraft:goat,tag=!gen.whale]",
+  "chicken": "@e[type=minecraft:chicken,tag=!gen.whale]",
+  "parrot": "@e[type=minecraft:parrot,tag=!gen.whale]",
+  "bat": "@e[type=minecraft:bat,tag=!gen.whale]",
   "rabbit": "@e[type=minecraft:rabbit,tag=!gen.whale]",
   "frog": "@e[type=minecraft:frog,tag=!gen.whale]",
   "turtle": "@e[type=minecraft:turtle,tag=!gen.whale]",
   "armadillo": "@e[type=minecraft:armadillo,tag=!gen.whale]",
   "bee": "@e[type=minecraft:bee,tag=!gen.whale]",
   "llama": "@e[type=minecraft:llama,tag=!gen.whale]",
-  "panda": "@e[type=minecraft:panda,tag=!gen.whale]",
   "camel": "@e[type=minecraft:camel,tag=!gen.whale]",
-  "chicken": "@e[type=minecraft:chicken,tag=!gen.whale]",
-  "parrot": "@e[type=minecraft:parrot,tag=!gen.whale]",
+  "wolf": "@e[type=minecraft:wolf,tag=!gen.whale]",
+  "fox": "@e[type=minecraft:fox,tag=!gen.whale]",
+  "cat": "@e[type=minecraft:cat,tag=!gen.whale]",
+  "ocelot": "@e[type=minecraft:ocelot,tag=!gen.whale]",
+  "panda": "@e[type=minecraft:panda,tag=!gen.whale]",
+  "polar_bear": "@e[type=minecraft:polar_bear,tag=!gen.whale]",
   "cod": "@e[type=minecraft:cod,tag=!gen.whale]",
   "salmon": "@e[type=minecraft:salmon,tag=!gen.whale]",
   "tropical_fish": "@e[type=minecraft:tropical_fish,tag=!gen.whale]",
+  "pufferfish": "@e[type=minecraft:pufferfish,tag=!gen.whale]",
   "squid": "@e[type=minecraft:squid,tag=!gen.whale]",
   "glow_squid": "@e[type=minecraft:glow_squid,tag=!gen.whale]",
   "dolphin": "@e[type=minecraft:dolphin,tag=!gen.whale]",
-  "nautilus": "@e[type=minecraft:nautilus,tag=!gen.whale]"
+  "nautilus": "@e[type=minecraft:nautilus,tag=!gen.whale]",
+  "axolotl": "@e[type=minecraft:axolotl,tag=!gen.whale]",
+  "tadpole": "@e[type=minecraft:tadpole,tag=!gen.whale]"
  },
  "places": {
-  "the lake": {
-   "x": -6.5,
+  "the great mountain": {
+   "x": 24.5,
    "z": 0.5,
-   "look": "a wide still water in the middle of the land, ahead of where you woke; lilies float on it and reeds grow at its edge"
+   "look": "A huge mountain with a white crown of snow, taller than anything else, with a thin stream running down its near face."
   },
-  "the falling stream": {
-   "x": 33.5,
-   "z": 6.5,
-   "look": "where water comes down the face of the mountain and runs into the lake"
+  "the still water": {
+   "x": -100.5,
+   "z": -0.5,
+   "look": "A wide quiet lake in the middle of the land, so still that the sky lies in it."
   },
-  "the river": {
-   "x": -30.5,
-   "z": 37.5,
-   "look": "running water that leaves the lake and goes down to the great water"
-  },
-  "the mountain": {
-   "x": 41.5,
-   "z": 30.5,
-   "look": "the great height beyond the lake, grey stone above the trees and white at the very top"
-  },
-  "the near shore": {
-   "x": -90.5,
+  "the cold spring": {
+   "x": 5.5,
    "z": 0.5,
-   "look": "behind where you woke, where the land ends in pale sand and the great water begins"
+   "look": "High on the mountain, where water first comes out of the cold stone and begins its long run down to the lake."
+  },
+  "the place of waking": {
+   "x": -222.5,
+   "z": 0.5,
+   "look": "A smooth clearing of short grass a little above the sand, with the whole land opening out ahead."
+  },
+  "the pale shore": {
+   "x": -265.5,
+   "z": 0.5,
+   "look": "A long gentle shore of pale sand where the sea comes and goes and the whales sing beyond."
+  },
+  "the white spires": {
+   "x": 175.5,
+   "z": -147.5,
+   "look": "Tall thin towers of white ice rise out of a flat white plain like the teeth of some great animal."
+  },
+  "the red stone country": {
+   "x": 17.5,
+   "z": -237.5,
+   "look": "Flat-topped hills of red and orange and yellow stone, striped in layers, with almost nothing growing on them."
+  },
+  "the sea of sand": {
+   "x": -58.5,
+   "z": -221.5,
+   "look": "A wide land of pale sand without a single stream, heaped by the wind into long soft ridges."
+  },
+  "the tall dry grass": {
+   "x": -133.5,
+   "z": -165.5,
+   "look": "Open ground of yellow grass as high as a knee, with a few flat-topped trees standing far apart."
+  },
+  "the warm marsh": {
+   "x": -117.5,
+   "z": 123.5,
+   "look": "Low wet ground and still brown water, with heavy dark trees hung with trailing vines."
+  },
+  "the roots that walk in water": {
+   "x": -71.5,
+   "z": 229.5,
+   "look": "Trees standing on high tangled roots in shallow muddy water close to the sea."
+  },
+  "the green tangle": {
+   "x": 53.5,
+   "z": 213.5,
+   "look": "A hot, steaming forest of huge trees wound about with creepers, so thick that the ground is always in shade."
+  },
+  "the singing canes": {
+   "x": 4.5,
+   "z": 243.5,
+   "look": "Straight green stalks as thick as a wrist and taller than any tree, creaking softly as they lean together."
+  },
+  "the pink grove": {
+   "x": -165.5,
+   "z": -88.5,
+   "look": "Gentle hills covered in trees whose leaves are pink, and petals drift down like snow."
+  },
+  "the dark wood": {
+   "x": -154.5,
+   "z": 83.5,
+   "look": "A crowded forest of huge dark trees whose tops close out the sky, so that it is dim even at noon."
+  },
+  "the pale wood": {
+   "x": -98.5,
+   "z": -154.5,
+   "look": "A quiet grey-white forest where the trees look bleached and the air is still and strange."
+  },
+  "the field of gold": {
+   "x": -211.5,
+   "z": -68.5,
+   "look": "A wide plain full of tall yellow flowers that all turn their faces toward the sun."
+  },
+  "the old giants": {
+   "x": 94.5,
+   "z": 196.5,
+   "look": "Enormous dark evergreen trees as old as the hills, with moss and ferns beneath them."
+  },
+  "the island of strange caps": {
+   "x": -196.5,
+   "z": 190.5,
+   "look": "A small island far from shore where huge soft caps, red and brown, grow instead of trees."
+  },
+  "the grey heights": {
+   "x": 119.5,
+   "z": -192.5,
+   "look": "Bare grey hills of loose stones where the wind blows hard and little grows."
+  },
+  "the snow roof": {
+   "x": 22.5,
+   "z": -3.5,
+   "look": "The highest white ground, ice and snow all around, where the air is thin and bitterly cold."
+  },
+  "the singing shore": {
+   "x": 153.5,
+   "z": 183.5,
+   "look": "A coast of grey boulders and cliffs where the sea breaks loudly."
+  },
+  "the long river": {
+   "x": 49.5,
+   "z": 171.5,
+   "look": "A clear river that begins in the mountains and winds a long way down, falling a step at a time, to the sea."
+  },
+  "the high pool": {
+   "x": 77.5,
+   "z": -30.5,
+   "look": "A small round lake high in the hills, cold and clear, with the sky and the stones upside down in it."
+  },
+  "the dark mouth": {
+   "x": -18.5,
+   "z": -32.5,
+   "look": "A black opening in the hillside, cool air breathing out of it, leading down into the rock."
   },
   "the clearing": {
-   "x": -62.5,
+   "x": -224.5,
    "z": 0.5,
    "look": "the flat ground where you both first opened your eyes"
   },
   "the meadow": {
-   "x": -34.5,
+   "x": -196.5,
    "z": 0.5,
    "look": "the wide open grass between the clearing and the lake, where the creatures graze"
   },
-  "the pink trees": {
-   "x": -39.5,
-   "z": -57.5,
-   "look": "a grove to the left, every tree covered in pale pink blossom that drifts down"
+  "the lake": {
+   "x": -127.5,
+   "z": 0.5,
+   "look": "a wide still water in the middle of the land, ahead of where you woke; lilies float on it and reeds grow at its edge"
   },
-  "the forest": {
-   "x": -26.5,
-   "z": 70.5,
-   "look": "tall green trees across the river, with flowers under them"
-  },
-  "the jungle": {
-   "x": 33.5,
-   "z": 57.5,
-   "look": "a thick tangle of huge trees and tall green canes, beyond the river and the lake"
-  },
-  "the dry grassland": {
-   "x": 43.5,
-   "z": -56.5,
-   "look": "open yellow-green ground with flat-topped trees, far to the left"
+  "the near shore": {
+   "x": -263.5,
+   "z": 0.5,
+   "look": "behind where you woke, where the land ends in pale sand and the great water begins"
   }
  }
 }

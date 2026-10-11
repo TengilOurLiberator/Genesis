@@ -1,2 +1,2 @@
-summon minecraft:salmon 1.50 60.50 4.50 {PersistenceRequired:1b,Tags:["gen.made"]}
-particle minecraft:splash 1.50 63.20 4.50 0.3 0.1 0.3 0.1 10 force
+execute as @a at @s run playsound genesis:narration.god.v20 voice @s ~ ~ ~ 1 1 1
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -319.500 109.489 0.500

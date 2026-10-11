@@ -1,6 +1,9 @@
-setblock 39 75 -50 minecraft:air
-place feature minecraft:acacia 39 75 -50
-particle minecraft:happy_villager 39 78 -50 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 39 76 -50 1 2 1 0 16 force
-execute as @a at @s run playsound minecraft:item.bone_meal.use ambient @s ~ ~ ~ 0.8 0.7 0.8
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -136.933 98.168 0.500
+setblock 41 102 -158 minecraft:air
+place feature minecraft:oak 41 102 -158
+setblock 40 83 167 minecraft:air
+place feature minecraft:birch_tall 40 83 167
+setblock 40 85 163 minecraft:air
+place feature minecraft:birch_tall 40 85 163
+setblock 37 81 170 minecraft:air
+place feature minecraft:birch_tall 37 81 170
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -317.360 114.459 0.500

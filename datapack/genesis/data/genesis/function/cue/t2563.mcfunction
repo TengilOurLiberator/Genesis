@@ -1,10 +1,20 @@
-setblock 34 66 78 minecraft:air
-place feature minecraft:jungle_tree_no_vine 34 66 78
-particle minecraft:happy_villager 34 69 78 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 34 67 78 1 2 1 0 16 force
-setblock 35 91 -30 minecraft:air
-place feature minecraft:spruce 35 91 -30
-particle minecraft:happy_villager 35 94 -30 1.5 2.5 1.5 0 30 force
-particle minecraft:composter 35 92 -30 1 2 1 0 16 force
-execute as @a at @s run playsound minecraft:item.bone_meal.use ambient @s ~ ~ ~ 0.8 0.7 0.8
-tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -137.211 98.276 0.500
+function genesis:god/spark
+place feature seagrass_mid 321 43 -325
+place feature seagrass_mid 317 43 -323
+place feature seagrass_mid 329 43 -296
+place feature seagrass_mid 339 43 283
+place feature seagrass_mid 331 43 291
+place feature kelp 328 43 304
+place feature seagrass_mid 323 43 318
+place feature seagrass_mid 311 43 333
+setblock 41 103 -147 minecraft:air
+place feature minecraft:oak 41 103 -147
+setblock 40 103 -153 minecraft:air
+place feature minecraft:oak 40 103 -153
+setblock 37 85 160 minecraft:air
+place feature minecraft:birch_tall 37 85 160
+setblock 36 83 164 minecraft:air
+place feature minecraft:birch_tall 36 83 164
+setblock 33 96 -158 minecraft:air
+place feature minecraft:oak 33 96 -158
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -317.089 115.023 0.500

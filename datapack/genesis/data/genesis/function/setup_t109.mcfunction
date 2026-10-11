@@ -1,0 +1,23 @@
+fillbiome 308 40 -340 311 203 -213 minecraft:cold_ocean
+fillbiome 308 40 -212 311 203 267 minecraft:frozen_ocean
+fillbiome 300 40 268 315 203 343 minecraft:cold_ocean
+fillbiome 300 40 -208 307 203 267 minecraft:frozen_ocean
+fillbiome 300 40 -340 307 203 -209 minecraft:cold_ocean
+fillbiome 296 40 264 299 203 343 minecraft:cold_ocean
+fillbiome 296 40 -204 299 203 263 minecraft:frozen_ocean
+fillbiome 292 40 -340 299 203 -205 minecraft:cold_ocean
+fillbiome 292 40 -204 295 203 267 minecraft:frozen_ocean
+fillbiome 280 40 -200 291 203 267 minecraft:frozen_ocean
+fillbiome 276 40 -20 279 203 3 minecraft:snowy_beach
+fillbiome 276 40 4 279 203 267 minecraft:frozen_ocean
+fillbiome 276 40 -200 279 203 -21 minecraft:frozen_ocean
+fillbiome 272 40 268 295 203 343 minecraft:cold_ocean
+fillbiome 272 40 8 275 203 267 minecraft:frozen_ocean
+fillbiome 272 40 -24 275 203 7 minecraft:snowy_beach
+fillbiome 268 40 -200 275 203 -25 minecraft:frozen_ocean
+fillbiome 268 40 -20 271 203 -1 minecraft:snowy_plains
+fillbiome 268 40 -24 271 203 -21 minecraft:snowy_beach
+fillbiome 268 40 0 271 203 11 minecraft:snowy_beach
+fillbiome 264 40 -340 291 203 -201 minecraft:cold_ocean
+fillbiome 264 40 12 271 203 287 minecraft:frozen_ocean
+schedule function genesis:setup_t110 1t

@@ -1,0 +1,1 @@
+function genesis:god/spark

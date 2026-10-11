@@ -1,1 +1,2 @@
-particle minecraft:end_rod -50.00 77.00 0.50 7 1.5 7 0.004 4 force
+function genesis:god/spark
+tp @e[type=minecraft:marker,tag=gen.cam,limit=1] -234.420 69.397 0.500

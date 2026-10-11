@@ -43,7 +43,9 @@ def launch():
                                    "--quickPlayMultiplayer", "localhost:25565"]
     # silent: the test must not play the narration over whatever the person at the computer is doing
     opts = os.path.join(GAME, "options.txt")
-    lines = [l for l in open(opts, encoding="utf-8") if not l.startswith("soundCategory_master:")] + ["soundCategory_master:0.0\n"]
+    # (and no zoom: when the woken person's walking speed is set to nothing, a desktop game narrows the view; a headset does not)
+    lines = [l for l in open(opts, encoding="utf-8") if not l.startswith(("soundCategory_master:", "fovEffectScale:"))] + [
+        "soundCategory_master:0.0\n", "fovEffectScale:0.0\n"]
     open(opts, "w", encoding="utf-8").writelines(lines)
     return subprocess.Popen(cmd, cwd=GAME, stdout=open(os.path.join(GAME, "client.log"), "w"), stderr=subprocess.STDOUT)
 
@@ -99,16 +101,20 @@ def main():
     ap.add_argument("--rate", type=float, default=3.0, help="how many times faster than real time to run")
     ap.add_argument("--ticks", default="")
     ap.add_argument("--after", type=int, default=3, help="screenshots to take in free play")
+    ap.add_argument("--slow", default="1560-2000", help="tick ranges to run at normal speed (the land rises at 30 ms a tick), like 1500-1950,5900-6100")
+    ap.add_argument("--places", default="the lake shore,the great mountain,the green tangle,the pink grove",
+                    help="where to stand for the free play pictures (names in work\\view_points.json)")
     args = ap.parse_args()
+    slow = [tuple(int(v) for v in r_.split("-")) for r_ in args.slow.split(",") if r_]
     os.makedirs(SHOTS, exist_ok=True)
     ctypes.windll.user32.SetProcessDPIAware()
     sched = json.load(open(os.path.join(ROOT, "work", "schedule.json")))
     m, vs, ve = sched["marks"], sched["verse_start"], sched["verse_end"]
     ticks = sorted(int(t) for t in args.ticks.split(",") if t) or sorted({
-        vs["2"] + 60, m["light"] - 12, m["light"] + 6, m["light"] + 60, ve["4"] + 5, ve["6"], ve["7"] + 20, m["rise"] + 80,
-        ve["9"] + 120, ve["10"], m["green"] + 120, ve["12"] + 60, ve["14"], m["sun"] + 30, m["moon"] + 40, m["stars"] + 70,
-        m["swim"] + 50, m["whales"] + 40, ve["21"], ve["22"], ve["24"], ve["25"], m["beam"] + 60, m["him"] + 14, m["her"] + 14,
-        m["awake"] + 50, ve["29"], ve["31"], ve["33"]})
+        vs["2"] + 60, m["light"] - 14, m["light"] + 8, m["light"] + 60, ve["4"] + 5, ve["7"] + 20, m["rise"] + 40, m["rise"] + 120,
+        m["rise"] + 220, ve["10"] + 100, m["green"] + 80, m["green"] + 200, ve["12"] + 60, ve["14"], m["sun"] + 30, m["moon"] + 40,
+        m["stars"] + 70, m["swim"] + 50, m["whales"] + 40, m["whales"] + 120, ve["22"], ve["24"], ve["25"], m["beam"] + 60,
+        m["him"] + 14, m["her"] + 14, m["awake"] + 50, m["awake"] + 300, ve["31"], ve["33"] + 100, sched["end"] + 5})
     client = launch()
     r = Rcon()
     try:
@@ -124,9 +130,14 @@ def main():
         r.cmd(f"tick rate {20 * args.rate}")
         m = sched["marks"]
         looks = {m["moon"] + 10: "-90 -30", sched["verse_start"]["17"]: "-90 0"}   # look up for the moon and stars
+        cur_rate = args.rate
         for t in ticks:
             while True:
                 now = int(r.cmd("scoreboard players get #t gen").split(" has ")[1].split()[0])
+                want = 1.0 if any(a <= now <= b for a, b in slow) else args.rate
+                if want != cur_rate:
+                    cur_rate = want
+                    r.cmd(f"tick rate {20 * cur_rate}")
                 for lt in [k for k in looks if k <= now]:
                     r.cmd(f"rotate {NAME} {looks.pop(lt)}")
                 if now >= t or int(r.cmd("scoreboard players get #phase gen").split(" has ")[1].split()[0]) == 2:
@@ -135,10 +146,13 @@ def main():
             shot(f"t{t:05d}")
         r.cmd("tick rate 20")
         time.sleep(6)
-        for i, (pos, rot) in enumerate([("-64.5 69 -1.5", "-90 0"), ("-8.5 64 0.5", "-90 -12"), ("-40.5 71 20.5", "-50 0")][:args.after]):
-            r.cmd(f"tp {NAME} {pos} {rot}")
-            time.sleep(4)
-            shot(f"z_free{i}")
+        view = json.load(open(os.path.join(ROOT, "work", "view_points.json")))
+        spots = [(n, view[n]) for n in args.places.split(",") if n in view][:args.after]
+        r.cmd(f"gamemode spectator {NAME}")
+        for i, (name, (x, y, z)) in enumerate(spots):
+            r.cmd(f"tp {NAME} {x - 20} {y + 22} {z} -90 22")       # floating above and west of the place, looking east and down at it
+            time.sleep(6)
+            shot(f"z_free{i}_{name.replace(' ', '_')}")
     finally:
         r.cmd("tick rate 20")
         client.terminate()
